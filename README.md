@@ -9,7 +9,7 @@ The SAF Profile provides the Stereotypes according to the SAF-Specification base
 
 # SAF_FFDS.eapx
 Fire Forest Detection System SAF_FFDS Example has been created by SAF Working Group of the German Chapter of INCOSE (GfSE) according to the SAF Framework rules.
-The SAF_FFDS Example is based on the following publication: SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens
+The SAF_FFDS Example is based on the following publication: [SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML - Tim Weilkiens](https://www.oose.de/nuetzliches/sysmod-the-systems-modeling-toolbox/)
 
 # One Pager - SAF Viewpoints in EA.pdf
 Contains all essential information for all viewpoints from an EA end-user's perspective for his daily modeling activities. It is provided in a printable format.
