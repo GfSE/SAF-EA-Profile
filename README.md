@@ -1,5 +1,5 @@
 # Sparx Enterprise Architect Repository
-The repository will soon feature the EA SAF Profile as MDG Technology and the SAF FFDS Example presented at TdSE 2021.
+The repository features the EA SAF Profile as MDG Technology and the SAF FFDS Example presented at TdSE 2021.
 Both, Profile and Example are intended to be used with Enterprise Architect 15.2 upwards and SysML1.5 MDG.
 Please see the model file itself for licensing terms.
 
