@@ -1,1263 +1,1812 @@
-<?xml version="1.0" encoding="windows-1252"?>
-<MDG.Technology version="1.0"><Documentation id="SAF_EA" name="SAF" version="1.0" notes="System Architecture Framework (SAF) is an architecture framework to define architectures for complex cyber-physical systems. The profile implements the SAF concept model defined by INCOSE (GfSE as German Chapter) and provides useful SysML-based stereotypes, diagram types and linking rules." infoURI="https://github.com/GfSE/SAF-EA-Profile" supportURI="saf@gfse.de"/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk1mdQAAAAAAADYAAAAoAAAAZAAAAGQAAAABABgAAAAAADB1AADDDgAAww4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////Zrb/AAAAAAAAAAAAAAAA/7Zm////////////////////////////OpDb
-AAAAAAAAAAAAAAAAAAAAAAAAOgAA/9uQ////////OpDbAAAAAAAAOgAA/9uQ////////OpDb
-AAAAAAAAAAAAAAAAAAAAAAAAOgAA/9uQ////OpDbAAAAAAAAAAAAAAAAAAAAAAAAOgAA/9uQ
-////////////////////////tv//AABmAAAAAAAAAAAAZgAA//+2////////tv//AABm/7Zm
-////////////tv//AABmAAAAAAAAAAAAOgAA/9uQ////////////AGa2AAAAAAAAAAAAAAAA
-AAAAAAAAAAAAOgAA/9uQ////////////////////////////tv//AABmkDoA///b////////
-2///ADqQZgAA//+2////////////////////kNv/AAA625A6////////////////////////
-////Zrb/OgAA/9uQ////Zrb/OgAA/9uQ////kNv/AAA625A6////////////////////////
-////kNv/AAA625A6////////////////////////////////////////////OpDbAAAA25A6
-////////////AGa2AAAAtmYA////tv//AABm/7Zm////////Zrb/AAAAkDoA///b////////
-Zrb/AAAA25A6////////AGa2kDoA///b////////////////////////////////////////
-////////////2///ADqQ25A6////////////////////////OpDbkDoA///b////////////
-////////OpDbAAAA/7Zm////////////////////2///ADqQ25A6////////////AGa2tmYA
-////////OpDbAAAA/7Zm////////////////////////////OpDbAAAA/7Zm////////////
-////////////////////////kNv/AAA6/7Zm////////////////////Zrb/ZgAA//+2tv//
-AABm/7Zm////2///ADqQtmYA////////////////////Zrb/ZgAA//+2////AGa2kDoA///b
-////////////////////////////////////////////////////OpDbtmYA////2///ADqQ
-AAAAAAAAkDoA///b2///ADqQ/7Zm////////////////////////OpDbAAAA25A6////////
-////////kNv/AAA6/7Zm////////////OpDbZgAA//+2////////OpDbAAAA25A6////////
-////////////////////OpDbAAAA25A6////////////////////////////////AGa2kDoA
-///b////////////////////Zrb/ZgAA//+2tv//AABm/7Zm////kNv/AAA6/7Zm////////
-////////////Zrb/OgAA/9uQ////AGa2kDoA///b////////////////////////////////
-////////////////////ADqQ/7Zm////AGa2tmYA////////OpDbtmYA////Zrb/tmYA////
-////////////////////////Zrb/AAAA25A6////////////kNv/OgA6/9uQ////////////
-Zrb/ZgAA//+2////////////Zrb/AAAA25A6////////////////////////////Zrb/AAAA
-25A6////////////////////////tv//AABm25A6////////////////////////Zrb/ZgAA
-//+2tv//AABm/7Zm////////////////////////////////////AGa2ZgAA//+2////AGa2
-kDoA///b////////////////////////////////////////////////////OgBm/9uQtv//
-ZgBm//+2////////////////////kNv/kDo6///b////////////////////////////Zrb/
-AAAAtmYA////////Zrb/OgAA/9uQ////////////Zrb/OgAA/9uQ////////////////Zrb/
-AAAAtmYA////////////////////////////Zrb/AAAAtmYA////////////////////tv//
-AABm/7Zm////////////AGa2AAAAAAAAAAAAZgAA//+2tv//AABm/7Zm////////////////
-////////2///ADqQAAAAOgAA/9uQ////////AGa2kDoA///b////////////////////////
-////////////////////////////OgBm/9uQkNv/ZgA6//+2////////////////////kNv/
-ZgA6//+2////////////////////////////////Zrb/AAAA25A6////Zrb/OgAA/9uQ////
-////////Zrb/OgAA/9uQ////////////////////Zrb/AAAA25A6////////////////////
-////////Zrb/AAAA25A6////////////////tv//AABm/7Zm////////////////////////
-////////////tv//AABm/7Zm////////////kNv/AAA6AAAAAAAAZgAA//+2////////////
-////AGa2AAAAAAAAAAAAAAAAAAAAAAAAAAAA25A6////////////////////////////ADqQ
-/7Zmtv//ZgBm//+2////////////////////Zrb/tmYA////////////////////////////
-////////////AGa2ZgAA//+2kNv/OgA6/9uQ////////////Zrb/ZgAA//+2////////////
-////////////AGa2ZgAA//+2////////////////////////////AGa2ZgAA//+2////////
-////2///ADqQ25A6////////////////////////////////////tv//AABm/7Zm////////
-Zrb/AAAAtmYA////////////////////////////////AGa2kDoA///b////////////////
-////////////////////////////////////OpDbtmYA////AGa2tmYA////////AGa2tmYA
-2///ADqQ/7Zm////////////////////////////////////////Zrb/OgAA/9uQkNv/AAA6
-/7Zm////////////OpDbZgAA//+2////////////////////////Zrb/OgAA/9uQ////////
-////////////////////Zrb/OgAA/9uQ////////////////AGa2kDoA///b////////////
-////////OpDb/7ZmkNv/AAA6AAAAAAAAZgAA2/+2ADqQtmYA////////////////////////
-////////////AGa2kDoA///b////////////////////////////////////////////////
-////2///ADqQ25A62///ADqQAAAAAAAAkDoA///bOpDbkDoA///b////////////////kNv/
-AAA6/7Zm////////////OpDbZgAA//+22///ADqQ25A6////////////AGa2tmYA////kNv/
-AAA6/7Zm////////////OpDbZgAA//+2////kNv/AAA6/7Zm////////////OpDbZgAA//+2
-////////////////kNv/AAA6/7Zm////////////////2///ADqQtmYA////tv//AABm/7Zm
-////////AGa2tmYA////////////////2///ADqQtmYA////////AGa2kDoA///b////////
-////////////////////////////////////////////////tv//AABmkDoA///b////////
-2///ADqQZgAA//+2////////////////////2///ADqQOgAA/9uQ////OpDbAAAAtmYA////
-////Zrb/OgAA/9uQ////Zrb/OgAA/9uQ////2///ADqQOgAA/9uQ////OpDbAAAAtmYA////
-////2///ADqQOgAA/9uQ////OpDbAAAAtmYA////////////////////////OpDbAAAA/7Zm
-////////2///ADqQZgAA//+2////tv//AABm25A6////////Zrb/AAAA/7Zm////////////
-AGa2OgAA/9uQ////////AGa2kDoA///b////////////////////////////////////////
-////////////////////////Zrb/AAAAAAAAAAAAAAAA/7Zm////////////////////////
-////////2///ADqQAAAAAAAAAAAA25A6////////////////Zrb/AAAAAAAAOgAA/9uQ////
-////////2///ADqQAAAAAAAAAAAA25A6////////////////2///ADqQAAAAAAAAAAAA25A6
-////////////////////////////////tv//AABmAAAAAAAAAAAAkDoA///b////////////
-OpDbAAAAAAAA25A6////tv//AABmAAAAAAAAAAAAZgAA//+2////////////AGa2AAAAAAAA
-AAAAAAAAAAAAAAAAAAAAkDoA///b////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-8fHx6urq7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t
-7e3t6Obr3d3n3Nrl4+Lx6+r78vD+8/H/8fD/8fD/8PD87+/57+/67+768fH5///+////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////6+v36Of3+fn9////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////oaGhHx8fDg4OEhISEhISEhISEhISEhISEhIS
-EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISFBQSCwsPAAAMAAAJBgUVEA8mGhc1HxxQ
-KiSBMSenNizANyzBNiu6Mia3Mie4q6Xh////////////////////////////////////////
-////////////////////////////////////////////////////////////////4N/0jIfY
-VEvDLiS3KyC1Rjy+dG3Ox8Ts+vr9////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-vb29FRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVCANUGQ+eIBO8HhO1EQasPDG7
-29ny////////////////////////////////////////////////////////////////////
-////////////////////////+fj8qqbhOTC7EwetEwetHhOxHxOxFwuvEgWtIhaye3TR8PD5
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////8fHxUVFRAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAACAUgGhN0Kh+/KR28Ewisc2vP////////////////////////////
-////////////////////////////////////////////////////////////////v7zoKh61
-FwuvJxy0KR61KB21KB21KR61KB20HxSxCACqgnzU////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////wcHBBQUFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEIEw5b
-KR24JBi5GQyvsq7j////////////////////////////////////////////////////////
-////////////////////////////////qKPhHRGxIxizKB21KB21KB21KB21KB21KB21KR+1
-FQmvUUfD////////////////////////////////////////////////////////////////
-////////////////////////////////////////////jY2NAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEw5YKx6+HRK1Ihay7+76////////////
-////////////////////////////////////////////////////////////////////////
-rKfiIhazIxizKB21KB21KB21KB21KB21KB21KB21GQ2wTkXB////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////Z2dnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAGRFwKyDBEwevS0PA////////////////////////////////////////////
-////////////////////////////////////////rKjiIhazIxizKB21KB21KB21KB21KB21
-KB21KB21GA2wTUXB////////////////////////////////////////////////////////
-////////////////////////////////////////////////////Y2NjAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgINIhmcLB++EASsdG3O
-////////////////////////////////////////////////////////////////////////
-////////rKfiIhazIxizKB21KB21KB21KB21KB21KB21KB21Gg6wSUDA////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////gICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAEAxIKh+/JRm0HhKylpDa////////////////////////////
-////////////////////////////////////////////////rajiIhazIxizKB21KB21KB21
-KB21KB21KB21KB21GxCwPza9////////////////////////////////////////////////
-////////////////////////////////////////////////////////////tbW1AAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIxmh
-Kh6+HxOxKR60o6De////////////////////////////////////////////////////////
-////////////////q6biIRazIxizKB21KB21KB21KB21KB21KB21KB21GxCwQTe+////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////6enpPDw8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxBpLCDJJxyzHRGxLSO2sa3j////////////
-////////////////////////////////////////////////////////pJ/gIBWyJBmzKB21
-KB21KB21KB21KB21KB21KB21HRKxOS+7////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-r6+vCgoKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAACQYpLSHNJxy1Jx20HRCwLSK3tbLk////////////////////////////////////////
-////////////////////////pJ/gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21HxSxNSq5
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////ioqKAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIRKx7DKR63Jxy0KR60HBGyGg+w
-sa3j////////////////////////////////////////////////////////////pJ/gIBSy
-JBmzKB21KB21KB21KB21KB21KB21KB21HxSxNSq5////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////39/fzc3N0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR
-0dHR0dHR0dHR0NDQ1NTUw8PDYWFhAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAADKB2yKR68Jxy0Jxy1Kh+1IRSxCQCqnpje////////////////////////
-////////////////////////////////o57gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21
-IRayKR61/Pz9////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////j4+P
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhuqKR6/Jxy0Jxy1
-Jxy1KB+1IRayFQivf3nS8fH6////////////////////////////////////////////////
-qqXiIhazJBmzKB21KB21KB21KB21KB21KB21KB21IxazKRy0+/z9////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////NjY2AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAADJxyyKR69Jxy0KB21KB21KBy1KB21IheyFguvYVnI1NLw////
-////////////////////////////////////////rqzjIxiyIxezKB21KB21KB21KB21KB21
-KB21KB21IxezJxy09/f8////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwIPKh/BKR24
-Jxy0KB21KB21KB21KB21KB21JBmzGAyvRTu/sq7k////////////////////////////////
-////////p6PhIRWyJBmzKB21KB21KB21KB21KB21KB21KB21IxizJRqz7u36////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////eXl5AAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAACgYrLSHPKBy0Jx20KB21KB21KB21KB21KB21KB21Jhu0
-HBCwKB61e3TS7ez5////////////////////////////////pJ/gIBSyJBmzKB21KB21KB21
-KB21KB21KB21KB21IxizJRqz7u76////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////KioqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFw9l
-LCDJJxyzKB21KB21KB21KB21KB21KB21KB21KB21Jxy0IRWzGAuwQDW9vLjo////////////
-////////////////pJ/gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21IxizJBmz5uf2////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////n5+fAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEDJBqlKh69Jxy0KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21Jxy0HBCwGA2uZ17J3tvz////////////////////pJ/gIBSyJBmzKB21
-KB21KB21KB21KB21KB21KB21IxizIxe0393z////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////5eXlHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-Ew5XKx/DJxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21JBmzEgWt
-HBGxeHDQ4N70/f3+////////paDgIBSyJBmzKB21KB21KB21KB21KB21KB21KB21IxizIxi0
-4d/z////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////bW1tAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAMWIxqhKR29Jx20KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21IRayEgWtLSG2dnDQ09Dw+Pj8rKfiIRay
-JBmzKB21KB21KB21KB21KB21KB21KB21JBmzIRWy3tzz////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////vLy8FxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAEgxkKR6+KB22KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB20HhOxEweuLSK2cmrOcWrOJxu1JRq0KB21KB21KB21KB21KB21KB21KB21
-JRq0IxezkYrZsq7krqniranirajiubXnwb7pv7zpwLzpvbrow8Dq6+r4////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////8fHxVVVVAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSQ3MymuJhm6KB20KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HxSyGg+w
-JRm0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21Jxu1IxezIBWyIBWyIBSyHxSxKBy1
-LiO3LCK2LSK2KyC2LiO3VUvEwb3p////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////pKSkBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAEREOrKypi4TgHBCxJRu0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21Jxy0Jhq0KB20KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KBy1JRqzJBmzJBmzJBmzJBmzIhezIRazIhazIhazIhezIBWyGAuuJRq0v7zo
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////7u7uMzMzAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVFRU////5uX4Oi+7HhKwKB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB20Gg6wMii44+P1////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////fX19AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAFBQU19fX////////p6PhFgquJxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-Jxy1FQmufnjS////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////1dXVAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhISE////////////////V03F
-EwitKR61KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HxOxSkHA8PD5////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////QEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAJSUl/Pz8////////////////19TxFAitIhezKB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21HxSyPzW93Nry////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////s7Oz
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt7e3////////////////
-////////dGzPEAWsKB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB20IxezJhu0
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HxOyQjm+4uD0////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////9PT0JiYmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAS0tL////////////////////////////5uT2Mie3Gg+wKR61KB21KB21
-KB21KB21KB21KB21KB21KB21Jhu0KR61Niu5HRGxJBizKR61KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21HBCwXVTH/Pv+////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-enp6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUF1tbW////////////
-////////////////////nZjcFQmvJRqzKB21KB21KB21KB21KB21KB21KB21KB21Jxy0IBSz
-bGTLdm/PEgatGg6wKB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21Jhu1FQito57f////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////zs7OFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAf39/////////////////////////////////////7e34UknDFgqv
-KR61KB21KB21KB21KB21KB21KB21KB21KB21IhezMSe50dDvubXnMCS4DQGrHhKxJxy0KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21Jxy1CgCqWFDF////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-+fn5TU1NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANTU16Ojo////////
-////////////////////////////////wb7pKB61IBWyKB21KB21KB21KB21KB21KB21KB21
-KB21Jxy1GQ6vV0/F/////f39k4zaOzK7FwuuGxCxIRaxJhu0KB21KB21KB21KB21KB21KB21
-KB21KB21KB21Jxy0IRazHhOxHhOxHhOxHhOxHhOxHhOxHhOxHxOxHxOxGg+wEgatWlHG////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////oqKiCQkJAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAABQUFoaGh////////////////////////////////////////////
-9/f8dW3PGw6wJhy0KB21KB21KB21KB21KB21KB21KB21KB21JBmzHRKxl5Ha////////9PX6
-npjdZF3KPjS8KB21Jhu0KB21KB21KB21KB21KB21KB21KB21Jxu0Jhu0Rj2/TETBS0LAS0LA
-S0LAS0LAS0LAS0LAS0LASD7AW1PGop7e////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////4+PjOTk5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVFRU8vLy////
-////////////////////////////////////////////0c7uOS66HhOxKB21KB21KB21KB21
-KB21KB21KB21KB21KB21HRGwPDG80c/v////////////////0M/uTUPBHhOxKB21KB21KB21
-KB21KB21KB21KB21IxizIxm029jx+vr99fX79fX79fX79fX79fX79fX79fX79PP7/f3+////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////ioqKAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAFBQUvLy8////////////////////////////////////////
-////////////////jYfYGxCwJxy1KB21KB21KB21KB21KB21KB21KB21KB21Jhu0GAyvc23P
-+fj8////////////7u74XFTGGw+xKB21KB21KB21KB21KB21KB21KB21IxizIxe05uT2////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////29vbFhYWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaWlp////
-////////////////////////////////////////////////////////7ez5Qji9HBCxKB21
-KB21KB21KB21KB21KB21KB21KB21KB21IRayIRSyubbn////////////5uT2VUzEHBCxKB21
-KB21KB21KB21KB21KB21KB21IxizIxa03t3z////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////l5eXAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQU6enp////////////////////////////////////
-////////////////////////////sKzkEAOsJx21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21GAyvQTi9+fr9////////4eD0UEbCHBGxKB21KB21KB21KB21KB21KB21KB21IxizJBiz
-6ej3////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////MzMzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoaGh
-////////////////////////////////////////////////////////////////////////
-W1PGEQStKR61KB21KB21KB21KB21KB21KB21KB21KB21Jx21DACrfnfT////////4uH0UEfC
-HBGxKB21KB21KB21KB21KB21KB21KB21IxizJRqz7u/6////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////6OjoAgICAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxcX////////////////////////////////////
-////////////////////////////////////////5OP1Gw+xIBWyKB21KB21KB21KB21KB21
-KB21KB21KB21KB21IhezEAWs29nz////4uH0UUfCHBGxKB21KB21KB21KB21KB21KB21KB21
-IxizJRmz7e35////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////x8fHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-Wlpa////////////////////////////////////////////////////////////////////
-////////////hH7UEgeuJxy0KB21KB21KB21KB21KB21KB21KB21KB21KR61EwetVEvE////
-5eT1UEfCHBGxKB21KB21KB21KB21KB21KB21KB21IxizJRmz7e35////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////qampAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ0ND////////////////////////////
-////////////////////////////////////////////////////6ej3Pza8GQ2vKR61KB20
-KB20KB20KB20KB20KB20KB21KB21Jxy0Fwyvop3e7Ov4T0XCHRGxKB21KB21KB21KB21KB21
-KB21KB21IxizJRmz7e35////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////oaGhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAgIC5+fn////////////////////////////////////////////////////////
-////////////////////////qaTiHBCyIxezKB22Jxy1Jxy1Jxy1Jxy1Jxy1KB20KBy1KB61
-HRKxQTe+v7vpVk3EHhGxKB21KB21KB21KB21KB21KB21KB21IxizJRqz8vL8////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////rKys
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANzc33t7e////////////
-////////////////////////////////////////////////////////////////////dWzg
-IBLCKh/HKyDHKx/HKx/HKx/HKh/DKB23Jx20KB21Jhq0JBizVUzERjzAIxizKB21KB21KB21
-KB21KB21KB21KB21IxizJxu08/L8////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////ubm5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAADQ0NTk5OcnJycnJycHBwcXFxcXFxcXFxcXFxcXFxcXFxcXFx
-cXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFwd3h0UVBmEA1QEApPEgxREgxREgxREQxMGBFvKBy2
-KR23Jx20KB21Jhu0IhezJhu1Jxy0KB21KB21KB21KB21KB21KB21KB21Jhu0Jhq0TUPBUEfC
-TkXCTkXCTkXCTkXCTkXCTkXCTkXCS0PAWFDFa2TMa2PMa2PMa2PMa2PMa2PMa2PMa2PMa2PM
-ZF7KqKTh////////////////////////////////////////////////////////////////
-////5eXlAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxN7Kx6/Jx21KB20KB21Jxy0Jxy0KB21KB21
-KB21KB21KB21KB21KB21KB21KB21Jhu1GxCwGg2vGg2vGg2vGg2vGg2vGg2vGg2vGg2vGg+w
-GAuvEgatEwetEwetEwetEwetEwetEwetEwetEwetDgGrFwuupKDf////////////////////
-////////////////////////////////////////////////KysrAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAACQYoJhutKB27KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KR61KR61KR61KR61KR61KR61KR61
-KR61KR61Kh+1Gg6wOi+60tDv////////////////////////////////////////////////
-////////////////dnZ2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhBlKh/DJxy0KB20KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21Jhu0GAuvh4HV+/v9////
-////////////////////////////////////////////////////////1NTUDw8PAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAgINJBqlKx+/Jxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21GQ6wSUHB6ej3////////////////////////////////////
-////////////////////////+/v7ampqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADglALiHOKB21
-Jxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HhOyLSK2
-1dPw////////////////////////////////////////////////////////////////1NTU
-JiYmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRmcLB/GJxyzKB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21IhazJBmzv73q////////////////////////////
-////////////////////////////////////////s7OzDg4OAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-CAUlKh/AKR66Jxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-IRazJRqzwsDp////////////////////////////////////////////////////////////
-////////////np6eDw8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxBqLB/HKBy1Jx20KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HhGxLyW32Nfy////////////////////
-////////////////////////////////////////////////////////p6enHh4eAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAABQQZIxqiKh2/Jx20KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
-KB21KB21GQywVEvE7ez4////////////////////////////////////////////////////
-////////////////////////////ycnJSUlJAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgxSKR69KR25KB20
-KB21KB21KB21KB21KB21KB21KB21KB21KB61KB61KB61KB61KB61KB61KB61KB61KB61KB61
-KB61KB61KB61KB61KB61KB61KB61KB61KB61KB61KR61JBmzGxCwm5bd////////////////
-////////////////////////////////////////////////////////////////////////
-7+/vpKSkUFBQDw8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAIFQ6AIha7IRazIxeyIhezIhezIxezIRayIBSxIBWyHBGx
-GAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyv
-GAyvGQ2vGAyvDgKsTkXB4+H1////////////////////////////////////////////////
-////////////////////////////////////////////////8fHxy8vLkJCQYWFhODg4JSUl
-JiYmJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycn
-JycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJSUmGhkiGBYhGBciGBciGRghDQwXDwpR
-KR60JRm2IBWyIRayIRayIBayIhezKh61Jx21Niy5ST/ARTu+RTu+RTu+RTu+RTu+RTu+RTu+
-RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+QTe9TUTCwr7p////////////
-////////////////////////////////////////////////////////////////////////
-/////////////////////////////////f39/Pz8/f39/f39/f39/f39/f39/f39/f39/f39
-/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
-/f39/f39/Pz98/P68vD58vH58vH58/L76un1397v5uT14N/03dzz3dzz3dzz3dzz39705eT2
-4+L18vD6/////f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+
-/f3+/f3+/f3+/f3+/f3+/f3+////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////</Image></Logo><Icon><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADDDgAAww4AAAAAAAAAAAAA
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////n5+fPT09RkZGRERERERJTEWm////////
-////////bmbMko3Z////////////////MDAwAAAAAAAAAAAAAAAAAAAAPjWx////////////
-CQCqLyW3////////////////8/PzxMTEycnJ2traERERAAAACgNnRjzH////////FAiuNSu5
-////////////////////////////////AAAAAAAAHxSrIBS1Gg6wtbDlHxOyLiO27+757u35
-////////////////////UlJSAAAAf4BzVErTIRayJBmzEAOsJhu0JBmzCwCrAACi4+L1////
-////////3NzcAAAAAAAA////7u76CwCqLiO3j4rYIRayJxy0VUzDUknD////////////////
-Ly8vAAAAt7e3////////hX3gEwa5p6PjNSq5NCq4////////////////////////GBgYAAAA
-PDw8b29va2tqbm5rBABBHxWsKyC4KyC2e3TRdG3Pb2fNysjs////////tLS0AAAAAAAAAAAA
-AAAAAAAAAAAAAAAaHBDAGAyvDgKsDgKsBgCpV0/F////////////4uLilZWVmZmZmpqampqa
-mpqakpKKmZTYnZjepqLgpaHfoJvd3dvz////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////
-////////////////</Image></Icon><UMLProfiles><UMLProfile profiletype="uml2">
-			<Documentation id="EB1CD9C4-7" name="SAF" version="1.0" alias="SAF" notes="SAF"/>
-			<Content>
-				<Stereotypes>
-					<Stereotype name="extend" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="UCExtend">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="include" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="UCInclude">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_ContextFunction" metatype="SAF_ContextFunction" instanceMode="Property" instanceType="SysML1.4::AdjunctProperty" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Activity">
-								<Property name="isReadOnly" value="false"/>
-								<Property name="isSingleExecution" value=""/>
-								<Property name="parameterName" value=""/>
-								<Property name="postcondition" value=""/>
-								<Property name="precondition" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_DomainKind" metatype="SAF_DomainKind" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="EAUML::NoteLink" constraint="SysML1.4::rationale"/>
-							<stereotypedrelationship stereotype="SAF::SAF_DomainKindComposition" constraint="SAF::SAF_DomainKind"/>
-							<stereotypedrelationship stereotype="SAF::SAF_DomainKindDerivation" constraint="SAF::SAF_OperationalDomainKind"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_DomainKindComposition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Composition">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_DomainKindDerivation" metatype="SAF_DomainKindDerivation" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Abstraction">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_FunctionAction" metatype="SAF_FunctionAction" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Action">
-								<Property name="context" value=""/>
-								<Property name="effect" value=""/>
-								<Property name="kind" value="CallBehavior"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalContext" metatype="SAF_LogicalContext" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block"/>
-					<Stereotype name="SAF_LogicalContextElementActing" metatype="SAF_LogicalContextElementActing" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Association">
-								<Property name="compositionKind" value="none"/>
-								<Property name="direction" value="Unspecified"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalElement" metatype="SAF_LogicalElement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="65535" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalEnvironment" metatype="SAF_LogicalEnvironment" instanceMode="Property" instanceType="SAF_LogicalRole" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_ContextElementCharacterization" constraint="SAF::SAF_Stakeholder"/>
-							<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_SystemStory"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalExternalSystem" metatype="SAF_LogicalExternalSystem" instanceMode="Property" instanceType="SAF_LogicalRole" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_ContextElementCharacterization" constraint="SAF::SAF_Stakeholder"/>
-							<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_SystemStory"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalRole" metatype="SAF_LogicalRole" instanceMode="Property" instanceType="SAF_LogicalRole" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Part">
-								<Property name="isReference" value="false"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalSOI" metatype="SAF_LogicalSOI" instanceMode="Property" instanceType="SAF_LogicalRole" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SAF_LogicalElement" baseStereotypes="SAF_LogicalElement SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_StakeholderInvolvement" constraint="SAF::SAF_Stakeholder"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogicalUser" metatype="SAF_LogicalUser" instanceMode="Property" instanceType="SAF_LogicalRole" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_ContextElementCharacterization" constraint="SAF::SAF_Stakeholder"/>
-							<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_SystemStory"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemCapability" metatype="SAF_SystemCapability" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityComposition" constraint="SAF::SAF_SystemCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityDependency" constraint="SAF::SAF_SystemCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityGeneralization" constraint="SAF::SAF_SystemCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityMapping" constraint="SAF::SAF_OperationalCapability"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemCapabilityComposition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Composition">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemCapabilityDependency" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemCapabilityGeneralization" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Generalization">
-								<Property name="direction" value="Source -&gt; Destination"/>
-								<Property name="isSubstitutable" value="true"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemCapabilityMapping" metatype="SAF_SystemCapabilityMapping" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemFunction" metatype="SAF_SystemFunction" instanceMode="Property" instanceType="SysML1.4::AdjunctProperty" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
-						<metarelationships>
-							<metarelationship metaclass="Composition" constraint="SAF::SAF_SystemFunction;SAF::SAF_SystemProcess"/>
-						</metarelationships>
-						<AppliesTo>
-							<Apply type="Activity">
-								<Property name="isReadOnly" value="false"/>
-								<Property name="isSingleExecution" value=""/>
-								<Property name="parameterName" value=""/>
-								<Property name="postcondition" value=""/>
-								<Property name="precondition" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemFunctionalRequirement" metatype="SAF_SystemFunctionalRequirement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SAF_SystemRequirement" baseStereotypes="SAF_SystemRequirement">
-						<AppliesTo>
-							<Apply type="Requirement"/>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemFunctionalRequirementConstraint" metatype="SAF_SystemFunctionalRequirementConstraint" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemNonFunctionalRequirement" metatype="SAF_SystemNonFunctionalRequirement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SAF_SystemRequirement" baseStereotypes="SAF_SystemRequirement">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemFunctionalRequirementConstraint" constraint="SAF::SAF_SystemFunctionalRequirement"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Requirement"/>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemProcess" metatype="SAF_SystemProcess" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Activity">
-								<Property name="isReadOnly" value="false"/>
-								<Property name="isSingleExecution" value=""/>
-								<Property name="parameterName" value=""/>
-								<Property name="postcondition" value=""/>
-								<Property name="precondition" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemRequirement" metatype="SAF_SystemRequirement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::extendedRequirement" baseStereotypes="SysML1.4::extendedRequirement">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemRequirementDerivation" constraint="SAF::SAF_StakeholderRequirement;SAF::SAF_SystemRequirement"/>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemRequirementRefinement" constraint="SAF::SAF_SystemStory;SysML1.4::ProxyPort"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Requirement"/>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemRequirementDerivation" metatype="SAF_SystemRequirementDerivation" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::deriveReqt" baseStereotypes="SysML1.4::deriveReqt">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemStory" metatype="SAF_SystemStory" notes="" bgcolor="-1" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_LogicalEnvironment;SAF::SAF_LogicalExternalSystem;SAF::SAF_LogicalUser"/>
-							<stereotypedrelationship stereotype="SAF::SAF_SystemStoryContribution" constraint="SAF::SAF_OperationalStory"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="UseCase"/>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemStoryContribution" metatype="SAF_SystemStoryContribution" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Abstraction">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalCapability" metatype="SAF_OperationalCapability" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilityComposition" constraint="SAF::SAF_OperationalCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilityDependency" constraint="SAF::SAF_OperationalCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilityGeneralization" constraint="SAF::SAF_OperationalCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilitySupport" constraint="SAF::SAF_OperationalStory"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_ContextElementCharacterization" metatype="SAF_ContextElementCharacterization" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalCapabilityComposition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Composition">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalCapabilityDependency" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalCapabilityGeneralization" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Generalization">
-								<Property name="direction" value="Source -&gt; Destination"/>
-								<Property name="isSubstitutable" value="true"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalCapabilitySupport" metatype="SAF_OperationalCapabilitySupport" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalContext" metatype="SAF_OperationalContext" instanceMode="Instance" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_LogDomainKind" metatype="SAF_DomainKind" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_DomainKind" baseStereotypes="SAF_DomainKind SysML1.4::block SysML1.4::ValueType">
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalDomainKind" metatype="SAF_OperationalDomainKind" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SAF_DomainKind" baseStereotypes="SAF_DomainKind">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="EAUML::NoteLink" constraint="SysML1.4::rationale"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalDomainKindComposition" constraint="SAF::SAF_OperationalDomainKind"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalDomainKindComposition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Composition">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalPerformer" metatype="SAF_OperationalPerformer" instanceMode="Property" instanceType="SAF_OperationalRole" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
-						<metarelationships>
-							<metarelationship metaclass="Composition" constraint="SAF::SAF_OperationalContext"/>
-						</metarelationships>
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerActing" constraint="SAF::SAF_OperationalStory"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerComposition" constraint="SAF::SAF_OperationalPerformer"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerExhibit" constraint="SAF::SAF_OperationalCapability"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalPerformerActing" metatype="SAF_OperationalPerformerActing" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Association">
-								<Property name="compositionKind" value="none"/>
-								<Property name="direction" value="Unspecified"/>
-							</Apply>
-						</AppliesTo>
-						<TaggedValues>
-							<Tag name="alias" type="" description="" unit="" values="" default="acting in"/>
-						</TaggedValues>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalPerformerComposition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Composition">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalPerformerExhibit" metatype="SAF_OperationalPerformerExhibit" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalStakeholderRepresentation " metatype="SAF_OperationalStakeholderRepresentation " notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Association">
-								<Property name="compositionKind" value="none"/>
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalProcess" metatype="SAF_OperationalProcess" instanceMode="Property" instanceType="SAF_OperationalProcessAction" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalProcessMapping" constraint="SAF::SAF_OperationalCapability"/>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalProcessRefinement" constraint="SAF::SAF_OperationalStory"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Activity">
-								<Property name="isReadOnly" value="false"/>
-								<Property name="isSingleExecution" value=""/>
-								<Property name="parameterName" value=""/>
-								<Property name="postcondition" value=""/>
-								<Property name="precondition" value=""/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalProcessAction" metatype="SAF_OperationalProcessAction" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Action">
-								<Property name="context" value=""/>
-								<Property name="effect" value=""/>
-								<Property name="kind" value="CallBehavior"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalProcessMapping" metatype="SAF_OperationalProcessMapping" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalProcessRefinement" metatype="SAF_OperationalProcessRefinement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalRole" metatype="SAF_OperationalRole" instanceMode="Property" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Part">
-								<Property name="isReference" value="false"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalSketch" metatype="SAF_OperationalSketch" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="EAUML::Image" baseStereotypes="EAUML::Image">
-						<AppliesTo>
-							<Apply type="Artifact">
-								<Property name="fileName" value=""/>
-								<Property name="_Tag" value="1"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_OperationalStory" metatype="SAF_OperationalStory" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerActing" constraint="SAF::SAF_OperationalPerformer"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="UseCase"/>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_Stakeholder" metatype="SAF_Stakeholder" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::Stakeholder" baseStereotypes="SysML1.4::Stakeholder" redefines="SysML1.4::Stakeholder">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_OperationalStakeholderRepresentation " constraint="SAF::SAF_OperationalPerformer"/>
-							<stereotypedrelationship stereotype="SAF::SAF_StakeholderRelation" constraint="SAF::SAF_Stakeholder;SAF::SAF_Stakeholder"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Class">
-								<Property name="isActive" value=""/>
-								<Property name="_Tag" value="1"/>
-							</Apply>
-						</AppliesTo>
-						<TaggedValues>
-							<Tag name="concernList"/>
-						</TaggedValues>
-						<RemovedProperties>
-							<RemovedProperty name="concern" description=""/>
-						</RemovedProperties>
-					</Stereotype>
-					<Stereotype name="SAF_StakeholderInvolvement" metatype="SAF_StakeholderInvolvement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_StakeholderRelation" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Association">
-								<Property name="compositionKind" value="none"/>
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_StakeholderRequirement" metatype="SAF_StakeholderRequirement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::extendedRequirement" baseStereotypes="SysML1.4::extendedRequirement">
-						<stereotypedrelationships>
-							<stereotypedrelationship stereotype="SAF::SAF_StakeholderRequirementImposition" constraint="SAF::SAF_Stakeholder"/>
-							<stereotypedrelationship stereotype="SAF::SAF_StakeholderRequirementProvision" constraint="SAF::SAF_Stakeholder"/>
-							<stereotypedrelationship stereotype="SAF::SAF_StakeholderRequirementRefinement" constraint="SAF::SAF_OperationalStory;SAF::SAF_SystemOfInterestConcern"/>
-						</stereotypedrelationships>
-						<AppliesTo>
-							<Apply type="Requirement"/>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_StakeholderRequirementImposition" metatype="SAF_StakeholderRequirementImposition" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Dependency">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_StakeholderRequirementRefinement" metatype="SAF_StakeholderRequirementRefinement" notes="" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
-						<AppliesTo>
-							<Apply type="Abstraction">
-								<Property name="direction" value="Source -&gt; Destination"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-					<Stereotype name="SAF_SystemOfInterestConcern" metatype="SAF_SystemOfInterestConcern" notes="" bgcolor="-1" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
-						<AppliesTo>
-							<Apply type="Artifact">
-								<Property name="fileName" value=""/>
-								<Property name="_Tag" value="1"/>
-							</Apply>
-						</AppliesTo>
-					</Stereotype>
-				</Stereotypes>
-				<TaggedValueTypes>
-					<TaggedValueType property="concernList" description="" notes="Type=RefGUIDList;Stereotypes=SAF_SystemOfInterestConcern;"/>
-				</TaggedValueTypes>
-				<ViewDefinitions>
-					<View name="SAF_SFV01a_SystemStoryDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::UseCase"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::include;SAF::SAF_LogicalContextElementActing;SAF::SAF_LogicalEnvironment;SAF::SAF_LogicalExternalSystem;SAF::SAF_LogicalUser;SAF::SAF_SystemStory;SAF::SAF_SystemStoryContribution"/>
-						</view>
-					</View>
-					<View name="SAF_SFV01b_SystemContextDefinitionDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Composition;SAF::SAF_LogicalContext;SAF::SAF_LogicalEnvironment;SAF::SAF_LogicalExternalSystem;SAF::SAF_LogicalSOI;SAF::SAF_LogicalUser;SysML1.4::InternalBlock;SysML1.4::ProxyPort"/>
-						</view>
-					</View>
-					<View name="SAF_SFV01c_SystemContextExchangeDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::InternalBlock"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Connector;SysML1.4::InterfaceBlock;SysML1.4::itemFlow;SysML1.4::ProxyPort;SysML1.4::rationale"/>
-						</view>
-					</View>
-					<View name="SAF_SFV02a_SystemDomainKindDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Association;Enumeration;Generalization;SAF::SAF_DomainKind;SAF::SAF_DomainKindComposition;SAF::SAF_DomainKindDerivation;SysML1.4::ValueType"/>
-						</view>
-					</View>
-					<View name="SAF_SFV02b_SystemCapabilityDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::SAF_SystemCapability;SAF::SAF_SystemCapabilityComposition;SAF::SAF_SystemCapabilityDependency;SAF::SAF_SystemCapabilityGeneralization;SAF::SAF_SystemCapabilityMapping"/>
-						</view>
-					</View>
-					<View name="SAF_SFV02c_SystemFunctionalBreakdownDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Composition;SAF::SAF_SystemFunction;SAF::SAF_SystemProcess"/>
-						</view>
-					</View>
-					<View name="SAF_SFV03a_SystemProcessDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::Activity"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="ActionPin;ActivityFinal;ActivityInitial;ControlFlow;Decision;EAUML::EAMatrixSpecification;FlowFinalNode;ForkNode;MergeNode;ObjectFlow;SAF::SAF_FunctionAction;SysML1.4::allocateActivityPartition;SysML1.4::itemFlow;Trigger"/>
-						</view>
-					</View>
-					<View name="SAF_SFV03b_SystemStateMachineDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::StateMachine"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Choice;EntryPoint;ExitPoint;FinalState;InitialState;State;StateMachine;SynchState;Terminate;Transition"/>
-						</view>
-					</View>
-					<View name="SAF_SFV04a_SystemContextInteractionDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::Sequence"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Interaction;InteractionFragment;Lifeline;Message;SysML1.4::itemFlow"/>
-						</view>
-					</View>
-					<View name="SAF_SFV06a_SystemRequirementDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::Requirement"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::SAF_SystemFunctionalRequirement;SAF::SAF_SystemFunctionalRequirementConstraint;SAF::SAF_SystemNonFunctionalRequirement;SAF::SAF_SystemRequirement;SAF::SAF_SystemRequirementDerivation"/>
-						</view>
-					</View>
-					<View name="SAF_SFV08a_SystemRequirementDependencyDiagram" notes=""/>
-					<View name="SAF_SOV01a_OperationalStoryDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::UseCase"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::SAF_OperationalPerformer;SAF::SAF_OperationalPerformerActing;SAF::SAF_OperationalSketch;SAF::SAF_OperationalStory"/>
-						</view>
-					</View>
-					<View name="SAF_SOV01b_OperationalContextDefinitionDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Composition;SAF::SAF_OperationalContext;SAF::SAF_OperationalPerformer"/>
-						</view>
-					</View>
-					<View name="SAF_SOV01c_OperationalContextExchangeDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::InternalBlock"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Connector;SAF::SAF_OperationalDomainKind;SysML1.4::itemFlow"/>
-						</view>
-					</View>
-					<View name="SAF_SOV02a_OperationalDomainKindDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="Enumeration;SAF::SAF_OperationalDomainKind;SAF::SAF_OperationalDomainKindComposition;SysML1.4::rationale;SysML1.4::ValueType"/>
-						</view>
-					</View>
-					<View name="SAF_SOV02b_OperationalPerformerDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::SAF_OperationalPerformer;SAF::SAF_OperationalPerformerComposition;SAF::SAF_OperationalStakeholderRepresentation ;SAF::SAF_Stakeholder"/>
-						</view>
-					</View>
-					<View name="SAF_SOV02c_OperationalCapabilityDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::SAF_OperationalCapability;SAF::SAF_OperationalCapabilityComposition;SAF::SAF_OperationalCapabilityDependency;SAF::SAF_OperationalCapabilityGeneralization;SysML1.4::problem"/>
-						</view>
-					</View>
-					<View name="SAF_SOV02d_StakeholderIdentificationDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="SAF::SAF_ContextElementCharacterization;SAF::SAF_Stakeholder;SAF::SAF_StakeholderInvolvement;SAF::SAF_StakeholderRelation;SAF::SAF_SystemOfInterestConcern"/>
-						</view>
-					</View>
-					<View name="SAF_SOV03a_OperationalProcessDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::Activity"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="ActionPin;ActivityFinal;ActivityInitial;ControlFlow;Decision;EAUML::EAMatrixSpecification;FlowFinalNode;ForkNode;MergeNode;ObjectFlow;SAF::SAF_OperationalProcessAction;SysML1.4::allocateActivityPartition;SysML1.4::itemFlow"/>
-						</view>
-					</View>
-					<View name="SAF_SOV04a_OperationalInteractionDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::Sequence"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="InteractionFragment;Lifeline;Message;SysML1.4::itemFlow"/>
-						</view>
-					</View>
-					<View name="SAF_SOV06a_StakeholderRequirementDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::Requirement"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="EAUML::EAMatrixSpecification;SAF::SAF_StakeholderRequirement;SAF::SAF_StakeholderRequirementImposition;SAF::SAF_StakeholderRequirementRefinement"/>
-						</view>
-					</View>
-					<View name="SAF_SOV08a_OperationalCapabilityTraceabilityDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="EAUML::EAMatrixSpecification;SAF::SAF_OperationalCapabilityComposition;SAF::SAF_OperationalCapabilityDependency;SAF::SAF_OperationalCapabilityGeneralization;SAF::SAF_OperationalCapabilitySupport;SAF::SAF_OperationalPerformerExhibit;SAF::SAF_OperationalProcessMapping"/>
-						</view>
-					</View>
-					<View name="SAF_SOV08b_OperationalProcessTraceabilityDiagram" notes="">
-						<appliesto>
-							<diagrams constraint="SysML1.4::BlockDefinition"/>
-						</appliesto>
-						<view>
-							<group name="" constraint="EAUML::EAMatrixSpecification;SAF::SAF_OperationalProcessMapping;SAF::SAF_OperationalProcessRefinement"/>
-						</view>
-					</View>
-				</ViewDefinitions>
-				<Metamodel/>
-			</Content>
-		</UMLProfile>
-	</UMLProfiles></MDG.Technology>
+<?xml  version='1.0' encoding='windows-1252' ?>
+<MDG.Technology version="1.0"><Documentation id="20231108" name="SAF" version="2023.1" notes="System Architecture Framework (SAF) is an architecture framework to define architectures for complex cyber-physical systems. The profile implements the SAF concept model defined by INCOSE (GfSE as German Chapter) and provides useful SysML-based stereotypes, diagram types and linking rules." infoURI="https://github.com/GfSE/SAF-EA-Profile" supportURI="saf@gfse.de"/><Logo><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk1mdQAAAAAAADYAAAAoAAAAZAAAAGQAAAABABgAAAAAADB1AADCDgAAwg4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////8fHx6urq7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t
+7e3t7e3t7e3t7e3t7e3t7e3t6Obr3d3n3Nrl4+Lx6+r78vD+8/H/8fD/8fD/
+8PD87+/57+/67+768fH5///+////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////6+v36Of3+fn9////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////oaGhHx8fDg4OEhIS
+EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+FBQSCwsPAAAMAAAJBgUVEA8mGhc1HxxQKiSBMSenNizANyzBNiu6Mia3Mie4
+q6Xh////////////////////////////////////////////////////////
+////////////////////////////////////////////////4N/0jIfYVEvD
+LiS3KyC1Rjy+dG3Ox8Ts+vr9////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////vb29FRUVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAVCANUGQ+eIBO8HhO1EQasPDG729ny////////////
+////////////////////////////////////////////////////////////
+////////////////////+fj8qqbhOTC7EwetEwetHhOxHxOxFwuvEgWtIhay
+e3TR8PD5////////////////////////////////////////////////////
+////////////////////////////////////////////////////////8fHx
+UVFRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAACAUgGhN0Kh+/KR28Ewisc2vP////////////////////////////////
+////////////////////////////////////////////////////////////
+v7zoKh61FwuvJxy0KR61KB21KB21KR61KB20HxSxCACqgnzU////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////wcHBBQUFAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEIEw5bKR24
+JBi5GQyvsq7j////////////////////////////////////////////////
+////////////////////////////////////////qKPhHRGxIxizKB21KB21
+KB21KB21KB21KB21KR+1FQmvUUfD////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////jY2NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEw5YKx6+HRK1Ihay7+76////
+////////////////////////////////////////////////////////////
+////////////////////rKfiIhazIxizKB21KB21KB21KB21KB21KB21KB21
+GQ2wTkXB////////////////////////////////////////////////////
+////////////////////////////////////////////////////////Z2dn
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAGRFwKyDBEwevS0PA////////////////////////
+////////////////////////////////////////////////////////////
+rKjiIhazIxizKB21KB21KB21KB21KB21KB21KB21GA2wTUXB////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////Y2NjAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AgINIhmcLB++EASsdG3O////////////////////////////////////////
+////////////////////////////////////////rKfiIhazIxizKB21KB21
+KB21KB21KB21KB21KB21Gg6wSUDA////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////gICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAxIKh+/JRm0HhKy
+lpDa////////////////////////////////////////////////////////
+////////////////////rajiIhazIxizKB21KB21KB21KB21KB21KB21KB21
+GxCwPza9////////////////////////////////////////////////////
+////////////////////////////////////////////////////////tbW1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAACIxmhKh6+HxOxKR60o6De////////////
+////////////////////////////////////////////////////////////
+q6biIRazIxizKB21KB21KB21KB21KB21KB21KB21GxCwQTe+////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////6enpPDw8AAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAFxBpLCDJJxyzHRGxLSO2sa3j////////////////////////////
+////////////////////////////////////////pJ/gIBWyJBmzKB21KB21
+KB21KB21KB21KB21KB21HRKxOS+7////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////r6+vCgoKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQYpLSHNJxy1
+Jx20HRCwLSK3tbLk////////////////////////////////////////////
+////////////////////pJ/gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21
+HxSxNSq5////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////ioqKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAABAIRKx7DKR63Jxy0KR60HBGyGg+wsa3j
+////////////////////////////////////////////////////////////
+pJ/gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21HxSxNSq5////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////39/fzc3N0dHR
+0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0NDQ
+1NTUw8PDYWFhAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAADKB2yKR68Jxy0Jxy1Kh+1IRSxCQCqnpje////////////////
+////////////////////////////////////////o57gIBSyJBmzKB21KB21
+KB21KB21KB21KB21KB21IRayKR61/Pz9////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////j4+PAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJhuqKR6/
+Jxy0Jxy1Jxy1KB+1IRayFQivf3nS8fH6////////////////////////////
+////////////////////qqXiIhazJBmzKB21KB21KB21KB21KB21KB21KB21
+IxazKRy0+/z9////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////NjY2AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADJxyyKR69Jxy0KB21KB21KBy1KB21
+IheyFguvYVnI1NLw////////////////////////////////////////////
+rqzjIxiyIxezKB21KB21KB21KB21KB21KB21KB21IxezJxy09/f8////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAwIPKh/BKR24Jxy0KB21KB21KB21KB21KB21JBmzGAyvRTu/sq7k
+////////////////////////////////////////p6PhIRWyJBmzKB21KB21
+KB21KB21KB21KB21KB21IxizJRqz7u36////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////eXl5
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgYrLSHPKBy0
+Jx20KB21KB21KB21KB21KB21KB21Jhu0HBCwKB61e3TS7ez5////////////
+////////////////////pJ/gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21
+IxizJRqz7u76////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////KioqAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAFw9lLCDJJxyzKB21KB21KB21KB21KB21
+KB21KB21KB21Jxy0IRWzGAuwQDW9vLjo////////////////////////////
+pJ/gIBSyJBmzKB21KB21KB21KB21KB21KB21KB21IxizJBmz5uf2////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////n5+fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQEDJBqlKh69Jxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+Jxy0HBCwGA2uZ17J3tvz////////////////////pJ/gIBSyJBmzKB21KB21
+KB21KB21KB21KB21KB21IxizIxe0393z////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////5eXlHR0dAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEw5XKx/DJxy0KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21JBmzEgWtHBGx
+eHDQ4N70/f3+////////paDgIBSyJBmzKB21KB21KB21KB21KB21KB21KB21
+IxizIxi04d/z////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////bW1tAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAABAMWIxqhKR29Jx20KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21IRayEgWtLSG2dnDQ09Dw+Pj8
+rKfiIRayJBmzKB21KB21KB21KB21KB21KB21KB21JBmzIRWy3tzz////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////vLy8FxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+EgxkKR6+KB22KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB20HhOxEweuLSK2cmrOcWrOJxu1JRq0KB21KB21
+KB21KB21KB21KB21KB21JRq0IxezkYrZsq7krqniranirajiubXnwb7pv7zp
+wLzpvbrow8Dq6+r4////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////8fHxVVVVAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSQ3MymuJhm6KB20KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21HxSyGg+wJRm0KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21Jxu1IxezIBWyIBWyIBSyHxSxKBy1LiO3LCK2LSK2KyC2LiO3VUvEwb3p
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////pKSkBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEREOrKypi4TgHBCxJRu0KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21Jxy0
+Jhq0KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KBy1JRqzJBmzJBmz
+JBmzJBmzIhezIRazIhazIhazIhezIBWyGAuuJRq0v7zo////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////7u7u
+MzMzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVFRU////
+5uX4Oi+7HhKwKB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB20Gg6wMii44+P1////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////fX19AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQU19fX////////p6PhFgquJxy0KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21Jxy1
+FQmufnjS////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////1dXVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAhISE////////////////V03FEwitKR61KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HxOxSkHA8PD5////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////QEBAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSUl/Pz8////////
+////////19TxFAitIhezKB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21HxSyPzW93Nry////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////s7OzAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAt7e3////////////////////////dGzPEAWs
+KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB20IxezJhu0KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+HxOyQjm+4uD0////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////9PT0JiYmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+S0tL////////////////////////////5uT2Mie3Gg+wKR61KB21KB21KB21
+KB21KB21KB21KB21KB21Jhu0KR61Niu5HRGxJBizKR61KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21HBCwXVTH/Pv+////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////enp6AAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUF1tbW////////////////
+////////////////nZjcFQmvJRqzKB21KB21KB21KB21KB21KB21KB21KB21
+Jxy0IBSzbGTLdm/PEgatGg6wKB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21Jhu1FQito57f////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////zs7OFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAf39/////////////////////////////////////7e34
+UknDFgqvKR61KB21KB21KB21KB21KB21KB21KB21KB21IhezMSe50dDvubXn
+MCS4DQGrHhKxJxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21Jxy1CgCq
+WFDF////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////+fn5
+TU1NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANTU16Ojo
+////////////////////////////////////////wb7pKB61IBWyKB21KB21
+KB21KB21KB21KB21KB21KB21Jxy1GQ6vV0/F/////f39k4zaOzK7FwuuGxCx
+IRaxJhu0KB21KB21KB21KB21KB21KB21KB21KB21KB21Jxy0IRazHhOxHhOx
+HhOxHhOxHhOxHhOxHhOxHxOxHxOxGg+wEgatWlHG////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////oqKiCQkJAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAABQUFoaGh////////////////////////
+////////////////////9/f8dW3PGw6wJhy0KB21KB21KB21KB21KB21KB21
+KB21KB21JBmzHRKxl5Ha////////9PX6npjdZF3KPjS8KB21Jhu0KB21KB21
+KB21KB21KB21KB21KB21Jxu0Jhu0Rj2/TETBS0LAS0LAS0LAS0LAS0LAS0LA
+S0LASD7AW1PGop7e////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////4+PjOTk5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAVFRU8vLy////////////////////////////////////////////
+////0c7uOS66HhOxKB21KB21KB21KB21KB21KB21KB21KB21KB21HRGwPDG8
+0c/v////////////////0M/uTUPBHhOxKB21KB21KB21KB21KB21KB21KB21
+IxizIxm029jx+vr99fX79fX79fX79fX79fX79fX79fX79PP7/f3+////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////ioqKAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQUvLy8////////
+////////////////////////////////////////////////jYfYGxCwJxy1
+KB21KB21KB21KB21KB21KB21KB21KB21Jhu0GAyvc23P+fj8////////////
+7u74XFTGGw+xKB21KB21KB21KB21KB21KB21KB21IxizIxe05uT2////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////29vbFhYWAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAaWlp////////////////////////////////
+////////////////////////////7ez5Qji9HBCxKB21KB21KB21KB21KB21
+KB21KB21KB21KB21IRayIRSyubbn////////////5uT2VUzEHBCxKB21KB21
+KB21KB21KB21KB21KB21IxizIxa03t3z////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////l5eXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+FBQU6enp////////////////////////////////////////////////////
+////////////sKzkEAOsJx21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+GAyvQTi9+fr9////////4eD0UEbCHBGxKB21KB21KB21KB21KB21KB21KB21
+IxizJBiz6ej3////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////MzMzAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoaGh////////////////
+////////////////////////////////////////////////////////W1PG
+EQStKR61KB21KB21KB21KB21KB21KB21KB21KB21Jx21DACrfnfT////////
+4uH0UEfCHBGxKB21KB21KB21KB21KB21KB21KB21IxizJRqz7u/6////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////6OjoAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAFxcX////////////////////////////////////////
+////////////////////////////////////5OP1Gw+xIBWyKB21KB21KB21
+KB21KB21KB21KB21KB21KB21IhezEAWs29nz////4uH0UUfCHBGxKB21KB21
+KB21KB21KB21KB21KB21IxizJRmz7e35////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////x8fHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWlpa
+////////////////////////////////////////////////////////////
+////////////////////hH7UEgeuJxy0KB21KB21KB21KB21KB21KB21KB21
+KB21KR61EwetVEvE////5eT1UEfCHBGxKB21KB21KB21KB21KB21KB21KB21
+IxizJRmz7e35////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////qampAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ0ND////////////////////
+////////////////////////////////////////////////////////////
+6ej3Pza8GQ2vKR61KB20KB20KB20KB20KB20KB20KB21KB21Jxy0Fwyvop3e
+7Ov4T0XCHRGxKB21KB21KB21KB21KB21KB21KB21IxizJRmz7e35////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////oaGhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAgIC5+fn////////////////////////////////////
+////////////////////////////////////////////qaTiHBCyIxezKB22
+Jxy1Jxy1Jxy1Jxy1Jxy1KB20KBy1KB61HRKxQTe+v7vpVk3EHhGxKB21KB21
+KB21KB21KB21KB21KB21IxizJRqz8vL8////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////rKysAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Nzc33t7e////////////////////////////////////////////////////
+////////////////////////////dWzgIBLCKh/HKyDHKx/HKx/HKx/HKh/D
+KB23Jx20KB21Jhq0JBizVUzERjzAIxizKB21KB21KB21KB21KB21KB21KB21
+IxizJxu08/L8////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////ubm5AAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NTk5OcnJycnJy
+cHBwcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFxcXFx
+cXFwd3h0UVBmEA1QEApPEgxREgxREgxREQxMGBFvKBy2KR23Jx20KB21Jhu0
+IhezJhu1Jxy0KB21KB21KB21KB21KB21KB21KB21Jhu0Jhq0TUPBUEfCTkXC
+TkXCTkXCTkXCTkXCTkXCTkXCS0PAWFDFa2TMa2PMa2PMa2PMa2PMa2PMa2PM
+a2PMa2PMZF7KqKTh////////////////////////////////////////////
+////////////////////////5eXlAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAGxN7Kx6/Jx21KB20KB21Jxy0Jxy0KB21KB21KB21
+KB21KB21KB21KB21KB21KB21Jhu1GxCwGg2vGg2vGg2vGg2vGg2vGg2vGg2v
+Gg2vGg+wGAuvEgatEwetEwetEwetEwetEwetEwetEwetEwetDgGrFwuupKDf
+////////////////////////////////////////////////////////////
+////////KysrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+CQYoJhutKB27KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KR61KR61
+KR61KR61KR61KR61KR61KR61KR61Kh+1Gg6wOi+60tDv////////////////
+////////////////////////////////////////////////dnZ2AAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhBlKh/DJxy0KB20
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21Jhu0GAuvh4HV+/v9////////////////////////////////
+////////////////////////////1NTUDw8PAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAgINJBqlKx+/Jxy0KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21GQ6w
+SUHB6ej3////////////////////////////////////////////////////
+////////+/v7ampqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAADglALiHOKB21Jxy0KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21HhOyLSK21dPw////////////
+////////////////////////////////////////////////////1NTUJiYm
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRmcLB/G
+JxyzKB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21IhazJBmzv73q////////////////////////////////
+////////////////////////////////////s7OzDg4OAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUlKh/AKR66Jxy0KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21IRaz
+JRqzwsDp////////////////////////////////////////////////////
+////////////////////np6eDw8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAFxBqLB/HKBy1Jx20KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21HhGxLyW32Nfy////////////
+////////////////////////////////////////////////////////////
+////p6enHh4eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQZ
+IxqiKh2/Jx20KB20KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21KB21
+KB21KB21KB21KB21GQywVEvE7ez4////////////////////////////////
+////////////////////////////////////////////////ycnJSUlJAwMD
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgxSKR69KR25KB20KB21
+KB21KB21KB21KB21KB21KB21KB21KB61KB61KB61KB61KB61KB61KB61KB61
+KB61KB61KB61KB61KB61KB61KB61KB61KB61KB61KB61KB61KR61JBmzGxCw
+m5bd////////////////////////////////////////////////////////
+////////////////////////////////7+/vpKSkUFBQDw8PAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAIFQ6AIha7IRazIxeyIhezIhezIxezIRayIBSx
+IBWyHBGxGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyvGAyv
+GAyvGAyvGAyvGAyvGAyvGAyvGQ2vGAyvDgKsTkXB4+H1////////////////
+////////////////////////////////////////////////////////////
+////////////////////8fHxy8vLkJCQYWFhODg4JSUlJiYmJycnJycnJycn
+JycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycn
+JycnJycnJycnJycnJycnJycnJycnJycnJycnJSUmGhkiGBYhGBciGBciGRgh
+DQwXDwpRKR60JRm2IBWyIRayIRayIBayIhezKh61Jx21Niy5ST/ARTu+RTu+
+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+RTu+
+RTu+RTu+QTe9TUTCwr7p////////////////////////////////////////
+////////////////////////////////////////////////////////////
+/////////////////f39/Pz8/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39
+/f39/f39/f39/f39/Pz98/P68vD58vH58vH58/L76un1397v5uT14N/03dzz
+3dzz3dzz3dzz39705eT24+L18vD6/////f3+/f3+/f3+/f3+/f3+/f3+/f3+
+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+/f3+////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+</Image></Logo><Icon><Image type="bitmap" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADDDgAAww4A
+AAAAAAAAAAAA////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////////////////n5+fPT09RkZGRERERERJTEWm////////
+////////bmbMko3Z////////////////MDAwAAAAAAAAAAAAAAAAAAAAPjWx
+////////////CQCqLyW3////////////////8/PzxMTEycnJ2traERERAAAA
+CgNnRjzH////////FAiuNSu5////////////////////////////////AAAA
+AAAAHxSrIBS1Gg6wtbDlHxOyLiO27+757u35////////////////////UlJS
+AAAAf4BzVErTIRayJBmzEAOsJhu0JBmzCwCrAACi4+L1////////////3Nzc
+AAAAAAAA////7u76CwCqLiO3j4rYIRayJxy0VUzDUknD////////////////
+Ly8vAAAAt7e3////////hX3gEwa5p6PjNSq5NCq4////////////////////
+////GBgYAAAAPDw8b29va2tqbm5rBABBHxWsKyC4KyC2e3TRdG3Pb2fNysjs
+////////tLS0AAAAAAAAAAAAAAAAAAAAAAAAAAAaHBDAGAyvDgKsDgKsBgCp
+V0/F////////////4uLilZWVmZmZmpqampqampqakpKKmZTYnZjepqLgpaHf
+oJvd3dvz////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+////////////////
+</Image></Icon><UMLProfiles><UMLProfile profiletype="uml2">
+	<Documentation id="EB1CD9C4-7" name="SAF" version="1.0" alias="SAF" notes="SAF"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="extend" alias="extend" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UCExtend">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="include" alias="include" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UCInclude">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_AbstractItem" alias="Abstract Item" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true">
+				<AppliesTo>
+					<Apply type="Element"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Argument" alias="Argument" metatype="SAF_ClaimableItem" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_ClaimableItem" baseStereotypes="SAF_ClaimableItem SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ArgumentClaimSupport" constraint="SAF::SAF_Claim"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ArgumentClaimSupport" alias="Argument Claim Support" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Claim" alias="Claim" metatype="SAF_ClaimableItem" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_ClaimableItem" baseStereotypes="SAF_ClaimableItem SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ClaimAboutSubjectMaking" constraint="SAF::SAF_Subject"/>
+					<stereotypedrelationship stereotype="SAF::SAF_ClaimClaimableItemSupport" constraint="SAF::SAF_Argument;SAF::SAF_Claim;SAF::SAF_Evidence"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ClaimableItem" alias="Claimable Item" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ClaimAboutSubjectMaking" alias="Claim About Subject Making" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Claimant" alias="Claimant" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_ClaimableItem" baseStereotypes="SAF_ClaimableItem SysML1.4::Stakeholder">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ClaimantClaimMaking" constraint="SAF::SAF_Claim"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_Tag" value="1"/>
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="contact" type="" description="" unit="" values="" default=""/>
+					<Tag name="involvement" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SAF_ClaimantClaimMaking" alias="Claimant Claim Making" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ClaimClaimableItemSupport" alias="Claim Claimable Item Support" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ConceptualInterfaceDefinition" alias="Conceptual Interface Definition" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::InterfaceBlock" baseStereotypes="SysML1.4::InterfaceBlock">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ContextFunction" alias="Context Function" metatype="SAF_SystemFunction" instanceMode="Property" instanceType="SAF_FunctionAction" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_SystemProcess"/>
+				</metarelationships>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_CounterClaim" alias="Counter Claim" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_CounterClaimClaimableItemMaking" constraint="SAF::SAF_Argument;SAF::SAF_Claim;SAF::SAF_Evidence"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_CounterClaimClaimableItemMaking" alias="Counter Claim Claimable Item Making" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_DomainKind" alias="Domain Kind" metatype="SAF_DomainKind" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_DomainKindComposition" constraint="SAF::SAF_DomainKind"/>
+					<stereotypedrelationship stereotype="SAF::SAF_DomainKindDerivation" constraint="SAF::SAF_OperationalDomainKind"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_DomainKindComposition" alias="Domain Kind Composition" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Composition">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_DomainKindDerivation" alias="Domain Kind Derivation" metatype="SAF_DomainKindDerivation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Abstraction">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Evidence" alias="Evidence" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_ClaimableItem" baseStereotypes="SAF_ClaimableItem SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_EvidenceArgumentReinforcement" constraint="SAF::SAF_Argument"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_EvidenceArgumentReinforcement" alias="Evidence Argument Reinforcement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_FunctionAction" alias="Function Action" metatype="SAF_FunctionAction" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SysML1.4::allocate" constraint="SAF::SAF_LogicalContextRole;SAF::SAF_LogicalInternalRole;SAF::SAF_PhysicalElement"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Action">
+						<Property name="context" value=""/>
+						<Property name="effect" value=""/>
+						<Property name="kind" value="CallBehavior"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_InterfaceLayerMapping" alias="Interface Layer Mapping" instanceMode="Instance" instanceType="SysML1.4::block" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="AssociationClass">
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_InterfaceLayerRelationship" alias="Protocol Layer Relationship" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Connector">
+						<Property name="direction" value="Unspecified"/>
+						<Property name="kind" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalContext" alias="Logical Context" metatype="SAF_LogicalContext" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block"/>
+			<Stereotype name="SAF_LogicalContextElementActing" alias="Logical Context Element Acting" metatype="SAF_LogicalContextElementActing" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="compositionKind" value="none"/>
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalContextRole" alias="Logical Context Role" metatype="SAF_LogicalContextRole" instanceMode="Property" instanceType="SAF_LogicalContextRole" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<AppliesTo>
+					<Apply type="Part">
+						<Property name="isReference" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalElement" alias="Logical Element" metatype="SAF_LogicalElement" instanceMode="Property" instanceType="SAF_LogicalInternalRole" notes="" cx="0" cy="0" bgcolor="14481663" fontcolor="-1" bordercolor="42495" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_LogicalElement;SAF::SAF_LogicalSOI"/>
+				</metarelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalEnvironment" alias="Logical Environment" metatype="SAF_LogicalEnvironment" instanceMode="Property" instanceType="SAF_LogicalContextRole" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_LogicalContext"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ContextElementRepresentation" constraint="SAF::SAF_Stakeholder"/>
+					<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_SystemUseCase"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalExternalSystem" alias="Logical External System" metatype="SAF_LogicalExternalSystem" instanceMode="Property" instanceType="SAF_LogicalContextRole" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_LogicalContext"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ContextElementRepresentation" constraint="SAF::SAF_Stakeholder"/>
+					<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_SystemUseCase"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalInternalRole" alias="Logical Internal Role" metatype="SAF_LogicalInternalRole" instanceMode="Property" instanceType="SAF_LogicalInternalRole" notes="" cx="0" cy="0" bgcolor="14481663" fontcolor="-1" bordercolor="42495" borderwidth="2" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SysML1.4::allocate" constraint="SAF::SAF_PhysicalInternalRole"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Part">
+						<Property name="isReference" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalSOI" alias="Logical SOI" metatype="SAF_LogicalSOI" instanceMode="Property" instanceType="SAF_LogicalContextRole" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SAF_LogicalElement" baseStereotypes="SAF_LogicalElement SysML1.4::block">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_LogicalContext"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ContextElementRepresentation" constraint="SAF::SAF_Stakeholder"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogicalUser" alias="Logical User" metatype="SAF_LogicalUser" instanceMode="Property" instanceType="SAF_LogicalContextRole" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_LogicalContext"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_ContextElementRepresentation" constraint="SAF::SAF_Stakeholder"/>
+					<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_SystemUseCase"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalContext" alias="Physical Context" metatype="SAF_PhysicalContext" instanceMode="Property" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalContextRole" alias="Physical Context Role" metatype="SAF_PhysicalContextRole" instanceMode="Property" instanceType="SAF_PhysicalContextRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Part">
+						<Property name="isReference" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalElement" alias="Physical Element" metatype="SAF_PhysicalItem" instanceMode="Property" instanceType="SAF_PhysicalInternalRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalEnvrionment" alias="Physical Envrionment" metatype="SAF_PhysicalEnvrionment" instanceMode="Property" instanceType="SAF_PhysicalContextRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalExchangeType" alias="Physical Exchange Type" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalExternalSystem" alias="Physical External System" metatype="SAF_PhysicalExternalSystem" instanceMode="Property" instanceType="SAF_PhysicalContextRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalHardwareElement" alias="Physical Hardware Element" metatype="SAF_PhysicalItem" instanceMode="Property" instanceType="SAF_PhysicalInternalRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalInterfaceDefinition" alias="Physical Interface Definition" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::InterfaceBlock" baseStereotypes="SysML1.4::InterfaceBlock">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalInternalRole" alias="Physical Internal Role" metatype="SAF_PhysicalInternalRole" instanceMode="Property" instanceType="SAF_PhysicalInternalRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SAF_AbstractItem" baseStereotypes="SAF_AbstractItem">
+				<AppliesTo>
+					<Apply type="Part">
+						<Property name="isReference" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalItem" alias="Physical Item" metatype="SAF_PhysicalItem" instanceMode="Property" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" isAbstract="true" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalSoftwareElement" alias="Physical Software Element" metatype="SAF_PhysicalItem" instanceMode="Property" instanceType="SAF_PhysicalInternalRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalSystem" alias="Physical System" metatype="SAF_PhysicalSystem" instanceMode="Property" instanceType="SAF_PhysicalContextRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SAF_PhysicalItem" baseStereotypes="SAF_PhysicalItem SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_PhysicalUser" alias="Physical User" metatype="SAF_PhysicalUser" instanceMode="Property" instanceType="SAF_PhysicalContextRole" notes="" cx="0" cy="0" bgcolor="15794160" fontcolor="-1" bordercolor="3329330" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Refuter" alias="Refuter" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_Claimant" baseStereotypes="SAF_Claimant SysML1.4::Stakeholder">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_Tag" value="1"/>
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Subject" alias="Subject" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemCapability" alias="System Capability" metatype="SAF_SystemCapability" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityComposition" constraint="SAF::SAF_SystemCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityDependency" constraint="SAF::SAF_SystemCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityEnabling" constraint="SAF::SAF_OperationalCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilityGeneralization" constraint="SAF::SAF_SystemCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemCapabilitySupport" constraint="SAF::SAF_SystemUseCase"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemCapabilityComposition" alias="System Capability Composition" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Composition">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemCapabilityDependency" alias="System Capability Dependency" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemCapabilityEnabling" alias="System Capability Enabling" metatype="SAF_SystemCapabilityEnabling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemCapabilityGeneralization" alias="System Capability Generalization" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemCapabilitySupport" alias="System Capability Support" metatype="SAF_SystemCapabilitySupport" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemFunction" alias="System Function" metatype="SAF_SystemFunction" instanceMode="Property" instanceType="SAF_FunctionAction" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_SystemFunction;SAF::SAF_SystemProcess"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemFunctionEnabling" constraint="SAF::SAF_SystemCapability"/>
+					<stereotypedrelationship stereotype="SysML1.4::allocate" constraint="SAF::SAF_LogicalSOI"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemFunctionalRequirement" alias="System Functional Requirement" metatype="SAF_SystemFunctionalRequirement" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SAF_SystemRequirement" baseStereotypes="SAF_SystemRequirement">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemFunctionalRequirementConstraint" alias="System Functional Requirement Constraint" metatype="SAF_SystemFunctionalRequirementConstraint" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemFunctionalRequirementRefinement" alias="System Functional Requirement Refinement" metatype="SAF_SystemRequirementRefinement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::refine" baseStereotypes="SysML1.4::refine"/>
+			<Stereotype name="SAF_SystemFunctionEnabling" alias="System Function Enabling" metatype="SAF_SystemFunctionEnabling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemNonFunctionalRequirement" alias="System Non-Functional Requirement" metatype="SAF_SystemNonFunctionalRequirement" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SAF_SystemRequirement" baseStereotypes="SAF_SystemRequirement">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemFunctionalRequirementConstraint" constraint="SAF::SAF_SystemFunctionalRequirement"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemPartialFunction" alias="System Partial Function" metatype="SAF_SystemFunction" instanceMode="Property" instanceType="SAF_FunctionAction" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_SystemFunction"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SysML1.4::allocate" constraint="SAF::SAF_LogicalElement"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemProcess" alias="System Process" metatype="SAF_SystemFunction" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemProcessEnabling" constraint="SAF::SAF_SystemCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemProcessRefinement" constraint="SAF::SAF_SystemUseCase"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemProcessEnabling" alias="System Process Enabling" metatype="SAF_SystemProcessEnabling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemProcessRefinement" alias="System Process Refinement" metatype="SAF_SystemProcessRefinement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::refine" baseStereotypes="SysML1.4::refine"/>
+			<Stereotype name="SAF_SystemRequirement" alias="System Requirement" metatype="SAF_SystemRequirement" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0" generalizes="SysML1.4::extendedRequirement" baseStereotypes="SysML1.4::extendedRequirement">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemRequirementDerivation" constraint="SAF::SAF_StakeholderRequirement;SAF::SAF_SystemRequirement"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemRequirementRefinement" constraint="SAF::SAF_SystemCapability;SAF::SAF_SystemUseCase;SysML1.4::ProxyPort"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemRequirementDerivation" alias="System Requirement Derivation" metatype="SAF_SystemRequirementDerivation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::deriveReqt" baseStereotypes="SysML1.4::deriveReqt">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemRequirementRefinement" alias="System Requirement Refinement" metatype="SAF_SystemRequirementRefinement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::refine" baseStereotypes="SysML1.4::refine"/>
+			<Stereotype name="SAF_SystemUseCase" alias="System Use Case" metatype="SAF_SystemUseCase" notes="" cx="0" cy="0" bgcolor="16775408" fontcolor="-1" bordercolor="16760576" borderwidth="2" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_LogicalContextElementActing" constraint="SAF::SAF_LogicalEnvironment;SAF::SAF_LogicalExternalSystem;SAF::SAF_LogicalUser"/>
+					<stereotypedrelationship stereotype="SAF::SAF_SystemUseCaseEnabling" constraint="SAF::SAF_OperationalStory"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemUseCaseEnabling" alias="System Use Case Enabling" metatype="SAF_SystemUseCaseEnabling" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalCapability" alias="Operational Capability" metatype="SAF_OperationalCapability" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilityComposition" constraint="SAF::SAF_OperationalCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilityDependency" constraint="SAF::SAF_OperationalCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilityGeneralization" constraint="SAF::SAF_OperationalCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalCapabilitySupport" constraint="SAF::SAF_OperationalStory"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_ContextElementRepresentation" alias="Context Element Representation" metatype="SAF_ContextElementRepresentation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalCapabilityComposition" alias="Operational Capability Composition" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Composition">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalCapabilityDependency" alias="Operational Capability Dependency" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalCapabilityGeneralization" alias="Operational Capability Generalization" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Generalization">
+						<Property name="direction" value="Source -&gt; Destination"/>
+						<Property name="isSubstitutable" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalCapabilitySupport" alias="Operational Capability Support" metatype="SAF_OperationalCapabilitySupport" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalContext" alias="Operational Context" metatype="SAF_OperationalContext" instanceMode="Instance" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_LogDomainKind" alias="Logical Domain Kind" metatype="SAF_DomainKind" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SAF_DomainKind" baseStereotypes="SAF_DomainKind SysML1.4::block SysML1.4::ValueType">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalDomainKind" alias="Operational Domain Kind" metatype="SAF_OperationalDomainKind" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SAF_DomainKind" baseStereotypes="SAF_DomainKind">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalDomainKindComposition" constraint="SAF::SAF_OperationalDomainKind"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalDomainKindComposition" alias="Operational Domain Kind Composition" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Composition">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalPerformer" alias="Operational Performer" metatype="SAF_OperationalPerformer" instanceMode="Property" instanceType="SAF_OperationalContextRole" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::block" baseStereotypes="SysML1.4::block">
+				<metarelationships>
+					<metarelationship metaclass="Composition" constraint="SAF::SAF_OperationalContext"/>
+				</metarelationships>
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerActing" constraint="SAF::SAF_OperationalStory"/>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerComposition" constraint="SAF::SAF_OperationalPerformer"/>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerExhibit" constraint="SAF::SAF_OperationalCapability"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalPerformerActing" alias="Operational Performer Acting" metatype="SAF_OperationalPerformerActing" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="compositionKind" value="none"/>
+						<Property name="direction" value="Unspecified"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalPerformerComposition" alias="Operational Performer Composition" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Composition">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalPerformerExhibit" alias="Operational Performer Exhibit" metatype="SAF_OperationalPerformerExhibit" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalStakeholderRepresentation " alias="Operational Stakeholder Representation " metatype="SAF_OperationalStakeholderRepresentation " notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="compositionKind" value="none"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalProcess" alias="Operational Process" metatype="SAF_OperationalProcess" instanceMode="Property" instanceType="SAF_OperationalProcessAction" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalProcessEnabling" constraint="SAF::SAF_OperationalCapability"/>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalProcessRefinement" constraint="SAF::SAF_OperationalStory"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Activity">
+						<Property name="isReadOnly" value="false"/>
+						<Property name="isSingleExecution" value=""/>
+						<Property name="parameterName" value=""/>
+						<Property name="postcondition" value=""/>
+						<Property name="precondition" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalProcessAction" alias="Operational Process Action" metatype="SAF_OperationalProcessAction" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
+				<AppliesTo>
+					<Apply type="Action">
+						<Property name="context" value=""/>
+						<Property name="effect" value=""/>
+						<Property name="kind" value="CallBehavior"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalProcessEnabling" alias="Operational Process Enabling" metatype="SAF_OperationalProcessMapping" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalProcessRefinement" alias="Operational Process Refinement" metatype="SAF_OperationalProcessRefinement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalContextRole" alias="Operational Context Role" metatype="SAF_OperationalContextRole" instanceMode="Property" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
+				<AppliesTo>
+					<Apply type="Part">
+						<Property name="isReference" value="false"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalSketch" alias="Operational Sketch" instanceMode="Instance" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="1" hideicon="0" generalizes="EAUML::Image" baseStereotypes="EAUML::Image" redefines="EAUML::Image">
+				<AppliesTo>
+					<Apply type="Artifact">
+						<Property name="_Tag" value="1"/>
+						<Property name="fileName" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_OperationalStory" alias="Operational Story" metatype="SAF_OperationalStory" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalPerformerActing" constraint="SAF::SAF_OperationalPerformer"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_Stakeholder" alias="Stakeholder" metatype="SAF_Stakeholder" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::Stakeholder" baseStereotypes="SysML1.4::Stakeholder" redefines="SysML1.4::Stakeholder">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_OperationalStakeholderRepresentation " constraint="SAF::SAF_OperationalPerformer"/>
+					<stereotypedrelationship stereotype="SAF::SAF_StakeholderRelation" constraint="SAF::SAF_Stakeholder;SAF::SAF_Stakeholder"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_Tag" value="1"/>
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="concernList"/>
+				</TaggedValues>
+				<RemovedProperties>
+					<RemovedProperty name="concern" description=""/>
+				</RemovedProperties>
+			</Stereotype>
+			<Stereotype name="SAF_StakeholderRelation" alias="Stakeholder Relation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="compositionKind" value="none"/>
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_StakeholderRequirement" alias="Stakeholder Requirement" metatype="SAF_StakeholderRequirement" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0" generalizes="SysML1.4::extendedRequirement" baseStereotypes="SysML1.4::extendedRequirement">
+				<stereotypedrelationships>
+					<stereotypedrelationship stereotype="SAF::SAF_StakeholderRequirementImposition" constraint="SAF::SAF_Stakeholder"/>
+					<stereotypedrelationship stereotype="SAF::SAF_StakeholderRequirementProvision" constraint="SAF::SAF_Stakeholder"/>
+					<stereotypedrelationship stereotype="SAF::SAF_StakeholderRequirementRefinement" constraint="SAF::SAF_OperationalCapability;SAF::SAF_OperationalStory;SAF::SAF_SystemOfInterestConcern"/>
+				</stereotypedrelationships>
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_StakeholderRequirementImposition" alias="Stakeholder Requirement Imposition" metatype="SAF_StakeholderRequirementImposition" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_StakeholderRequirementRefinement" alias="Stakeholder Requirement Refinement" metatype="SAF_StakeholderRequirementRefinement" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="SysML1.4::refine" baseStereotypes="SysML1.4::refine">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SAF_SystemOfInterestConcern" alias="System Of Interest Concern" metatype="SAF_SystemOfInterestConcern" notes="" cx="0" cy="0" bgcolor="16443110" fontcolor="-1" bordercolor="13434880" borderwidth="2" hideicon="0">
+				<AppliesTo>
+					<Apply type="Artifact">
+						<Property name="_Tag" value="1"/>
+						<Property name="fileName" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes>
+			<TaggedValueType property="concernList" description="" notes="Type=RefGUIDList;Stereotypes=SAF_SystemOfInterestConcern;"/>
+		</TaggedValueTypes>
+		<ViewDefinitions>
+			<View name="SCV02a_ArgumentationAssuranceView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_Argument;SAF::SAF_ArgumentClaimSupport;SAF::SAF_Claim;SAF::SAF_ClaimAboutSubjectMaking;SAF::SAF_Claimant;SAF::SAF_ClaimantClaimMaking;SAF::SAF_ClaimClaimableItemSupport;SAF::SAF_CounterClaim;SAF::SAF_CounterClaimClaimableItemMaking;SAF::SAF_Evidence;SAF::SAF_EvidenceArgumentReinforcement;SAF::SAF_Refuter;SAF::SAF_Subject"/>
+				</view>
+			</View>
+			<View name="SFV01a_SystemUseCaseView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::UseCase"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::include;SAF::SAF_LogicalContext;SAF::SAF_LogicalContextElementActing;SAF::SAF_LogicalEnvironment;SAF::SAF_LogicalExternalSystem;SAF::SAF_LogicalUser;SAF::SAF_SystemUseCase;SAF::SAF_SystemUseCaseEnabling"/>
+				</view>
+			</View>
+			<View name="SFV01b_SystemContextDefinitionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Composition;SAF::SAF_LogicalContext;SAF::SAF_LogicalEnvironment;SAF::SAF_LogicalExternalSystem;SAF::SAF_LogicalSOI;SAF::SAF_LogicalUser;SysML1.4::InternalBlock;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SFV01c_SystemContextExchangeView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::InternalBlock"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Connector;SAF::SAF_ConceptualInterfaceDefinition;SysML1.4::itemFlow;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SFV02a_SystemDomainKindView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Association;Enumeration;Generalization;SAF::SAF_DomainKind;SAF::SAF_DomainKindComposition;SAF::SAF_DomainKindDerivation;SysML1.4::ValueType"/>
+				</view>
+			</View>
+			<View name="SFV02b_SystemCapabilityView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_SystemCapability;SAF::SAF_SystemCapabilityComposition;SAF::SAF_SystemCapabilityDependency;SAF::SAF_SystemCapabilityEnabling;SAF::SAF_SystemCapabilityGeneralization"/>
+				</view>
+			</View>
+			<View name="SFV02c_SystemFunctionalBreakdownStructureView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Composition;SAF::SAF_ContextFunction;SAF::SAF_SystemFunction;SAF::SAF_SystemPartialFunction;SAF::SAF_SystemProcess"/>
+				</view>
+			</View>
+			<View name="SFV03a_SystemProcessView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Activity"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Action;Action;ActionPin;ActivityFinal;ActivityInitial;ControlFlow;Decision;FlowFinalNode;ForkNode;InterruptFlow;InterruptibleActivityRegion;MergeNode;ObjectFlow;SAF::SAF_FunctionAction;SysML1.4::allocateActivityPartition;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SFV03b_SystemStateMachineView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::StateMachine"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Choice;EntryPoint;ExitPoint;FinalState;InitialState;Signal;State;StateMachine;SynchState;Terminate;Transition;Trigger"/>
+				</view>
+			</View>
+			<View name="SFV03c_SystemFunctionalRefinementView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Activity"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="ActionPin;ActivityFinal;ActivityInitial;ControlFlow;Decision;Decision;FlowFinalNode;ForkNode;InterruptFlow;InterruptibleActivityRegion;MergeNode;ObjectFlow;SAF::SAF_FunctionAction;SysML1.4::allocate;SysML1.4::allocateActivityPartition;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SFV04a_SystemContextInteractionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Sequence"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Interaction;InteractionFragment;Lifeline;Message;SAF::SAF_LogicalContextRole;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SFV05a_SystemInterfaceDefinitionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_ConceptualInterfaceDefinition;SysML1.4::flowProperty;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SFV06a_SystemRequirementView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Requirement"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_SystemFunctionalRequirement;SAF::SAF_SystemFunctionalRequirementConstraint;SAF::SAF_SystemNonFunctionalRequirement;SAF::SAF_SystemRequirement;SAF::SAF_SystemRequirementDerivation"/>
+				</view>
+			</View>
+			<View name="SFV08a_SystemCapabilityMappingView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::EAMatrixSpecification;EAUML::ModelView;SAF::SAF_SystemCapabilityEnabling;SAF::SAF_SystemCapabilitySupport;SAF::SAF_SystemFunctionEnabling;SAF::SAF_SystemProcessEnabling;SAF::SAF_SystemRequirementRefinement"/>
+				</view>
+			</View>
+			<View name="SFV08b_SystemRequirementTraceabilityView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Requirement"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::EAMatrixSpecification;EAUML::ModelView;SAF::SAF_SystemFunctionalRequirementConstraint;SAF::SAF_SystemFunctionalRequirementRefinement;SAF::SAF_SystemProcessRefinement;SAF::SAF_SystemRequirementDerivation;SAF::SAF_SystemRequirementRefinement"/>
+				</view>
+			</View>
+			<View name="SLV02a_LogicalStructureView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Composition;Enumeration;SAF::SAF_LogicalElement;SysML1.4::ProxyPort;SysML1.4::ValueType"/>
+				</view>
+			</View>
+			<View name="SLV04a_LogicalInternalInteractionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Sequence"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Interaction;InteractionFragment;Lifeline;Message;SAF::SAF_LogicalInternalRole;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SLV04b_LogicalInternalExchangeView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::InternalBlock"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Connector;Connector;SAF::SAF_ConceptualInterfaceDefinition;SAF::SAF_DomainKind;SAF::SAF_LogicalInternalRole;SysML1.4::BindingConnector;SysML1.4::itemFlow;SysML1.4::itemFlow;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SLV08a_LogicalFunctionalMappingView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::EAMatrixSpecification;EAUML::ModelView;SysML1.4::allocate"/>
+				</view>
+			</View>
+			<View name="SPV01b_PhysicalContextDefinitionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Composition;SAF::SAF_PhysicalContext;SAF::SAF_PhysicalEnvrionment;SAF::SAF_PhysicalExternalSystem;SAF::SAF_PhysicalSystem;SAF::SAF_PhysicalUser"/>
+				</view>
+			</View>
+			<View name="SPV01c_PhysicalContextExchangeView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::InternalBlock"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Connector;SAF::SAF_InterfaceLayerRelationship;SAF::SAF_PhysicalContextRole;SAF::SAF_PhysicalExchangeType;SysML1.4::itemFlow;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SPV02a_PhysicalStructureView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Composition;SAF::SAF_PhysicalElement;SAF::SAF_PhysicalHardwareElement;SAF::SAF_PhysicalItem;SAF::SAF_PhysicalSoftwareElement;SAF::SAF_PhysicalSystem;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SPV04a_PhysicalInternalExchangeView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::InternalBlock"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Connector;SAF::SAF_PhysicalElement;SAF::SAF_PhysicalExchangeType;SAF::SAF_PhysicalInterfaceDefinition;SysML1.4::BindingConnector;SysML1.4::itemFlow;SysML1.4::ProxyPort"/>
+				</view>
+			</View>
+			<View name="SPV05a_PhysicalInterfaceDefinitionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Enumeration;SAF::SAF_InterfaceLayerMapping;SAF::SAF_InterfaceLayerRelationship;SAF::SAF_PhysicalInterfaceDefinition;SysML1.4::FlowProperty;SysML1.4::ProxyPort;SysML1.4::ValueType"/>
+				</view>
+			</View>
+			<View name="SPV08a_PhysicalLogicalMappingView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::EAMatrixSpecification;EAUML::ModelView;SysML1.4::allocate"/>
+				</view>
+			</View>
+			<View name="SPV08b_PhysicalFunctionalMappingView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::ModelView"/>
+				</view>
+			</View>
+			<View name="SOV01a_OperationalStoryView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::UseCase"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_OperationalPerformer;SAF::SAF_OperationalPerformerActing;SAF::SAF_OperationalSketch;SAF::SAF_OperationalStory"/>
+				</view>
+			</View>
+			<View name="SOV01b_OperationalContextDefinitionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Composition;SAF::SAF_OperationalContext;SAF::SAF_OperationalPerformer"/>
+				</view>
+			</View>
+			<View name="SOV01c_OperationalContextExchangeView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::InternalBlock"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Connector;SAF::SAF_OperationalDomainKind;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SOV02a_OperationalDomainKindView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="Enumeration;SAF::SAF_OperationalDomainKind;SAF::SAF_OperationalDomainKindComposition;SysML1.4::ValueType"/>
+				</view>
+			</View>
+			<View name="SOV02b_OperationalPerformerView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_OperationalPerformer;SAF::SAF_OperationalPerformerComposition;SAF::SAF_OperationalStakeholderRepresentation ;SAF::SAF_Stakeholder"/>
+				</view>
+			</View>
+			<View name="SOV02c_OperationalCapabilityView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_OperationalCapability;SAF::SAF_OperationalCapabilityComposition;SAF::SAF_OperationalCapabilityDependency;SAF::SAF_OperationalCapabilityGeneralization"/>
+				</view>
+			</View>
+			<View name="SOV02d_StakeholderIdentificationView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_ContextElementRepresentation;SAF::SAF_Stakeholder;SAF::SAF_StakeholderRelation;SAF::SAF_SystemOfInterestConcern"/>
+				</view>
+			</View>
+			<View name="SOV03a_OperationalProcessView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Activity"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="ActionPin;ActivityFinal;ActivityInitial;ControlFlow;Decision;FlowFinalNode;ForkNode;InterruptFlow;InterruptibleActivityRegion;MergeNode;ObjectFlow;SAF::SAF_OperationalProcessAction;SysML1.4::allocateActivityPartition;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SOV04a_OperationalInteractionView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Sequence"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="InteractionFragment;Lifeline;Message;SAF::SAF_OperationalContextRole;SysML1.4::itemFlow"/>
+				</view>
+			</View>
+			<View name="SOV06a_StakeholderRequirementView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::Requirement"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="SAF::SAF_StakeholderRequirement;SAF::SAF_StakeholderRequirementImposition;SAF::SAF_StakeholderRequirementRefinement"/>
+				</view>
+			</View>
+			<View name="SOV08a_OperationalCapabilityMappingView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::EAMatrixSpecification;EAUML::ModelView;SAF::SAF_OperationalCapabilityDependency;SAF::SAF_OperationalCapabilityGeneralization;SAF::SAF_OperationalCapabilitySupport;SAF::SAF_OperationalPerformerExhibit;SAF::SAF_OperationalProcessEnabling;SAF::SAF_StakeholderRequirementRefinement"/>
+				</view>
+			</View>
+			<View name="SOV08b_OperationalProcessMappingView" notes="">
+				<appliesto>
+					<diagrams constraint="SysML1.4::BlockDefinition"/>
+				</appliesto>
+				<view>
+					<group name="" constraint="EAUML::EAMatrixSpecification;EAUML::ModelView;SAF::SAF_OperationalProcessEnabling;SAF::SAF_OperationalProcessRefinement"/>
+				</view>
+			</View>
+		</ViewDefinitions>
+		<Metamodel/>
+	</Content>
+</UMLProfile></UMLProfiles></MDG.Technology>
