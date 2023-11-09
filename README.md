@@ -1,4 +1,4 @@
-![image](https://github.com/GfSE/SAF-EA-Profile/assets/67798361/30163a82-4f52-4425-9720-36204bbff7d4)# Sparx Systems Enterprise Architect Repository
+# Sparx Systems Enterprise Architect Repository
 The repository features the EA **SAF Profile** as MDG Technology with supplemental material. The SAF profile is intended to be used with EA 16 and EA’s SysML1.5 MDG.
 
 # safMDG.xml
