@@ -7,8 +7,12 @@ System Architecture Framework Profile has been created by the SAF Working Group 
 # How to use safMDG
 Download the safMDG.xml, import and activate the MDG by considering the following [step-by-stype guide](https://sparxsystems.com/enterprise_architect_user_guide/16.0/modeling_frameworks/access_remote_mdg_technologies.html).
 
+![Enable the SAF Profile](/pics/mdg.png)
+
 # How to establish a view based on a SAF Viewpoint
 SAF Viewpoints are realised by EA view specifications based on SysML. Therefore, the view can be established easily by creating a diagram, select SAF, the according SysML base diagram and select the demanded view specification e.g. Activity >>> SAF::SFV03a_SystemProcessView. Within the view specification which applies to a diagram all relevant SAF stereotypes are available and the particular viewpoint linking rules apply.
+
+![Apply a VP](/pics/view_spec.png)
 
 # How to use the SQL Queries
 The SAF profile contains multiple queries helping to manage your traceability in your model (SxV08 aspect Mapping). Please note that all queries are developed for qea files / DBMS. The queries do not work for local eap(x) files (JET 4 Engine).
@@ -25,3 +29,5 @@ The following queries are available:
 * **SPV08a_PhysicalLogicalMapping_Internal** -  derives allocations between white-box Logical Elements to (Phyiscal Elements, Physical Software Elements or Physical Hardware Elements), based on allocation among instances. The query considers elements without a link as well.
 * **SPV08b_PhysicalFunctionalMapping_Context** - derives 2-step allocations between black-box (System Functions or Context Functions) to (Phyiscal System, Physical External System, Physical Environment or Physical User) via (Logical SOI, Logical External System, Logical Environment or Logical User), based on allocation or partitions (call behavior within activity partitions) among instances. The query considers elements without a link as well.
 * **SPV08b_PhysicalFunctionalMapping_Internal** - derives 2-step allocations between white-box System Partial Functions to (Phyiscal Elements, Physical Software Elements or Physical Hardware Elements) via Logical Elements, based on allocation or partitions (call behavior within activity partitions) among instances. The query considers elements without a link as well.
+
+![SQL Query](/pics/queries.png)
