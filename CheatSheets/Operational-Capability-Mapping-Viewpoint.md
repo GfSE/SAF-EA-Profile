@@ -1,4 +1,5 @@
 # SOV08a Operational Capability Mapping VP
+[>>> back to cheat sheet overview](../CheatSheet.md)
 
 ## Purpose
 The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
