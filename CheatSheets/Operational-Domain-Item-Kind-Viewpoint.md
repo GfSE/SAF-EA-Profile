@@ -29,3 +29,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * For a common understanding of the different Operational Domain Kinds, it is helpful to provide written information on it. This is best done through a rationale for each Operational Domain Kind.
 * There should only be one Operational Domain Item Kind Viewpoint for the overall project.
 * For overview purposes it is recommended to display the diagram in specification view.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
