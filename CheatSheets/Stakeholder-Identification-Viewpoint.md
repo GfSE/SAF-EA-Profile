@@ -12,7 +12,7 @@ The Stakeholder Identification Viewpoint of the operational domain strives to id
 * From external: External domain experts (e.g. legal, standardization, quality…) need to be represented by Stakeholders.
 
 **Step-by-Step Guide:**
-1.	1.	Create a new Stakeholder Identification Diagram in the dedicated package in your model as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV02d_StakeholderIdentificationView.
+1.	Create a new Stakeholder Identification Diagram in the dedicated package in your model as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV02d_StakeholderIdentificationView.
 2.	Create a Stakeholder on the diagram.
 If the Stakeholder has an interest in the System of Interest, create the System of Interest Concern on the diagram and select the System of Interest Concern in the Stakeholder’s concern list in the property page. If the Stakeholder has multiple concerns press ctrl while selecting the elements.
 3.	If the Stakeholder is directly involved in the System of Interest (as an end user or representative) connect the Stakeholder and the System of Interest with the Stakeholder Involvement stereotype.
