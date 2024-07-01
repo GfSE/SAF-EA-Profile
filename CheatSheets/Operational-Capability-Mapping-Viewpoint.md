@@ -8,23 +8,23 @@ The Operational Capability Mapping Viewpoint describes the relationships of Oper
 ![SOV08a](../pics/SOV08a-example1.png)
 
 ## Workflow
-Viewpoint Input:
-* SAF_OperationalCapability from SOV02c for traceability purposes.
-* SAF_OperationalPerformer from SOV02b for traceability purposes.
-* SAF_OperationalStory from SOV01a for traceability purposes.
+**Viewpoint Input:**
+* SAF_OperationalCapability from [SOV02c](Operational-Capability-Viewpoint.md) for traceability purposes.
+* SAF_OperationalPerformer from [SOV02b](Operational-Performer-Viewpoint.md) for traceability purposes.
+* SAF_OperationalStory from [SOV01a](Operational-Story-Viewpoint.md) for traceability purposes.
 
-Step-by-Step Guide:
-1.	Create an Operational Capability Traceability diagram as specialized SysML 1.5 Block Definition Diagram with Add Diagram > SAF > BlockDefinition > SAF::SOV08b_OperationalCapabilityTraceabilityView.
+**Step-by-Step Guide:**
+1.	Create an Operational Capability Traceability diagram as specialized [SysML 1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV08b_OperationalCapabilityTraceabilityView.
 2.	Create (and maintain) a matrix specification to link Operational Capabilities to Operational Stories with the following configuration using the Operational Capability Support stereotype. 
 3.	Create (and maintain) a matrix specification to link Operational Performer to Operational Capabilities with the following configuration using the Operational Performer Exhibit stereotype.
 4.	Use the SAF standard search for the current traceability/mapping report by pressing Ctrl+F > SAF > SOV08a_OperationalCapabilityMapping.
-Viewpoint Output:
+
+**Viewpoint Output:**
 * External: Traceability supports the quality control of the model, showing “lose ends” or inconsistencies. Also, it supports impact analyses for change management and assessments.
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapability)
-
 * [SAF_OperationalCapabilityComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityComposition)
 * [SAF_OperationalCapabilityDependency](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityDependency)
 * [SAF_OperationalCapabilityGeneralization](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityGeneralization)
