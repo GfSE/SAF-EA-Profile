@@ -17,6 +17,8 @@ Available quick sheets:
 * [SOV01b Operational Context Definition Viewpoint](CheatSheets/Operational-Context-Definition-Viewpoint.md)
 * [SOV01c Operational Context Exchange Viewpoint](CheatSheets/Operational-Context-Exchange-Viewpoint.md)
 
+* [SOV02a Operational Domain Item Kind Viewpoint](CheatSheets/Operational-Domain-Item-Kind-Viewpoint.md)
+
 ## Viewpoints Functional Domain
 
 The SAF Functional Domain assumes a conceptual black box perspective onto the system to be developed. It translates Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
