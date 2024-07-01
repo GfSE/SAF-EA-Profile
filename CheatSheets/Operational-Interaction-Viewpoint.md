@@ -4,6 +4,7 @@
 The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. Note: The Operational Interaction Viewpoint may refine an Operational Story.
 
 ## Example
+![SOV04a](../pics/SOV04a-example.png)
 
 ## Workflow
 Viewpoint Input:
