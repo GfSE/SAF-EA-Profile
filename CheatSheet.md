@@ -14,6 +14,7 @@ The SAF Operational Domain aims to get an understanding of required organization
 
 Available quick sheets:
 * [SOV01a Operational Story Viewpoint](Operational-Story-Viewpoint.md)
+* [SOV01b Operational Context Definition Viewpoint](Operational-Context-Definition-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
