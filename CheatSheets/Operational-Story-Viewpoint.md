@@ -8,7 +8,7 @@ The Operational Story Viewpoint
 * fosters the communication among different Stakeholders
 
 ## Example
-![SOV01a](pics/SOV01a-example.png)
+![SOV01a](../pics/SOV01a-example.png)
 
 ## Workflow
 Viewpoint Input:
