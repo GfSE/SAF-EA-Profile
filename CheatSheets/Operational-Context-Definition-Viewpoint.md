@@ -4,6 +4,7 @@
 The Operational Context Definition Viewpoint provides the operational contexts and the involved operational performers necessary to support a specific set of operational capabilities.
 
 ## Example
+![SOV01b](../pics/SOV01b-example.png)
 
 ## Workflow
 Viewpoint Input:
