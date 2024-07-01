@@ -19,6 +19,7 @@ Available quick sheets:
 * [SOV02a Operational Domain Item Kind Viewpoint](CheatSheets/Operational-Domain-Item-Kind-Viewpoint.md)
 * [SOV02b Operational Performer Viewpoint](CheatSheets/Operational-Performer-Viewpoint.md)
 * [SOV02c Operational Capability Viewpoint](CheatSheets/Operational-Capability-Viewpoint.md)
+* [SOV02d Stakeholder Identification Viewpoint](CheatSheets/Stakeholder-Identification-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
