@@ -7,17 +7,17 @@ The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and
 ![SOV02a](../pics/SOV02a-example.png)
 
 ## Workflow
-Viewpoint Input:
+**Viewpoint Input:**
 * N/A
 
-Step-by-Step Guide:
-1.	Create a new Operational Domain Kind diagram as specialized SysML1.5 Block Definition Diagram with Add Diagram > SAF > BlockDefinition > SAF_SOV02a_OperationalDomainKindView.
+**Step-by-Step Guide:**
+1.	Create a new Operational Domain Kind diagram as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF_SOV02a_OperationalDomainKindView.
 2.	Create new Operational Domain Kind which is required to describe an exchange of information, energy, or material between Operational Roles.
 3.	If needed, you can formalize the Domain Kind attributes with value types or enumerations.
 4.	If needed, you can establish an Operational Domain Kind Composition relationship between two Operational Domain Kinds. Please note that the composition must be set from parent to child.
 
-Viewpoint Output:
-* Operational Domain Items Kinds as item to exchange in operational context exchanges (SOV01c), operational processes (SOV03a) or operational interactions (SOV04a).
+**Viewpoint Output:**
+* Operational Domain Items Kinds as item to exchange in operational context exchanges [SOV01c](Operational-Context-Exchange-Viewpoint.md), operational processes [SOV03a](Operational-Process-Viewpoint.md) or operational interactions [SOV04a](Operational-Interaction-Viewpoint.md).
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
