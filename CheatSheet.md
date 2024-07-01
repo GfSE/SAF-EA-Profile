@@ -21,6 +21,7 @@ Available quick sheets:
 * [SOV02c Operational Capability Viewpoint](CheatSheets/Operational-Capability-Viewpoint.md)
 * [SOV02d Stakeholder Identification Viewpoint](CheatSheets/Stakeholder-Identification-Viewpoint.md)
 * [SOV03a Operational Process Viewpoint](CheatSheets/Operational-Process-Viewpoint.md)
+* [SOV04a Operational Interaction Viewpoint](CheatSheets/Operational-Interaction-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
