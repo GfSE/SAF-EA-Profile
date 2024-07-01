@@ -7,18 +7,18 @@ The Operational Performer Viewpoint represents the taxonomy of the identified Op
 ![SOV02b](../pics/SOV02b-example.png)
 
 ## Workflow
-Viewpoint Input:
+**Viewpoint Input:**
 * N/A
 
-Step-by-Step Guide:
-1.	Create a new Operational Performer Diagram in the dedicated package in your model as specialized SysML1.5 Block Definition Diagram with Add Diagram > SAF > BlockDefinition > SAF::SOV02b_OperationalPerformerView.
+**Step-by-Step Guide:**
+1.	Create a new Operational Performer Diagram in the dedicated package in your model as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV02b_OperationalPerformerView.
 2.	Drag and drop already identified Operational Performer or create new items on the diagram.
 3.	If needed, you can establish an Operational Performer Composition relationship between two Operational Performer. Please note that the composition must be set from parent to child.
 4.	Drag and drop already identified Operational Performer or create new Stakeholder on the diagram
 5.	Link the Stakeholder(s) to the Operational Performer which it represents with the Operational Stakeholder Representation stereotype.
 
-Viewpoint Output:
-* Operational Performer are acting in operational stories (SOV01a), are part of an operational context (SOV01b) and are represented by stakeholder (SOV02d).
+**Viewpoint Output:**
+* Operational Performer are acting in operational stories [SOV01a](Operational-Story-Viewpoint.md), are part of an operational context [SOV01b](Operational-Context-Definition-Viewpoint.md) and are represented by stakeholder [SOV02d](Stakeholder-Identification-Viewpoint.md).
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
