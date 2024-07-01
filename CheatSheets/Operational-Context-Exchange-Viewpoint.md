@@ -35,3 +35,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 *	It is possible to create several Operational Context Exchange views for one Operational Context. This can be helpful to focus the Operational Context Exchange Viewpoint on specific issues or situations within the Operational Context.
 *	The Exchanges should incorporate everything that is actually exchanged between Operational Performers within the given Operational Context and the scope of the Operational Context Exchange Viewpoint. If the Viewpoint gets too confusing, it can help to color code different types of exchange Item Flows (e.g. material flow, energy flow, information flow).
 *	When there is a specific Operational Domain Kind missing to type an exchange, it should be created in SAF SOV02a Operational Domain Item Kind Viewpoint before being used in this viewpoint.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
