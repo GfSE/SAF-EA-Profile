@@ -38,3 +38,5 @@ For other notation elements which are exposed in the viewpoint, consider UML/Sys
 * Operational Process Actions have to be broken down until they can be unambiguously assigned to single Operational Roles.
 * If the focus of the modeling activity is to describe the interaction between the different performers and not on the flow of activities, it is recommended to use an Operational Interaction diagram instead.
 * A consistency between Operational Processes and Operational Capabilities has to be ensured if both are defined in a project.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
