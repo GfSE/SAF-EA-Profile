@@ -27,6 +27,7 @@ In case additional Operational Performer are identified here, add the Operationa
 
 Viewpoint Output:
 * Operational Stories which represents scenarios / vignettes to be refined further by SOV03a or SOV04a.
+* Operational Stories can be referenced in SFV01a to highlight that System Use Cases contribute to Operational Stories accordingly.
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
