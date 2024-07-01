@@ -1,5 +1,4 @@
 # SOV08a Operational Capability Mapping VP
-[>>> back to cheat sheet overview](../CheatSheet.md)
 
 ## Purpose
 The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
@@ -42,3 +41,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * There is not automatic tool support to ensure that the sum of all Operational Capabilities linked to one Operational Story fully cover this story. Thorough reviews are required to ensure this coverage.
 * If the Viewpoint SAF SOV02c Operational Capability is not utilized in a project, then no dependency matrix between Operational Capabilities and Operational Stories has to be established.
 * The traceability between Operational Capabilities and Operational Performer is not an allocation. Thus, it is not required to decompose an Operational Capabilities to map the sub-capability to an Operational Performer.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
