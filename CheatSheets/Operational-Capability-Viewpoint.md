@@ -28,3 +28,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 ## General Recommendations and Pitfalls
 * It is not necessarily required to define Operational Capabilities for a project. However, there are other frameworks (such as UAF) that integrate this step and build further development on these capabilities. If Operational Capabilities are used in the development process, they should be defined as per this viewpoint.
 *	It is important to link Operational Capabilities to Operational Stories, Operational Interactions and/or Operational Processes to aide ensuring that the sum of the linked Operational Capabilities fully realize these. This process is not automized and not supported by the tool but must be ensured through reviews. Please note also SOV08b.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
