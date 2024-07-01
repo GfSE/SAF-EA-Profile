@@ -29,3 +29,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * If Operational Performers are added to the model while working on other viewpoints, they are not automatically added to the Operational Performer diagram. In such a case, they must be added manually (see workflow description).
 * For better understanding for everyone involved in modeling, it is recommended to add descriptions to the Operational Performer “Text” attribute for each Operational Performer.
 * For overview purposes the diagram can be displayed in specification view.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
