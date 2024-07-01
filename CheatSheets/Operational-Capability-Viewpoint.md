@@ -7,16 +7,16 @@ The Operational Capability Viewpoint defines a taxonomy of Capabilities from a S
 ![SOV02c](../pics/SOV02c-example.png)
 
 ## Workflow
-Viewpoint Input:
+**Viewpoint Input:**
 * N/A
 
-Step-by-Step Guide:
-1.	Create a new Operational Capability Diagram in the dedicated package in your model as specialized SysML1.5 Block Definition Diagram with Add Diagram > SAF > BlockDefinition > SAF::SOV02c_OperationalCapabilityView.
+**Step-by-Step Guide:**
+1.	Create a new Operational Capability Diagram in the dedicated package in your model as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV02c_OperationalCapabilityView.
 2.	Add new Operational Capabilities on the diagram.
 3.	Define Operational Capability Composition, Generalization and Dependencies between them. Please note that the composition must be set from parent to child.
 
-Viewpoint Output:
-* Operational Capabilities are in input for Stakeholder Requirements (SOV06a) and System Capabilities (SFV02b) which are contributing to Operational Capabilities.
+**Viewpoint Output:**
+* Operational Capabilities are in input for Stakeholder Requirements [SOV06a](Stakeholder-Requirements-Viewpoint.md) and System Capabilities [SFV02b](Operational-Performer-Viewpoint.md) which are contributing to Operational Capabilities.
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
