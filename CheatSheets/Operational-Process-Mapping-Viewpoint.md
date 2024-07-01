@@ -4,6 +4,8 @@
 The Operational Process Mapping Viewpoint describes the relationships of Operational Processes. The reasoning for Operational Processes from Operational Stories and their contribution to Capabilities is described. The assignment of Operational Processes to Operational Performers is captured.
 
 ## Example
+![SOV08b](../pics/SOV08b-example1.png)
+![SOV08b](../pics/SOV08b-example2.png)
 
 ## Workflow
 Viewpoint Input:
