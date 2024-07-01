@@ -4,6 +4,7 @@
 The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and collects type definitions for any exchanged item of the Operational Domain. Its purpose is to define these item types and their relationships.
 
 ## Example
+![SOV02a](../pics/SOV02a-example.png)
 
 ## Workflow
 Viewpoint Input:
