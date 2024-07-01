@@ -16,8 +16,8 @@ Available quick sheets:
 * [SOV01a Operational Story Viewpoint](CheatSheets/Operational-Story-Viewpoint.md)
 * [SOV01b Operational Context Definition Viewpoint](CheatSheets/Operational-Context-Definition-Viewpoint.md)
 * [SOV01c Operational Context Exchange Viewpoint](CheatSheets/Operational-Context-Exchange-Viewpoint.md)
-
 * [SOV02a Operational Domain Item Kind Viewpoint](CheatSheets/Operational-Domain-Item-Kind-Viewpoint.md)
+* [SOV02b Operational Performer Viewpoint](CheatSheets/Operational-Performer-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
