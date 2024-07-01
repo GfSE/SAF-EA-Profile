@@ -7,20 +7,20 @@ The Operational Interaction Viewpoint describes single threads of interaction be
 ![SOV04a](../pics/SOV04a-example.png)
 
 ## Workflow
-Viewpoint Input:
-* Operational Story from SOV01a which need a refinement
-* Operational Roles from SOV01b which perform actions.
-* Operational Domain Item Kinds as object flows between the actions.
+**Viewpoint Input:**
+* Operational Story from [SOV01a](Operational-Story-Viewpoint.md) which need a refinement
+* Operational Roles from [SOV01b](Operational-Context-Definition-Viewpoint.md) for life-lines.
+* Operational Domain Item Kinds from [SOV02a](Operational-Domain-Item-Kind-Viewpoint.md) as object flows between the life-lines.
 
-Step-by-Step Guide:
+**Step-by-Step Guide:**
 1.	Create an Operational Process item in the dedicated package in your model to formalize an Operational Story or to expose a scenario.
-2.	Create a new SAF Operational Interaction diagram for the new Operational Process - right-click on the Operational Process, select New Child Diagram > Add Diagram > SAF > Sequence > SAF::SOV04a_OperationalInteractionView
+2.	Create a new SAF Operational Interaction diagram as [SysML 1.5 sequence diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/sysml-seq-diagram.html) for the new Operational Process - right-click on the Operational Process, select New Child Diagram > Add Diagram > SAF > Sequence > SAF::SOV04a_OperationalInteractionView
 3.	Drag and drop Operational Roles onto the diagram which are involved in the interaction.
 4.	Define the sequence in the interaction with messages and fragments.
 5.	Select the message > right-click on the Connector > Advanced > Information Flow Realized > Select the available Operational Domain Kind(s)
 
-Viewpoint Output:
-* Stakeholder Requirements (SOV06a) can be elicit from the interaction
+**Viewpoint Output:**
+* Stakeholder Requirements [SOV06a](Stakeholder-Requirements-Viewpoint.md) can be elicit from the interaction
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
