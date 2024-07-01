@@ -11,11 +11,11 @@ The Operational Story Viewpoint
 ![SOV01a](../pics/SOV01a-example.png)
 
 ## Workflow
-Viewpoint Input:
+**Viewpoint Input:**
 * SAF_OperationalPerformer from [SOV02b](Operational-Performer-Viewpoint.md).
 * Illustration - The operational story contents and the foundations for the sketches and the performer illustrations are created with the assistance of product experts
 
-Step-by-Step Guide:
+**Step-by-Step Guide:**
 1.	Establish a dedicated package in your model for Operational Stories
 2.	Create a SAF Operational Story Diagram as specialized [SysML1.5 Use Case Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/guide_books/sysml-uc-dgms.html) for your operational stories in your package with Add Diagram > SAF > UseCase > SAF::SOV01a_OperationalStoryView.
 3.	Design a meaningful illustration of the operational events, performer und processes as a picture file and add the file as image asset (specialized artifact) to your model (please note that you don’t need the image asset on your diagram)
@@ -25,7 +25,7 @@ Step-by-Step Guide:
 7.	Link Operational Stories with involved Operational Performers with the stereotype SAF Operational Performer Acting with the QuickLinker or the diagram’s toolbox.
 8.	Move these Operational Stories which will remain in scope for the business and/or mission analysis below the Operational Context element in the Project Browser. Drag and drop the Operational Story onto the Operational Context element in the diagram.
 
-Viewpoint Output:
+**Viewpoint Output:**
 * Operational Stories which represents scenarios / vignettes to be refined further by [SOV03a](Operational-Process-Viewpoint.md) or [SOV04a](Operational-Interaction-Viewpoint.md).
 * Operational Stories can be referenced in [SFV01a](System-Use-Case-Viewpoint.md) to highlight that System Use Cases contribute to Operational Stories accordingly.
 
