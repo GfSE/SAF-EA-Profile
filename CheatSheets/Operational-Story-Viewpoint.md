@@ -12,23 +12,22 @@ The Operational Story Viewpoint
 
 ## Workflow
 Viewpoint Input:
-* SAF_OperationalPerformer from SOV02b.
+* SAF_OperationalPerformer from [SOV02b](Operational-Performer-Viewpoint.md).
 * Illustration - The operational story contents and the foundations for the sketches and the performer illustrations are created with the assistance of product experts
 
 Step-by-Step Guide:
 1.	Establish a dedicated package in your model for Operational Stories
-2.	Create a SAF Operational Story Diagram as specialized SysML1.5 Use Case Diagram for your operational stories in your package with Add Diagram > SAF > UseCase > SAF::SOV01a_OperationalStoryView.
+2.	Create a SAF Operational Story Diagram as specialized [SysML1.5 Use Case Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/guide_books/sysml-uc-dgms.html) for your operational stories in your package with Add Diagram > SAF > UseCase > SAF::SOV01a_OperationalStoryView.
 3.	Design a meaningful illustration of the operational events, performer und processes as a picture file and add the file as image asset (specialized artifact) to your model (please note that you don’t need the image asset on your diagram)
 4.	Add an Operational Sketch on your diagram and change its appearance by applying the image asset. Make sure the name is shown under the image (all available in Appearance context menu)
 5.	Create Operational Story on your diagram with exemplary and relevant stories in prose. The text is inserted in the note field of the Operational Story stereotype.
-6.	Drag and drop already created Operational Performer from their dedicated package on the diagram who are involved in the operational stories.
-In case additional Operational Performer are identified here, add the Operational Performer(s) to the diagram and move them to their dedicated package afterwards.
+6.	Drag and drop already created Operational Performer from their dedicated package on the diagram who are involved in the operational stories. In case additional Operational Performer are identified here, add the Operational Performer(s) to the diagram and move them to their dedicated package afterwards.
 7.	Link Operational Stories with involved Operational Performers with the stereotype SAF Operational Performer Acting with the QuickLinker or the diagram’s toolbox.
 8.	Move these Operational Stories which will remain in scope for the business and/or mission analysis below the Operational Context element in the Project Browser. Drag and drop the Operational Story onto the Operational Context element in the diagram.
 
 Viewpoint Output:
-* Operational Stories which represents scenarios / vignettes to be refined further by SOV03a or SOV04a.
-* Operational Stories can be referenced in SFV01a to highlight that System Use Cases contribute to Operational Stories accordingly.
+* Operational Stories which represents scenarios / vignettes to be refined further by [SOV03a](Operational-Process-Viewpoint.md) or [SOV04a](Operational-Interaction-Viewpoint.md).
+* Operational Stories can be referenced in [SFV01a](System-Use-Case-Viewpoint.md) to highlight that System Use Cases contribute to Operational Stories accordingly.
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
