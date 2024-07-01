@@ -35,3 +35,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * It is highly recommended to consider this viewpoint, even if no OpsCon/ConOps is documented in the project.
 * Stakeholders represent Operational Performers. However, other Stakeholders, that never occurred in the OpsCon/ConOps, and their concerns must also be respected. These may include, but are not limited to, company managers who make strategic product design or marketing decisions, authorities that grant releases for their respective markets or dealers who actually sell the product to customers.
 * Stakeholders and Stakeholder Concerns should be categorized in order to support a prioritization for the Stakeholder Requirements (see SAF SOV06a Stakeholder Requirement Viewpoint). The categories have to be defined by the project team.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
