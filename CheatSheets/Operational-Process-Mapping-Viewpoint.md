@@ -35,3 +35,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 ## General Recommendations and Pitfalls
 * There is not automatic tool support to ensure that the sum of all Operational Processes linked to one Operational Story fully cover this story. Thorough reviews are required to ensure this coverage.
 * If the Viewpoint SAF SOV02c Operational Capability is not utilized in a project, then no dependency matrix between Operational Capabilities and Operational Processes has to be established.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
