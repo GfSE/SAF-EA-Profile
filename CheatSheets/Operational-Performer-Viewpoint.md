@@ -4,6 +4,7 @@
 The Operational Performer Viewpoint represents the taxonomy of the identified Operational Performers, if existing and relevant for the understanding of the operation of the intended solution.
 
 ## Example
+![SOV02b](../pics/SOV02b-example.png)
 
 ## Workflow
 Viewpoint Input:
