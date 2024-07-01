@@ -7,18 +7,18 @@ The Operational Context Exchange Viewpoint provides the operational exchange of 
 ![SOV01c](../pics/SOV01c-example.png)
 
 ## Workflow
-Viewpoint Input:
+**Viewpoint Input:**
 * SAF_OperationalContextRole from [SOV01b](Operational-Context-Definition-Viewpoint.md).
 * SAF_OperationalDomainKind from [SOV02a](Operational-Domain-Item-Kind-Viewpoint.md) as exchange items between the different Operational Roles within one or more Operational Context(s). 
 
-Step-by-Step Guide:
+**Step-by-Step Guide:**
 1.	Select an Operation Context and add a new Operational Context Exchange Diagram as a specialized [SysML1.5 Internal Block Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/internal_block_diagram.html) with Add Diagram > SAF > InternalBlock > SAF::SOV01c_OperationalContextExchangeView.
 2. 	Drag and drop the involved Operational Roles from the Operational Context onto the Operational Context Exchange Diagram.
 3.	If the Operational Context Role exchange information, energy, or material establish an Item Flow and select the according Operational Domain Kind.
 4.	Create a Connector between the Operational Context Roles.
 5.	Select the Connector > right-click on the Connector > Advanced > Information Flow Realized > Select the available Operational Domain Kind(s). 
 
-Viewpoint Output:
+**Viewpoint Output:**
 * Communication / interaction between Operational Roles in [SOV03a](Operational-Process-Viewpoint.md) and [SOV04a](Operational-Interaction-Viewpoint.md).
 
 ## Exposed Elements and Connectors
