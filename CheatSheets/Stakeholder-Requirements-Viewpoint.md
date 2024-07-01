@@ -4,6 +4,8 @@
 The Stakeholder Requirement Viewpoint specifies all properties that the intended solution shall possess or expose from the perspective of the Stakeholders. The Stakeholder Requirement Viewpoint determines capabilities, functions, non-functional properties, and constraints.
 
 ## Example
+![SOV06a](../pics/SOV06a-example1.png)
+![SOV06a](../pics/SOV06a-example2.png)
 
 ## Workflow
 Viewpoint Input:
