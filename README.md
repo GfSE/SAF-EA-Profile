@@ -15,7 +15,7 @@ SAF Viewpoints are realised by EA view specifications based on SysML. Therefore,
 ![Apply a VP](/pics/view_spec.png)
 
 # Where can I find further information about the SAF viewpoints?
-Check out our hands-on [Cheat Sheets](https://github.com/GfSE/SAF-EA-Profile/edit/TdSE2023/CheatSheet.md)!
+Check out our hands-on [Cheat Sheets](https://github.com/GfSE/SAF-EA-Profile/TdSE2023/CheatSheet.md)!
 
 # How to use the SQL Queries
 The SAF profile contains multiple queries helping to manage your traceability in your model (SxV08 aspect Mapping). Please note that all queries are developed for qea files / DBMS. The queries do not work for local eap(x) files (JET 4 Engine).
