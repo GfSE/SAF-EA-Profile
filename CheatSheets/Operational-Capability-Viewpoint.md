@@ -4,6 +4,7 @@
 The Operational Capability Viewpoint defines a taxonomy of Capabilities from a Stakeholder’s perspective including composition, specialization, and dependency relationships between Operational Capabilities.
 
 ## Example
+![SOV02c](../pics/SOV02c-example.png)
 
 ## Workflow
 Viewpoint Input:
