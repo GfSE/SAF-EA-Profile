@@ -30,3 +30,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * At least one Operational Context is required in model for the Operational Domain. It is possible however, to create several Operational Contexts with different scopes.
 * Different Operational Contexts should be defined if the scopes of these differ largely. This could be e.g., due to operational ambiguities between different Operational Stories or different operational scopes (e.g., different life phases).
 * While it is possible to create Operational Performer(s) in this viewpoint, it is recommended to manage and maintain them in the SAF SOV02b Operational Performer Viewpoint.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
