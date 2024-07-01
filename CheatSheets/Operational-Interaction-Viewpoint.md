@@ -31,3 +31,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 
 ## General Recommendations and Pitfalls
 * This viewpoint is an alternative viewpoint to SAF SOV03a Operational Process Viewpoint in that it serves the same purpose to detail Operational Stories. However, it does so differently by concentrating on the interactions between Operational Performers, whereas the Operational Process shows “internal” behavior of these performers as well. It should be decided, which viewpoint to use within a project and only use the alternative when necessary.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
