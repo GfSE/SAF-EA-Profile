@@ -42,3 +42,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * It is strongly recommended to document proposed Operational Story(s), even if some might not affect the System of Interest at first glance.
 * The Operational Story(s) should be prioritized so that it is clearly defined, which aspects are the most important to realize.
 * Depending on the project’s development approach and the required target state of the operational concept it might be helpful to describe the ultimate intended concept or multiple incremental intermediate versions of it.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
