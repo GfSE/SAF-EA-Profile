@@ -20,6 +20,7 @@ Available quick sheets:
 * [SOV02b Operational Performer Viewpoint](CheatSheets/Operational-Performer-Viewpoint.md)
 * [SOV02c Operational Capability Viewpoint](CheatSheets/Operational-Capability-Viewpoint.md)
 * [SOV02d Stakeholder Identification Viewpoint](CheatSheets/Stakeholder-Identification-Viewpoint.md)
+* [SOV03a Operational Process Viewpoint](CheatSheets/Operational-Process-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
