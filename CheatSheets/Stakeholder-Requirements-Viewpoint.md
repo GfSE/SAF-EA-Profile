@@ -36,3 +36,5 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Stakeholder Requirements should be prioritized, so that it is clearly defined, which requirements are the most important to realize. Priorities can be based on Operational Story prioritization and/or Stakeholder categorization.
 * In case the project considers a given Customer Requirement Specification, the according Stakeholder Requirements should be managed in one dedicated stakeholder package.
 * The viewpoint does not stipulate a consolidation of contradicting Stakeholder Requirements. A careful consolidation has to be agreed within the project, depending on Stakeholders’ priorities.
+
+[>>> back to cheat sheet overview](../CheatSheet.md)
