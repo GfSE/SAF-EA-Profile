@@ -12,6 +12,9 @@ Download the safMDG.xml, import and activate the MDG by considering the followin
 # How to establish a view based on a SAF Viewpoint
 SAF Viewpoints are realised by EA view specifications based on SysML. Therefore, the view can be established easily by creating a diagram, select SAF, the according SysML base diagram and select the demanded view specification e.g. Activity >>> SAF::SFV03a_SystemProcessView. Within the view specification which applies to a diagram all relevant SAF stereotypes are available and the particular viewpoint linking rules apply.
 
+# Where can I find further information about the SAF viewpoints?
+Check out our hands-on [Cheat Sheets](https://github.com/GfSE/SAF-EA-Profile/edit/TdSE2023/CheatSheets.md)!
+
 ![Apply a VP](/pics/view_spec.png)
 
 # How to use the SQL Queries
