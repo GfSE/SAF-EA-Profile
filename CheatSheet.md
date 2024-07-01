@@ -22,6 +22,7 @@ Available quick sheets:
 * [SOV02d Stakeholder Identification Viewpoint](CheatSheets/Stakeholder-Identification-Viewpoint.md)
 * [SOV03a Operational Process Viewpoint](CheatSheets/Operational-Process-Viewpoint.md)
 * [SOV04a Operational Interaction Viewpoint](CheatSheets/Operational-Interaction-Viewpoint.md)
+* [SOV06a Stakeholder Requirement Viewpoint](CheatSheets/Stakeholder-Requirement-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
