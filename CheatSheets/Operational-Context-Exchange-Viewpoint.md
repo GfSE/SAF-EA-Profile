@@ -4,6 +4,7 @@
 The Operational Context Exchange Viewpoint provides the operational exchange of systems, personnel, information, material, energy, etc. between operational performers.
 
 ## Example
+![SOV01c](../pics/SOV01c-example.png)
 
 ## Workflow
 Viewpoint Input:
