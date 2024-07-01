@@ -23,7 +23,7 @@ Available quick sheets:
 * [SOV03a Operational Process Viewpoint](CheatSheets/Operational-Process-Viewpoint.md)
 * [SOV04a Operational Interaction Viewpoint](CheatSheets/Operational-Interaction-Viewpoint.md)
 * [SOV06a Stakeholder Requirement Viewpoint](CheatSheets/Stakeholder-Requirements-Viewpoint.md)
-* [SOV08b Operational Process Traceability Viewpoint](CheatSheets/Operational-Process-Traceability-Viewpoint.md)
+* [SOV08b Operational Process Traceability Viewpoint](CheatSheets/Operational-Process-Mapping-Viewpoint.md)
 
 ## Viewpoints Functional Domain
 
