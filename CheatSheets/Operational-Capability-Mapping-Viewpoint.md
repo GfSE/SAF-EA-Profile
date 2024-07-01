@@ -4,8 +4,8 @@
 The Operational Capability Mapping Viewpoint describes the relationships of Operational Capabilities. The reasoning for Operational Capabilities as support for Operational Stories and the contribution of Operational Processes to Capabilities are described. Operational Capabilities encoded in Stakeholder Requirements are identified.
 
 ## Example
-![SOV08a](../pics/SOV08a-example1.png)
 ![SOV08a](../pics/SOV06a-example2.png)
+![SOV08a](../pics/SOV08a-example1.png)
 
 ## Workflow
 Viewpoint Input:
