@@ -4,6 +4,7 @@
 The Operational Process Viewpoint describes the Operational Processes related to a specific Operational Story, the sequence of execution, and their Operational Exchanges, including information, materials, natural resources, etc. The assignment of Operational Processes to Operational Performers is captured.
 
 ## Example
+![SOV03a](../pics/SOV03a-example.png)
 
 ## Workflow
 Viewpoint Input:
