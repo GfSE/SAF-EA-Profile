@@ -8,11 +8,11 @@ The Stakeholder Requirement Viewpoint specifies all properties that the intended
 ![SOV06a](../pics/SOV06a-example2.png)
 
 ## Workflow
-Viewpoint Input:
+**Viewpoint Input:**
 * SAF_Stakeholder which have been identified in [SOV02d](Stakeholder-Identification-Viewpoint.md).
 * various sources of stakeholder requirements in Capabilites [SO02c](Operational-Capability-Viewpoint.md), Processes [SOV03a](Operational-Process-Viewpoint.md) and interactions [SOV04a](Operational-Interaction-Viewpoint.md)
 
-Step-by-Step Guide:
+**Step-by-Step Guide:**
 1.  Create one package per identified stakeholder within the dedicated stakeholder requirement package.
 2.	Open the global Specification Manager (and not the Specification View of a specific diagram).
 3.	Select the package for a specific stakeholder.
@@ -20,7 +20,7 @@ Step-by-Step Guide:
 6.	If needed, create (and maintain) matrix specifications to relate Stakeholder Requirements to Stakeholder (using the Stakeholder Requirement Imposition stereotype), System of Interest Concerns (using the Stakeholder Requirement Refinement stereotype) or Operational Stories (using the Stakeholder Requirement Refinement stereotype).
 7.	If needed, create a new SAF Stakeholder Requirement diagram as specialized [SysML 1.5. Requirement Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/create_a_requirements_model.html) to analyze single stakeholder requirements - right-click on the dedicated stakeholder package, select New Child Diagram > Add Diagram > SAF > Requirement > SAF::SOV06a_StakeholderRequirementView. Create new Stakeholder Requirements or drag and drop existing Stakeholder Requirements onto the diagram. Link the Stakeholder Requirements to Operational Stories, System of Interest Concerns or Operational Stakeholder using the Quick Linker.
 
-Viewpoint Output:
+**Viewpoint Output:**
 * Stakeholder Requirements for System Requirements derivation in [SFV06a](System-Requirement-Viewpoint.md).
 
 ## Exposed Elements and Connectors
