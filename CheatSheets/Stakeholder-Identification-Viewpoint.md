@@ -7,21 +7,21 @@ The Stakeholder Identification Viewpoint of the operational domain strives to id
 ![SOV02d](../pics/SOV02d-example.png)
 
 ## Workflow
-Viewpoint Input:
-* SAF_OperationalPerformer from SOV02b.
+**Viewpoint Input:**
+* SAF_OperationalPerformer from [SOV02b](Operational-Performer-Viewpoint.md).
 * From external: External domain experts (e.g. legal, standardization, quality…) need to be represented by Stakeholders.
 
-Step-by-Step Guide:
-1.	1.	Create a new Stakeholder Identification Diagram in the dedicated package in your model as specialized SysML1.5 Block Definition Diagram with Add Diagram > SAF > BlockDefinition > SAF::SOV02d_StakeholderIdentificationView.
+**Step-by-Step Guide:**
+1.	1.	Create a new Stakeholder Identification Diagram in the dedicated package in your model as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV02d_StakeholderIdentificationView.
 2.	Create a Stakeholder on the diagram.
 If the Stakeholder has an interest in the System of Interest, create the System of Interest Concern on the diagram and select the System of Interest Concern in the Stakeholder’s concern list in the property page. If the Stakeholder has multiple concerns press ctrl while selecting the elements.
 3.	If the Stakeholder is directly involved in the System of Interest (as an end user or representative) connect the Stakeholder and the System of Interest with the Stakeholder Involvement stereotype.
 4.	If the Stakeholder represents or has an interest in a System Context Element (such as the Logical Environment, Logical Context Element or as a Logical User) drag and drop the System Context element onto the diagram (or create a new one) and connect it with the stakeholder with the Context Element Characterization stereotype.
 5.	If the Stakeholder is related to one or more other stakeholders, drag and drop them onto the diagram (or create a new one) and connect them with the Stakeholder Relation stereotype.
 
-Viewpoint Output:
-* Identified Stakeholder for stakeholder requirements elicitation in SOV06a
-* Identified Stakeholder which needs to be represented as Logical Context Elements (SFV01b) in the Functional Domain.
+**Viewpoint Output:**
+* Identified Stakeholder for stakeholder requirements elicitation in [SOV06a](Stakeholder-Requirements-Viewpoint.md)
+* Identified Stakeholder which needs to be represented as Logical Context Elements [SFV01b](System-Context-Definition-Viewpoint.md) in the Functional Domain.
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
