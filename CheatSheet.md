@@ -64,6 +64,7 @@ Available sheets in physical domain:
 * [SPV01b Physical Context Definition Viewpoint](CheatSheets/Physical-Context-Definition-Viewpoint.md)
 * [SPV01c Physical Context Exchange Viewpoint](CheatSheets/Physical-Context-Exchange-Viewpoint.md)
 * [SPV02a Physical Structure Viewpoint](CheatSheets/Physical-Structure-Viewpoint.md)
+* [SPV04b Physical Internal Exchange Viewpoint](CheatSheets/Physical-Internal-Exchange-Viewpoint.md)
 
 ## Viewpoints Common Domain
 
