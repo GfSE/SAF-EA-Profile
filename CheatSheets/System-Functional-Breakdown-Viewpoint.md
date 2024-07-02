@@ -4,6 +4,7 @@
 The System Functional Breakdown Structure Viewpoint defines the structured, modular breakdown of the SOI beginning with System Processes, over identified System Functions further refined down to System Partial Functions. The reuse of System Functions, and System Partial Functions over Function Trees of the SOI is facilitated. Unlike a Work Breakdown Structure (WBS), the Functional Breakdown Structure (FBS) is a function-oriented tree, not a product-oriented one.
 
 ## Example
+![SFV02c](../pics/SFV02c-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -17,9 +18,9 @@ The System Functional Breakdown Structure Viewpoint defines the structured, modu
 5.	Create a composition between the System Process and System Function. Please note that the composition must be set from System Process as parent to System Function as child.
 
 **Viewpoint Output:**
-* SAF_SystemProcess can be refined in [SFV03a]
-* SAF_SystemFunction can be instantiated as SAF_FunctionAction / SAF_ContextAction in [SFV03a]
-* SAF_SystemPartialFunction can be instantiated as SAF_FunctionAction in [SFV03c]
+* SAF_SystemProcess can be refined in [SFV03a](System-Process-Viewpoint.md)
+* SAF_SystemFunction can be instantiated as SAF_FunctionAction / SAF_ContextAction in [SFV03a](System-Process-Viewpoint.md)
+* SAF_SystemPartialFunction can be instantiated as SAF_FunctionAction in [SFV03c](SystemFunctionalRefinement.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
