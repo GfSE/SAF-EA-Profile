@@ -28,6 +28,7 @@ The System Process Viewpoint provides the functional representation of the syste
 
 **Viewpoint Output:**
 * flow of material, energy or information is captured in [SFV01c](System-Context-Exchange-Viewpoint.md)
+* used trigger have an impact on the SOI's state machine in [SFV03b](System-State-Viewpoint.md) 
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
@@ -36,6 +37,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * ObjectFlow
 * OutputPin
 * Parameter
+* Trigger
 * [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
 * [SAF_ContextAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextAction)
 * [SAF_ContextFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextFunction)
