@@ -4,6 +4,7 @@
 The System Capability Viewpoint defines a taxonomy of Capabilities including composition, specialization, and dependency relationships between System Capabilities. Note: Connecting capabilities to requirements creates a linkage between two different types of conceptual problem description that helps manage the complexity of the system. At a high level of abstraction, capabilities allow an system architect to plan phases of the system evolution without the need to bear details in mind. Those details will not be lost if they are captured as requirements and traced to a corresponding capability. There is one key difference between capabilities and requirements: Requirements come from different sources, sponsored by different stakeholders, and are usually captured at different levels of abstraction. In contrast, capabilities should always represent a coherent and consolidated view of the system.
 
 ## Example
+![SFV02b](../pics/SFV02b-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -17,7 +18,7 @@ The System Capability Viewpoint defines a taxonomy of Capabilities including com
 5.	If needed define System Capability Composition, Generalization and Dependencies between System Capabilities. Please note that the composition must be set from parent to child.
 
 **Viewpoint Output:**
-* System Capability is an input source for System Requirements in [SFV06a]
+* System Capability is an input source for System Requirements in [SFV06a](System-Requirement-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
