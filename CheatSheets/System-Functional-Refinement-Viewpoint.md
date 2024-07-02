@@ -23,12 +23,14 @@ The System Functional Refinement Viewpoint analyses decomposition of System Func
 
 **Viewpoint Output:**
 * flow of material, energy or information is captured in [SLV04b](Logical-Internal-Exchange-Viewpoint.md)
+* Trigger might have an impact on the system state machine in [SFV03b](System-State-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ControlFlow
 * InputPin
 * ObjectFlow
+* Trigger
 * OutputPin
 * Parameter
 * [SAF_LogicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
