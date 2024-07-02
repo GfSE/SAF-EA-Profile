@@ -63,8 +63,7 @@ The SAF Physical Domain diagrams may be used to represent the Product Breakdown 
 Available sheets in physical domain:
 * [SPV01b Physical Context Definition Viewpoint](CheatSheets/Physical-Context-Definition-Viewpoint.md)
 * [SPV01c Physical Context Exchange Viewpoint](CheatSheets/Physical-Context-Exchange-Viewpoint.md)
-
-Coming soon.
+* [SPV02a Physical Structure Viewpoint](CheatSheets/Physical-Structure-Viewpoint.md)
 
 ## Viewpoints Common Domain
 
