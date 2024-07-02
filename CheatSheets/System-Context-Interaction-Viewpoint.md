@@ -20,6 +20,7 @@ The System Context Interaction Viewpoint describes the System external behavior 
 
 **Viewpoint Output:**
 * new created itemFlows to [SFV01c](System-Context-Exchange-Viewpoint.md)
+* interactions are in input source for system requirements and are traced accordingly in [SFV08b](System-Requirement-Traceability-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
