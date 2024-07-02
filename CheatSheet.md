@@ -38,6 +38,7 @@ Available sheets operational domain:
 * [SFV02b System Capability Viewpoint](CheatSheets/System-Capability-Viewpoint.md)
 * [SFV02c System Functional Breakdown Viewpoint](CheatSheets/System-Functional-Breakdown-Viewpoint.md)
 * [SFV03a System Process Viewpoint](CheatSheets/System-Process-Viewpoint.md)
+* [SFV03b System State Viewpoint](CheatSheets/System-State-Viewpoint.md)
 
 ## Viewpoints Logical Domain
 
