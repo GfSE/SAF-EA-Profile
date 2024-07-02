@@ -12,7 +12,7 @@ The System Requirement Traceability Viewpoint specifies for every System Require
 
 ## Example
 ![SFV08b](../pics/SFV08b-example.png)
-![SFV08b](../pics/SFV08b-example2.png)
+![SFV08b](../pics/SFV08b-example1.png)
 
 ## Workflow
 **Viewpoint Input:**
