@@ -12,7 +12,7 @@ Each cheat sheets consists of:
 
 The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acquired or developed. The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones. By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational stories, operational processes, operational capabilities, and operational exchanges.
 
-Available sheets operational domain:
+Available sheets in operational domain:
 * [SOV01a Operational Story Viewpoint](CheatSheets/Operational-Story-Viewpoint.md)
 * [SOV01b Operational Context Definition Viewpoint](CheatSheets/Operational-Context-Definition-Viewpoint.md)
 * [SOV01c Operational Context Exchange Viewpoint](CheatSheets/Operational-Context-Exchange-Viewpoint.md)
@@ -30,7 +30,7 @@ Available sheets operational domain:
 
 The SAF Functional Domain assumes a conceptual black box perspective onto the system to be developed. It translates Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
 
-Available sheets functional domain:
+Available sheets in functional domain:
 * [SFV01a System Use Case Viewpoint](CheatSheets/System-Use-Case-Viewpoint.md)
 * [SFV01b System Context Definition Viewpoint](CheatSheets/System-Context-Definition-Viewpoint.md)
 * [SFV01c System Context Exchange Viewpoint](CheatSheets/System-Context-Exchange-Viewpoint.md)
@@ -50,8 +50,10 @@ Available sheets functional domain:
 
 The SAF Logical Domain assume a conceptual white box perspective onto the system to be developed. The Logical Domain Viewpoints describe the Logical Structure and the distribution of responsibilities for the Functionality of the SOI by means of a network of interacting Logical Elements that are responsible for a set of desired Functions. These Logical Elements and their Interactions are arranged in the Logical Architecture of the SOI. The structure of the Logical Architecture is in general influenced by nonfunctional criteria, e.g., maintainability, safety, and reliability. The Logical Domain is not a different abstraction level - compared to the Functional Domain, but a white box perspective on the same abstraction level.
 
-Available sheets functional domain:
+Available sheets in logical domain:
 * [SLV02a Logical Structure Definition Viewpoint](CheatSheets/Logical-Structure-Definition-Viewpoint.md)
+* [SLV04a Logical Internal Interaction Viewpoint](CheatSheets/Logical-Internal-Interaction-Viewpoint.md)
+* [SLV04b Logical Internal Exchange_Viewpoint](CheatSheets/Logical-Internal-Exchange-Viewpoint.md)
 
 ## Viewpoints Physical Domain
 
