@@ -54,6 +54,7 @@ Available sheets in logical domain:
 * [SLV02a Logical Structure Definition Viewpoint](CheatSheets/Logical-Structure-Definition-Viewpoint.md)
 * [SLV04a Logical Internal Interaction Viewpoint](CheatSheets/Logical-Internal-Interaction-Viewpoint.md)
 * [SLV04b Logical Internal Exchange_Viewpoint](CheatSheets/Logical-Internal-Exchange-Viewpoint.md)
+* [SLV08a Logical Functional Mapping Viewpoint](CheatSheets/Logical-Functional-Mapping-Viewpoint.md)
 
 ## Viewpoints Physical Domain
 
