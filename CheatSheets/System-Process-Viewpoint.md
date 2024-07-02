@@ -26,7 +26,7 @@ The System Process Viewpoint provides the functional representation of the syste
 7.	Establish and maintain an allocation between System Function Actions and System Context’s Logical Context Roles in [SLV08a].
 
 **Viewpoint Output:**
-* * flow of material, energy or information is captured in [SFV01c](System-Context-Exchange-Viewpoint.md)
+* flow of material, energy or information is captured in [SFV01c](System-Context-Exchange-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
