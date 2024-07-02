@@ -37,6 +37,7 @@ Available sheets operational domain:
 * [SFV02a System Domain Item Kind Viewpoint](CheatSheets/System-Domain-Item-Kind-Viewpoint.md)
 * [SFV02b System Capability Viewpoint](CheatSheets/System-Capability-Viewpoint.md)
 * [SFV02c System Functional Breakdown Viewpoint](CheatSheets/System-Functional-Breakdown-Viewpoint.md)
+* [SFV03a System Process Viewpoint](CheatSheets/System-Process-Viewpoint.md)
 
 ## Viewpoints Logical Domain
 
