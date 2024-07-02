@@ -28,6 +28,7 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 **Viewpoint Output:**
 * ItemFlows established can be reused in [SFV03a](System-Process-Viewpoint.md) and [SFV04a](System-Context-Interaction-Viewpoint.md)
 * external Interfaces as ProxyPorts can be reused in [SLV04b](Logical-Internal-Exchange-Viewpoint.md)
+* external Interfaces as ProxyPorts are an input source for System Requirements and are traced accordingly in [SFV08b](System-Requirement-Traceability-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:

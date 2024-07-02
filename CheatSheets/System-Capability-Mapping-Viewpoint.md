@@ -4,6 +4,7 @@
 The System Capability Mapping Viewpoint describes the relationships of System Capabilities. The reasoning for System Capabilities as support for System Use Cases and the contribution of System Processes to Capabilities are described. Furthermore, the mapping of System Capabilities to Operational Capabilities are identified.
 
 ## Example
+![SFV08a](../pics/SFV08a-example.png)
 
 ## Workflow
 **Viewpoint Input:**

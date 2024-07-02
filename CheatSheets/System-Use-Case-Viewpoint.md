@@ -21,6 +21,7 @@ The System Use Case Viewpoint provides an outside view on the system functionali
 
 **Viewpoint Output:**
 * System Use Cases to be refined by SAF_SystemProcesses [SFV03a](System-Process-Viewpoint.md) or Interactions [SFV04a](System-Context-Interaction.md)
+* System Use Cases are used to be mapped against System Capability in [SFV08a](System-Capability-Mapping-Viewpoint.md)
 * System Use Cases as input source for system requirements [SFV06a](System-Requirement-Viewpoint.md) and system requirement traceability [SFV08b](System-Requirement-Traceability-Viewpoint.md) 
 
 ## Exposed Elements and Connectors

@@ -11,6 +11,8 @@ The System Requirement Traceability Viewpoint specifies for every System Require
 * System State
 
 ## Example
+![SFV08b](../pics/SFV08b-example.png)
+![SFV08b](../pics/SFV08b-example1.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -47,7 +49,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SystemRequirementRefinement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirementRefinement)
 
 ## General Recommendations and Pitfalls
-* For coverage and impact analysis it is recommended to use the SAF standard search SFV08b_SystemRequirementTraceability whcih can be etracted as Excel spread sheet.
+* For coverage and impact analysis it is recommended to use the SAF standard search SFV08b_SystemRequirementTraceability which can be extracted as Excel spread sheet.
 * Use the SAF_SystemRequirementDerivation only if required in order to avoid cyclic dependencies.
 
 [>>> back to cheat sheet overview](../CheatSheet.md)
