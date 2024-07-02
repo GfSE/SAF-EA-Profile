@@ -4,6 +4,7 @@
 The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.
 
 ## Example
+![SFV01a](../pics/SFV01b-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -20,7 +21,7 @@ The System Context Definition Viewpoint defines how the SOI is embedded in its e
 **Viewpoint Output:**
 * Logical Context Elements (e.g., a Logical User, Logical External System, or the Logical Environment) are referenced in [SFV01a](System-Use-Case-Viewpoint.md)
 * Logical Context itself is referenced in [SFV01a](System-Use-Case-Viewpoint.md) as System Use Case subject
-* the Logical Context Roles used in viewpoints [SFV01c](System-Context-Exchange.md), [SFV03a] and [SFV04a] 
+* the Logical Context Roles used in viewpoints [SFV01c](System-Context-Exchange.md), [SFV03a](System-Process-Viewpoint.md) and [SFV04a](System-Context-Interaction-Viewpoint.md) 
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
