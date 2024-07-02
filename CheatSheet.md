@@ -44,6 +44,7 @@ Available sheets operational domain:
 * [SFV05a System Interface Definition Viewpoint](CheatSheets/System-Interface-Definition-Viewpoint.md)
 * [SFV06a System Requirement Viewpoint](CheatSheets/System-Requirement-Viewpoint.md)
 * [SFV08a System Capability Mapping Viewpoint](CheatSheets/System-Capability-Mapping-Viewpoint.md)
+* [SFV08b System Requirement Traceability Viewpoint](CheatSheets/System-Requirement-Traceability-Viewpoint.md)
 
 ## Viewpoints Logical Domain
 
