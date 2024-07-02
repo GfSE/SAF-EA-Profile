@@ -5,6 +5,7 @@ The System Capability Mapping Viewpoint describes the relationships of System Ca
 
 ## Example
 ![SFV08a](../pics/SFV08a-example.png)
+![SFV08a](../pics/SFV08a-example2.png)
 
 ## Workflow
 **Viewpoint Input:**
