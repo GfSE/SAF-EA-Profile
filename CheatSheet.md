@@ -61,7 +61,7 @@ Available sheets in logical domain:
 The SAF Physical Domain diagrams may be used to represent the Product Breakdown Structure, to identify external and internal physical interfaces, to provide diagrams for the system overview, to support the integration planning, to support production planning and to depict the features and variations implied in the system. The physical architecture typically is a combination of re-use elements, COTS elements and make-items for HW as well as for SW. The properties of the selected physical components and their provided resources are identified and modelled. A major concern of the Physical Domain are the physical interfaces, their identification and definition. For that purpose, the Physical Domain provides the diagrams to model interface with different level of detail considering the actual needs for the point of time in the project life cycle. For traceability the Physical Domain defines diagrams showing the mapping of the functional elements and their interfaces to physical elements and their interfaces.
 
 Available sheets in physical domain:
-[SPV01b Physical Context Definition Viewpoint](CheatSheets/Physical-Context-Definition-Viewpoint.md)
+* [SPV01b Physical Context Definition Viewpoint](CheatSheets/Physical-Context-Definition-Viewpoint.md)
 
 Coming soon.
 
