@@ -32,6 +32,7 @@ The SAF Functional Domain assumes a conceptual black box perspective onto the sy
 
 Available sheets operational domain:
 * [SFV01a System Use Case Viewpoint](CheatSheets/System-Use-Case-Viewpoint.md)
+* [SFV01b System Context Definition](CheatSheets/System-Context-Definition-Viewpoint.md)
 
 ## Viewpoints Logical Domain
 
