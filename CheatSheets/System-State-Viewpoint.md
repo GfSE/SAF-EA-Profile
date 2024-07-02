@@ -4,6 +4,7 @@
 The System State Viewpoint defines the conditions of the SOI or parts of thereof that constrain the execution of System Functions. System States are used as pre- or post-condition of System Use Cases, and as constraints within the definition of System Functions to specifying valid transitions. Valid transitions between System States and the conditions for transitioning are specified in system wide concepts captured in System Requirements.
 
 ## Example
+![SFV03b](../pics/SFV03b-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -18,7 +19,7 @@ The System State Viewpoint defines the conditions of the SOI or parts of thereof
 
 **Viewpoint Output:**
 * State transitions can trigger System Process or System Functions in [SFV03](System-Process-Viewpoint.md)
-* States and Modes are an input source for System Requirements in [SFV06a]
+* States and Modes are an input source for System Requirements in [SFV06a](System-Requirement-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
