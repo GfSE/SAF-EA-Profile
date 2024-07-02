@@ -18,6 +18,7 @@ The System Requirement Viewpoint specifies functions, non-functional properties,
 1.	Open the global Specification Manager (and not the Specification View of a diagram).
 2.	Select the dedicated package for System Requirements.
 3.	Document or edit your identified requirements with the System Requirements stereotype.
+4.	In order to establish a requirement tree drag and drop the requirements in the project browser accordingly.
 
 **Viewpoint Output:**
 * N/A
