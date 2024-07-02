@@ -12,7 +12,7 @@ Each cheat sheets consists of:
 
 The SAF Operational Domain aims to get an understanding of required organizational or operational entity capabilities, as a foundation and reasoning for to systems to be acquired or developed. The SAF Operational Domain supports the model-based development of a [CONOPS](https://www.sebokwiki.org/wiki/Concept_of_Operations_(ConOps)_(glossary)) - as well as an [OPSCON](https://www.sebokwiki.org/wiki/Business_or_Mission_Analysis) and related life cycle concepts - for an organization or operational entity seeking for an improvement of existing capabilities or in establishing new ones. By identifying Stakeholders and their Requirements the SAF Operational Domain supports the derivation of a complete and consolidated set of Stakeholder Requirements based on operational stories, operational processes, operational capabilities, and operational exchanges.
 
-Available quick sheets:
+Available sheets operational domain:
 * [SOV01a Operational Story Viewpoint](CheatSheets/Operational-Story-Viewpoint.md)
 * [SOV01b Operational Context Definition Viewpoint](CheatSheets/Operational-Context-Definition-Viewpoint.md)
 * [SOV01c Operational Context Exchange Viewpoint](CheatSheets/Operational-Context-Exchange-Viewpoint.md)
@@ -30,7 +30,8 @@ Available quick sheets:
 
 The SAF Functional Domain assumes a conceptual black box perspective onto the system to be developed. It translates Operational Domain usage into the notion of System Functions defining the demanded system behavior and quality attributes - performance, safety, security, etc.; the demanded system behavior as it is perceived by the User or other Entities at the System Boundary (known as usage behavior). The result of the elaboration of the viewpoints in the Functional Domain is a comprehensive System Specification.
 
-Coming soon.
+Available sheets operational domain:
+* [SFV01a System Use Case Viewpoint](CheatSheets/System-Use-Case-Viewpoint.md)
 
 ## Viewpoints Logical Domain
 
