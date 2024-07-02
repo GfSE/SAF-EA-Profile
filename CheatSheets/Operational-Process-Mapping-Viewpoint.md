@@ -14,7 +14,7 @@ The Operational Process Mapping Viewpoint describes the relationships of Operati
 * SAF_OperationalCapability from [SOV02c](Operational-Capability-Viewpoint.md) for mapping purposes.
 
 **Step-by-Step Guide:**
-1.	If needed, create an Operation Process Traceability diagram as specialized [SysML 1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SysML 1.5 > BlockDefinition > SAF_SOV08a_OperationalProcessTraceabilityDiagram.
+1.	If needed, create an Operation Process Traceability diagram as specialized [SysML 1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) with Add Diagram > SAF > BlockDefinition > SAF::SOV08a_OperationalProcessMappingView.
 2.	Create (and maintain) a matrix specification to link Operational Processes to Operational Performer with the following configuration using the SysML allocation. Set the allocation link according to the involvement of the Operational Performer in Operational Processes.
 3.	Create (and maintain) a matrix specification to link Operational Processes to Operational Stories with the following configuration using the Operational Process Refinement stereotype. Set the dependency links according to which Operational Process refines which Operational Story.
 4.	Create (and maintain) a matrix specification to link Operational Processes to Operational Capabilities with the following configuration using the Operational Process Mapping stereotype. Set the dependency links according to which Operational Process can be mapped to Operational Capabilities
