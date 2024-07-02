@@ -21,19 +21,26 @@ The System Process Viewpoint provides the functional representation of the syste
 2.	Drag and drop an involved Logical SOI or Logical Context Elements onto the diagram and create a Logical Context Role by selecting partition in the dialog. Name the Logical Role according to the Logical Context Role in the System Context.
 3.	Add Function Actions to the according AllocateActivity-Partition.
 4.	Set the behavior classifier to the created System Function by right-click on the action > Advanced > Set Behavior Classifier.
-5.	If no corresponding System Function is available, create a new element in SAF SFV02c System Functional Breakdown Viewpoint. Proceed with step 4.
+5.	If no corresponding System Function is available, create a new element in [SFV02c](System-Functional-Breakdown-Viewpoint.md).. Proceed with step 4.
 6.	Model control and object flows by using the Quick Linker. For object flows you can set the type of the action pins to a Domain Kind in the pin properties.
 7.	Establish and maintain an allocation between System Function Actions and System Context’s Logical Context Roles in [SLV08a].
 
 **Viewpoint Output:**
-* N/A
+* flow of material, energy or information is captured in [SFV01c](System-Context-Exchange-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalStory](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalStory)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalPerformerActing](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformerActing)
-* [SAF_OperationalSketch](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalSketch)
+* ControlFlow
+* InputPin
+* ObjectFlow
+* OutputPin
+* Parameter
+* [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
+* [SAF_ContextAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextAction)
+* [SAF_ContextFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextFunction)
+* [SAF_FunctionAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_FunctionAction)
+* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
+* [SAF_SystemProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemProcess)
 
 ## General Recommendations and Pitfalls
 * If design constraints are given for the System of Interest, its interfaces, or Context Elements, it is important to respect these in this viewpoint, even if the details are not visible directly.
