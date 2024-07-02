@@ -4,6 +4,7 @@
 The System Requirement Viewpoint specifies functions, non-functional properties, or constraints of the System. System Requirements are captured, the interrelationships between Functional and Non-Functional Requirements on the same level of abstraction and the traceability to Stakeholder Requirements are depicted.
 
 ## Example
+![SFV06a](../pics/SFV06a-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -17,6 +18,7 @@ The System Requirement Viewpoint specifies functions, non-functional properties,
 1.	Open the global Specification Manager (and not the Specification View of a diagram).
 2.	Select the dedicated package for System Requirements.
 3.	Document or edit your identified requirements with the System Requirements stereotype.
+4.	In order to establish a requirement tree drag and drop the requirements in the project browser accordingly.
 
 **Viewpoint Output:**
 * N/A
@@ -31,6 +33,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SystemRequirementDerivation](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirementDerivation)
 
 ## General Recommendations and Pitfalls
+* It has to be agreed whether the EA element "notes" or the SysML tagged value "text" is used to specify the system requirement.
 * It is highly recommended to carefully analyze the regulatory QM requirements for the project in order to decide if the views in the Functional Domain have to be re-expressed and refined in formal System Requirements in this viewpoint.
 * It is recommended to establish one single System Requirement view for one System of Interest.
 * System requirements can be derived from the Operational Domain and in this case should be linked accordingly. However, they can also be derived from the analysis of the System of Interest (e.g., System Context, System State Machine or System Functional Breakdown) and thus no link to a stakeholder requirement can be created. These requirements should still be linked to their originating element/viewpoint, though.

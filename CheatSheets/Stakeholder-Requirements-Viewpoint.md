@@ -31,6 +31,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_OperationalSketch](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalSketch)
 
 ## General Recommendations and Pitfalls
+* It has to be agreed whether the EA element "notes" or the SysML tagged value "text" is used to specify the stakeholder requirement.
 * It is required to create one requirement package per stakeholder (as described in the workflow section).
 * If different stakeholders have similar or even the same requirement, these should still be described separately for every stakeholder and should not be shared between them. The consolidation of all requirements is subject of the system requirement analysis.
 * Stakeholder Requirements should be prioritized, so that it is clearly defined, which requirements are the most important to realize. Priorities can be based on Operational Story prioritization and/or Stakeholder categorization.
