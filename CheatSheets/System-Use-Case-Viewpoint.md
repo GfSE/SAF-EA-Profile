@@ -4,6 +4,7 @@
 The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context.
 
 ## Example
+![SFV01a](../pics/SFV01a-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -19,8 +20,8 @@ The System Use Case Viewpoint provides an outside view on the system functionali
 5.	If needed, add existing Operational Stories to the diagram. Connect a System Use Case to these Operational Stories where it contributes to using the System Use Case Enabling stereotype.
 
 **Viewpoint Output:**
-* System Use Cases to be refined by SAF_SystemProcesses [SFV03a] or Interactions [SFV04a]
-* System Use Cases as input source for system requirements [SFV06a]
+* System Use Cases to be refined by SAF_SystemProcesses [SFV03a](System-Process-Viewpoint.md) or Interactions [SFV04a](System-Context-Interaction.md)
+* System Use Cases as input source for system requirements [SFV06a](System-Requirement-Viewpoint.md) and system requirement traceability [SFV08b](System-Requirement-Traceability-Viewpoint.md) 
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
