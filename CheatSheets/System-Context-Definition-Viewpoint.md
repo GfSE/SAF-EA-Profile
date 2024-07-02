@@ -4,7 +4,7 @@
 The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized.
 
 ## Example
-![SFV01a](../pics/SFV01b-example.png)
+![SFV01b](../pics/SFV01b-example.png)
 
 ## Workflow
 **Viewpoint Input:**
