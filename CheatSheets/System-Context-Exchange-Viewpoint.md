@@ -8,12 +8,13 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * and defines the usage of interfaces, e.g., when only a subset of the interface is used.
 
 ## Example
+![SFV01c](../pics/SFV01c-example.png)
 
 ## Workflow
 **Viewpoint Input:**
 * instantiated Logical Context Roles within the System Context from [SFV01b](System-Context-Definition-Viewpoint.md)
-* SAF_DomainItemKind as exchange items between Logical Context Roles from [SFV02a]
-* SAF_ConceptualInterfaceDefinition from [SFV05a] to formalize SoI's external interfaces.
+* SAF_DomainItemKind as exchange items between Logical Context Roles from [SFV02a](System-Domain-Item-Kind-Viewpoint.md)
+* SAF_ConceptualInterfaceDefinition from [SFV05a](System-Interface-Definition-Viewpoint.md) to formalize SoI's external interfaces.
 
 **Step-by-Step Guide:**
 1.	Select a System Context and add a new System Context Exchange Diagram as a specialized [SysML1.5 Internal Block Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/internal_block_diagram.html) with Add Diagram > SAF > InternalBlock > SAF::SFV04a_SystemContextExchangeView.
@@ -25,8 +26,8 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 7.	If the Logical Context Roles exchange information, energy, or material establish an Item Flow and select the according Domain Kind. Select the Connector > right-click on the Connector > Advanced > Information Flow Realized > Select the Domain Kind(s)
 
 **Viewpoint Output:**
-* ItemFlows established can be reused in [SFV03a] and [SFV04a]
-* external Interfaces as ProxyPorts can be reused in [SLV04b]
+* ItemFlows established can be reused in [SFV03a](System-Process-Viewpoint.md) and [SFV04a](System-Context-Interaction-Viewpoint.md)
+* external Interfaces as ProxyPorts can be reused in [SLV04b](Logical-Internal-Exchange-Viewpoint.md)
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
