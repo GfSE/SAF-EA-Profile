@@ -4,6 +4,7 @@
 The System Context Interaction Viewpoint describes the System external behavior based on the exchange between Logical SOI and Logical Context Elements Usage in a given System Context. It depicts the sequence of interactions between the Logical SOI, the Context Elements and the exchanged Domain Item Kinds needed to accomplish a given System Process. Note: The System Context Interaction Viewpoint may refine a System Use Case.
 
 ## Example
+![SFV04a](../pics/SFV04a-example.png)
 
 ## Workflow
 **Viewpoint Input:**
