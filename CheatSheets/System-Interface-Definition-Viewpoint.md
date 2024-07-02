@@ -4,6 +4,7 @@
 The System Interface Definition Viewpoint captures system wide concepts defining interfaces. It allows to adopt long-lived standards and to harmonize the interface definitions to improve interchangeability, interoperability, and portability.
 
 ## Example
+![SFV05a](../pics/SFV05a-example.png)
 
 ## Workflow
 **Viewpoint Input:**
