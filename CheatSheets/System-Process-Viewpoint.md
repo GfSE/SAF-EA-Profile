@@ -9,6 +9,7 @@ The System Process Viewpoint provides the functional representation of the syste
 * the functional flows crossing the boundary between SOI and Context Elements
 
 ## Example
+![SFV03a](../pics/SFV03a-example.png)
 
 ## Workflow
 **Viewpoint Input:**
@@ -23,7 +24,7 @@ The System Process Viewpoint provides the functional representation of the syste
 4.	Set the behavior classifier to the created System Function by right-click on the action > Advanced > Set Behavior Classifier.
 5.	If no corresponding System Function is available, create a new element in [SFV02c](System-Functional-Breakdown-Viewpoint.md).. Proceed with step 4.
 6.	Model control and object flows by using the Quick Linker. For object flows you can set the type of the action pins to a Domain Kind in the pin properties.
-7.	Establish and maintain an allocation between System Function Actions and System Context’s Logical Context Roles in [SLV08a].
+7.	Establish and maintain an allocation between System Function Actions and System Context’s Logical Context Roles in [SLV08a](Logical-Functional-Mapping-Viewpoint.md).
 
 **Viewpoint Output:**
 * flow of material, energy or information is captured in [SFV01c](System-Context-Exchange-Viewpoint.md)
