@@ -67,6 +67,7 @@ Available sheets in physical domain:
 * [SPV04b Physical Internal Exchange Viewpoint](CheatSheets/Physical-Internal-Exchange-Viewpoint.md)
 * [SPV05a Physical Interface Definition Viewpoint](CheatSheets/Physical-Interface-Definition-Viewpoint.md)
 * [SPV08a Physical Logical Mapping Viewpoint](CheatSheets/Physical-Logical-Mapping-Viewpoint.md)
+* [SPV08b Physical Functional Mapping Viewpoint](CheatSheets/Physical-Functional-Mapping-Viewpoint.md)
 
 ## Viewpoints Common Domain
 
