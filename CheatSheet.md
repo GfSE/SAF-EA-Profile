@@ -41,6 +41,7 @@ Available sheets operational domain:
 * [SFV03b System State Viewpoint](CheatSheets/System-State-Viewpoint.md)
 * [SFV03c System Functional Refinement Viewpoint](CheatSheets/System-Functional-Refinement-Viewpoint.md)
 * [SFV04a System Context Interaction Viewpoint](CheatSheets/System-Context-Interaction-Viewpoint.md)
+* [SFV05a System Interface Definition Viewpoint](CheatSheets/System-Interface-Definition-Viewpoint.md)
 * [SFV06a System Requirement Viewpoint](CheatSheets/System-Requirement-Viewpoint.md)
 
 ## Viewpoints Logical Domain
