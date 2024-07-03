@@ -14,7 +14,7 @@ The Logical Functional Mapping Viewpoint supports the definition of assignment o
 **Step-by-Step Guide:**
 1.	Create (and maintain) a matrix specification to allocate Function Actions to Logical Context Roles.
 2.	Create (and maintain) another matrix specification to allocate Function Actions to Logical Internal Roles.
-3.	Use the SAF standard search for the current mapping report by pressing Ctrl+F > SAF > SLV08b_LogicalFunctionalMapping_Context and/or SLV08b_LogicalFunctionalMapping_Internal.
+3.	Use the SAF standard search for the current mapping report by pressing Ctrl+F > SAF > SLV08a_LogicalFunctionalMapping_Context and/or SLV08a_LogicalFunctionalMapping_Internal.
 
 **Viewpoint Output:**
 * External: Traceability supports the quality control of the model, showing “lose ends” or inconsistencies. Also, it supports impact analyses for change management and assessments.
