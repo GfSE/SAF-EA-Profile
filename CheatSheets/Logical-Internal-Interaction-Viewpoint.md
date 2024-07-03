@@ -29,6 +29,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_LogicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalInternalRole)
 
 ## General Recommendations and Pitfalls
-* It is required that the exchanges in [SLV04b](Logical-Internal-Exchange-Viewpoint.md) are addressed in this diagram to ensure consistency.
+* It is required that the exchanges in [SLV04b](Logical-Internal-Exchange-Viewpoint.md) and [SFV03c](System-Functional-Refinement-Viewpoint.md) are addressed in this diagram to ensure consistency.
 
 [>>> back to cheat sheet overview](../CheatSheet.md)
