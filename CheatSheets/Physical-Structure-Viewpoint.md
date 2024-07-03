@@ -10,7 +10,7 @@ The Physical Structure Viewpoint is used to model the internal structure of the 
 * the SAF_PhysicalSystem from [SPV01b](Physical-Context-Definition-Viewpoint.md)
 
 **Step-by-Step Guide:**
-1.  Create a new Logical Structure Definition diagram as specialized SysML1.5 Block Definition Diagram (https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) in the dedicated package in your model with Add Diagram > SAF > BlockDefinition > SAF::SPV02a_PhysicalStructureView.
+1.  Create a new Logical Structure Definition diagram as specialized [SysML1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) in the dedicated package in your model with Add Diagram > SAF > BlockDefinition > SAF::SPV02a_PhysicalStructureView.
 2. Drag and drop your Physical System to the diagram.
 3. Create Physical Elements which represent parts of your system.
 4. Create Physical Internal Roles by using the composition relationship. Give the Physical Internal Role a meaningful name by selecting the part property in the Physical System and amending the name on the property element page for traceability purposes in matrix specifications.
