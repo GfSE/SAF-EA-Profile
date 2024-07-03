@@ -11,6 +11,7 @@ The System Functional Refinement Viewpoint analyses decomposition of System Func
 * defined SAF_SystemFunction from [SFV02c](System-Functional-Breakdown-Viewpoint.md) which has to be refined
 * defined SAF_DomainItemKind from [SFV02a](System-Domain-Item-Kind-Viewpoint.md) for ObjectFlows
 * SAF_LogicalInternalRole from [SLV02a](Logical-Structure-Viewpoint.md)
+* defined exchanges from [SLV04a](Logical-Internal-Exchange-Viewpoint.md) and [SLV04b](Logical-Internal-Interactions-Viewpoint.md)
 
 **Step-by-Step Guide:**
 1.  Create a new SAF System Functional Refinement diagram as specialized [SysML 1.5 Activity Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/sysml_activity_diagram.html) below a System Function - right-click on the System Function, select New Child Diagram > Add Diagram > SAF > Activity > SAF::SFV03c_SystemFunctionalRefinementView.

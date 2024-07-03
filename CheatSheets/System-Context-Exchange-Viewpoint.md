@@ -1,4 +1,4 @@
-# SFV01a System Context Exchange VP
+# SFV01c System Context Exchange VP
 
 ## Purpose
 The System Context Exchange Viewpoint serves for the identification and definition of external interfaces of the SOI that are used to interact, e.g., users, external systems, and other external entities defined in the given context of the SOI. The System Context Exchange Viewpoint
@@ -17,7 +17,7 @@ The System Context Exchange Viewpoint serves for the identification and definiti
 * SAF_ConceptualInterfaceDefinition from [SFV05a](System-Interface-Definition-Viewpoint.md) to formalize SoI's external interfaces.
 
 **Step-by-Step Guide:**
-1.	Select a System Context and add a new System Context Exchange Diagram as a specialized [SysML1.5 Internal Block Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/internal_block_diagram.html) with Add Diagram > SAF > InternalBlock > SAF::SFV04a_SystemContextExchangeView.
+1.	Select a System Context and add a new System Context Exchange Diagram as a specialized [SysML1.5 Internal Block Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/internal_block_diagram.html) with Add Diagram > SAF > InternalBlock > SAF::SFV01c_SystemContextExchangeView.
 2.	Drag and drop the involved Logical Context Roles from the System Context onto the System Context Exchange Diagram.
 3.	Add new required interfaces as Proxy Ports to the Logical Context Role or select the needed required Proxy Ports from the property’s Feature Page > Interaction Points.
 4.	For new Proxy Ports select or create an SAF_ConceptualInterfaceDefinition by selecting the Proxy Port > Properties > Property > Define > Type > Select Type ...

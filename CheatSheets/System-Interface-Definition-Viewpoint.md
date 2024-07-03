@@ -11,16 +11,18 @@ The System Interface Definition Viewpoint captures system wide concepts defining
 * N/A
 
 **Step-by-Step Guide:**
-1.  Create a new SAF System Interface Identification diagram as specialized [SysML 1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) in the dedicated package - right-click on the Package, select New Child Diagram > Add Diagram > SAF > BlockDefinition > SAF::SFV05a_SystemInterfaceDefinitionView.
+1.  Create a new SAF System Interface Definition diagram as specialized [SysML 1.5 Block Definition Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/block_definition_diagrams.html) in the dedicated package - right-click on the Package, select New Child Diagram > Add Diagram > SAF > BlockDefinition > SAF::SFV05a_SystemInterfaceDefinitionView.
 2.	Create interface types using SAF_ConceptualInterfaceDefinition from the toolbox.
 3.	If needed, refine the interface type by adding subjacent ProxyPorts to the SAF_ConceptualInterfaceDefinition.
+4.	If needed added FlowProperties to the SAF_ConceptualInterfaceDefinition by selecting the SAF_ConceptualInterfaceDefinition in the Project Browser - right-click > Add > Flow Property.
 
 **Viewpoint Output:**
-* SAF_ConceptualInterfaceDefinition which can be used to formalize ProxyPorts in [SFV01c](System-Context-Exchange-Viewpoint.md) and [SLV04b].
+* SAF_ConceptualInterfaceDefinition which can be used to formalize ProxyPorts in [SFV01c](System-Context-Exchange-Viewpoint.md) and [SLV04b](System-Internal-Exchange-Viewpoint.md).
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort
+* FlowProperty
 * [SAF_ConceptualInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ConceptualInterfaceDefinition)
 
 ## General Recommendations and Pitfalls

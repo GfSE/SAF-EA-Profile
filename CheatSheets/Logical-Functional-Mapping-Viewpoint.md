@@ -7,13 +7,17 @@ The Logical Functional Mapping Viewpoint supports the definition of assignment o
 
 ## Workflow
 **Viewpoint Input:**
-* 
+* SAF_FunctionAction from [SFV03a](System-Process-Viewpoint.md) and [SFV03c](System-Functional-Refinement-Viewpoint.md)
+* SAF_LogicalContextRole from [SFV01b](System-Definition-Viewpoint.md)
+* SAF_LogicalInternalRole from [SLV02a](Logical-Structure-Definition-Viewpoint.md)
 
 **Step-by-Step Guide:**
-1.	
+1.	Create (and maintain) a matrix specification to allocate Function Actions to Logical Context Roles.
+2.	Create (and maintain) another matrix specification to allocate Function Actions to Logical Internal Roles.
+3.	Use the SAF standard search for the current mapping report by pressing Ctrl+F > SAF > SLV08b_LogicalFunctionalMapping_Context and/or SLV08b_LogicalFunctionalMapping_Internal.
 
 **Viewpoint Output:**
-* 
+* External: Traceability supports the quality control of the model, showing “lose ends” or inconsistencies. Also, it supports impact analyses for change management and assessments.
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
@@ -27,6 +31,6 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [SAF_SystemPartialFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemPartialFunction)
 
 ## General Recommendations and Pitfalls
-* 
+* The tool Enterprise Architect does not automatically allocate Function Actions to Logical Internal/Context Roles when they are put into a partitions. Therefore, any allocation of a Function Action to a Logical Role has to be maintained manually. It is recommended to link this viewpoint in any affected diagram, to be able to maintain the allocation matrix quickly and easily when working in Process Viewpoints.
 
 [>>> back to cheat sheet overview](../CheatSheet.md)
