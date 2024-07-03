@@ -19,7 +19,7 @@ The System Context Definition Viewpoint defines how the SOI is embedded in its e
 6.	If needed, define the multiplicity for the Logical Context Roles.
 
 **Viewpoint Output:**
-* Logical SOI to all futher viewpoints in the Functional Domain
+* Logical SOI to all futher viewpoints in the Functional / Logical Domain
 * Logical Context Elements (e.g., a Logical User, Logical External System, or the Logical Environment) are referenced in [SFV01a](System-Use-Case-Viewpoint.md)
 * Logical Context itself is referenced in [SFV01a](System-Use-Case-Viewpoint.md) as System Use Case subject
 * the Logical Context Roles used in viewpoints [SFV01c](System-Context-Exchange.md), [SFV03a](System-Process-Viewpoint.md) and [SFV04a](System-Context-Interaction-Viewpoint.md) 
