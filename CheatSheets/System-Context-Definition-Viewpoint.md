@@ -15,7 +15,7 @@ The System Context Definition Viewpoint defines how the SOI is embedded in its e
 2.	Create a Logical System Context to the diagram.
 3.	Create a Logical SOI and Logical Context Elements (e.g., a Logical User, Logical External System, or the Logical Environment).
 4.	Create Logical Context Roles by using the composition relationship. Please note that the composition must be set from the System Context to the Logical SOI and Logical Context Elements.
-5.	Give the Logical Context Role a meaningful name by selecting the part property in the Operational Context and amending the name on the property element page for traceability purposes in matrix specifications. 
+5.	Give the Logical Context Role a meaningful name by selecting the part property in the Logical Context and amending the name on the property element page for traceability purposes in matrix specifications. 
 6.	If needed, define the multiplicity for the Logical Context Roles.
 
 **Viewpoint Output:**
