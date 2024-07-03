@@ -10,6 +10,7 @@ The Logical Internal Interaction Viewpoint describes System internal behavior ba
 * SAF_SystemFunction from [SFV02c](System-Functional-Breakdown-Viewpoint.md) which needs refinement
 * SAF_LogicalInternalRole from [SLV02a](Logical-Structure-Definition-Viewpoint.md)
 * itemFlows from [SLV04c](Logical-Internal-Exchange-Viewpoint.md)
+* SAF_DomainItemKind as exchange items between Logical Internal Roles from [SFV02a](System-Domain-Item-Kind-Viewpoint.md)
 
 **Step-by-Step Guide:**
 1.	Select a System Function item in the dedicated package in your model to formalize a System Function and create a new SAF Logical Internal Interaction diagram as specialized [SysML 1.5 Sequence Diagram](https://sparxsystems.com/enterprise_architect_user_guide/16.1/modeling_languages/sysml-seq-diagram.html) for the System Function - right-click on the System Function, select Add > Add Diagram > SAF > Sequence > SAF::SLV04a_LogicalInteractionView.
