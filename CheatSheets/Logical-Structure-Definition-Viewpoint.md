@@ -14,7 +14,7 @@ The Logical Structure Viewpoint describes how the system is decomposed into a hi
 2. Drag and drop your Logical SOI to the diagram.
 3. Create Logical Elements which represent parts of your system.
 4. Create Logical Internal Roles by using the composition relationship. Give the Logical Internal Role a meaningful name by selecting the part property in the Logical SOI and amending the name on the property element page for traceability purposes in matrix specifications.
-5. If needed, define the multiplicity for the Logical Context Roles.
+5. If needed, define the multiplicity for the Logical Internal Roles.
 
 **Viewpoint Output:**
 * SAF_LogicalInternalRoles which are used in [SLV04a](Logical-Internal-Interaction-Viewpoint.md) and [SLV04b](Logical-Internal-Exchange-Viewpoint.md)
