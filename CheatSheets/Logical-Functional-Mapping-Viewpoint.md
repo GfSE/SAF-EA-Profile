@@ -4,6 +4,7 @@
 The Logical Functional Mapping Viewpoint supports the definition of assignment of system functions and system partial functions to conceptual logical system elements.
 
 ## Example
+![SLV08](../pics/SLV08-example1.png)
 
 ## Workflow
 **Viewpoint Input:**
