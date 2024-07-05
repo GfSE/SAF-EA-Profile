@@ -4,6 +4,7 @@
 The Logical Structure Viewpoint describes how the system is decomposed into a hierarchical structure of logical elements responsible for different system functions (divide & conquer principle). It covers related logical concepts and principles that support the logical operation of the system and is widely reusable among similar systems like product families, or product generations.
 
 ## Example
+![SLV02](../pics/SLV02-example1.png)
 
 ## Workflow
 **Viewpoint Input:**
