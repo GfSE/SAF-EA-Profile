@@ -4,6 +4,7 @@
 The Logical Internal Interaction Viewpoint describes System internal behavior based on the exchange between the Logical SOI Elements Usage. It depicts the sequence of interactions between the Logical SOI Elements and the exchanged Domain Item Kinds needed to accomplish a System Partial Function.
 
 ## Example
+![SLV04b](../pics/SLV04b-example.png)
 
 ## Workflow
 **Viewpoint Input:**
