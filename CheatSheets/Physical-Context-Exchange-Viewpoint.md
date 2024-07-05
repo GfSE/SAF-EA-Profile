@@ -16,6 +16,7 @@ The Physical Context Exchange Viewpoint focuses on the identification of the phy
 2.	Drag and drop the involved Physical Context Roles from the Physical Context onto the Physical Context Exchange Diagram.
 3.	Add new required interfaces as Proxy Ports to the Physical Context Role or select the needed required Proxy Ports from the property’s Feature Page > Interaction Points.
 4.	For new Proxy Ports select or create an SAF_PhysicalInterfaceDefinition by selecting the Proxy Port > Properties > Property > Define > Type > Select Type ...
+5.	In case of typed Proxy Ports set one interface side conjugated (propterties > element).
 6.	Create a connector between the Proxy Ports of Physical Context Roles.
 7.	If the created interfaces have an inherent dependency (such as pins, electrics, data protocol) model them separatly and set an InterfaceLayerRelationship.
 8.	If the Physical Context Roles exchange specific information, energy, or material establish an Item Flow and select the according Domain Kind. Select the Connector > right-click on the Connector > Advanced > Information Flow Realized > Select the Domain Kind(s)
