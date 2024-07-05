@@ -9,6 +9,7 @@ The Logical Internal Exchange Viewpoint serves for the identification and defini
 * defines the delegation of logical system element interfaces to the logical system boundary interfaces
 
 ## Example
+![SLF04a](../pics/SLF04b-example1.png)
 
 ## Workflow
 **Viewpoint Input:**
