@@ -22,9 +22,10 @@ The Logical Internal Exchange Viewpoint serves for the identification and defini
 2.	Drag and drop the involved Logical Internal Roles from the Logical SOI onto the System Internal Exchange Diagram.
 3.	Add new required interfaces as Proxy Ports to the Logical Internal Role or select the needed required Proxy Ports from the property’s Feature Page > Interaction Points.
 4.	For new Proxy Ports select or create an SAF_ConceptualInterfaceDefinition by selecting the Proxy Port > Properties > Property > Define > Type > Select Type ...
-5.	If needed add FlowProperties to the SAF_ConceptualInterfaceDefinition to refine the interface or visualize a direction.
-6.	Create a connector between the Logical Internal Role’s Proxy Port. Connect internal to external interfaces of the Logical SOI.
-7.	If the Logical Internal Roles exchange information, energy, or material establish an Item Flow and select the according Domain Kind. Select the Connector > right-click on the Connector > Advanced > Information Flow Realized > Select the Domain Kind(s)
+5.	In case of typed Proxy Ports set one interface side conjugated (propterties > element).
+6.	If needed add FlowProperties to the SAF_ConceptualInterfaceDefinition to refine the interface or visualize a direction.
+7.	Create a connector between the Logical Internal Role’s Proxy Port. Connect internal to external interfaces of the Logical SOI.
+8.	If the Logical Internal Roles exchange information, energy, or material establish an Item Flow and select the according Domain Kind. Select the Connector > right-click on the Connector > Advanced > Information Flow Realized > Select the Domain Kind(s)
 
 **Viewpoint Output:**
 * ItemFlows established can be reused in [SFV03c](System-Functional-Refinement-Viewpoint.md) and [SLV04a](System-Internal-Interaction-Viewpoint.md)
