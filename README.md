@@ -2,7 +2,7 @@
 The repository features the EA SAF Profile as MDG Technology with supplemental material. The SAF profile is intended to be used with EA 16 and EA’s SysML1.5 MDG.
 
 # safMDG.xml
-System Architecture Framework Profile has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the stereotypes, specification views and linking rules according to the [SAF-Specification](https://github.com/GfSE/SAF-Specification/tree/TdSE2023) based on EA's MDG Technology.
+System Architecture Framework Profile has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the stereotypes, specification views and linking rules according to the [SAF-Specification](https://saf.gfse.org) based on EA's MDG Technology.
 
 # How to use safMDG
 Download the safMDG.xml, import and activate the MDG by considering the following [step-by-stype guide](https://sparxsystems.com/enterprise_architect_user_guide/16.0/modeling_frameworks/access_remote_mdg_technologies.html).
@@ -39,3 +39,4 @@ The following releases are available, each is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-EA-Profile/tree/Initial-Release)
 * [TdSE2022](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2022)
 * [TdSE2023](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2023)
+* [TdSE2024](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2024)
