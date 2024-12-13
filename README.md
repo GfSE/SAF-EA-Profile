@@ -5,7 +5,7 @@ The repository features the EA SAF Profile as MDG Technology with supplemental m
 System Architecture Framework Profile has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the stereotypes, specification views and linking rules according to the [SAF-Specification](https://saf.gfse.org) based on EA's MDG Technology.
 
 # How to use safMDG
-Download the safMDG.xml, import and activate the MDG by considering the following [step-by-stype guide](https://sparxsystems.com/enterprise_architect_user_guide/16.0/modeling_frameworks/access_remote_mdg_technologies.html).
+Download the safMDG.zip, extract the XML, import and activate the MDG by considering the following [step-by-stype guide](https://sparxsystems.com/enterprise_architect_user_guide/16.0/modeling_frameworks/access_remote_mdg_technologies.html).
 
 ![Enable the SAF Profile](/pics/mdg.png)
 
