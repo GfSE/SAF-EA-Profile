@@ -38,12 +38,12 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * OutputPin
 * Parameter
 * Trigger
-* [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
-* [SAF_ContextAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextAction)
-* [SAF_ContextFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextFunction)
-* [SAF_FunctionAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_FunctionAction)
-* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemProcess)
+* [SAF_LogicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextrole)
+* [SAF_ContextAction](https://saf.gfse.org/userdoc/stereotypes.html#saf_contextaction)
+* [SAF_ContextFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_contextfunction)
+* [SAF_FunctionAction](https://saf.gfse.org/userdoc/stereotypes.html#saf_functionaction)
+* [SAF_SystemFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunction)
+* [SAF_SystemProcess](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemprocess)
 
 ## General Recommendations and Pitfalls
 * If design constraints are given for the System of Interest, its interfaces, or Context Elements, it is important to respect these in this viewpoint, even if the details are not visible directly.

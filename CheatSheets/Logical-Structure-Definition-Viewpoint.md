@@ -24,9 +24,9 @@ The Logical Structure Viewpoint describes how the system is decomposed into a hi
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_LogicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalInternalRole) contained in SAF_LogicalElement
-* [SAF_LogicalElement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalElement)
-* [SAF_LogicalSOI](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalSOI)
+* [SAF_LogicalInternalRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalinternalrole) contained in SAF_LogicalElement
+* [SAF_LogicalElement](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalelement)
+* [SAF_LogicalSOI](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalsoi)
 
 ## General Recommendations and Pitfalls
 * Name the properties as for traceability management in Enterprise Architect the matrix specification displays the element name only. 

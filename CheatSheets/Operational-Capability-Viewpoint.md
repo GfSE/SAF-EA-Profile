@@ -20,10 +20,10 @@ The Operational Capability Viewpoint defines a taxonomy of Capabilities from a S
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapability)
-* [SAF_OperationalCapabilityComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityComposition)
-* [SAF_OperationalCapabilityDependency](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityDependency)
-* [SAF_OperationalCapabilityGeneralization](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityGeneralization)
+* [SAF_OperationalCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapability)
+* [SAF_OperationalCapabilityComposition](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapabilitycomposition)
+* [SAF_OperationalCapabilityDependency](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapability)
+* [SAF_OperationalCapabilityGeneralization](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapabilitygeneralization)
 
 ## General Recommendations and Pitfalls
 * It is not necessarily required to define Operational Capabilities for a project. However, there are other frameworks (such as UAF) that integrate this step and build further development on these capabilities. If Operational Capabilities are used in the development process, they should be defined as per this viewpoint.

@@ -25,9 +25,9 @@ The System Functional Breakdown Structure Viewpoint defines the structured, modu
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Composition
-* [SAF_SystemProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemProcess)
-* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemPartialFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemPartialFunction)
+* [SAF_SystemProcess](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemprocess)
+* [SAF_SystemFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunction)
+* [SAF_SystemPartialFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systempartialfunction)
 
 
 ## General Recommendations and Pitfalls

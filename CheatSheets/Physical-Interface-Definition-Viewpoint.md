@@ -25,10 +25,10 @@ The Physical Interface Definition Viewpoint provides definitions for physical in
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Property
 * ProxyPort
-* [SAF_PhysicalInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalInterfaceDefinition)
-* [SAF_InterfaceLayerRelationship](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_InterfaceLayerRelationship)
-* [SAF_PhysicalExchangeType](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalExchangeType)
-* [SAF_PhysicalInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalInterfaceDefinition)
+* [SAF_PhysicalInterfaceDefinition](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalinterfacedefinition)
+* [SAF_InterfaceLayerRelationship](https://saf.gfse.org/userdoc/stereotypes.html#saf_interfacelayerrelationship)
+* [SAF_PhysicalExchangeType](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalexchangetype)
+* [SAF_PhysicalInterfaceDefinition](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalinterfacedefinition)
 
 ## General Recommendations and Pitfalls
 * Physical Interfaces addresses used technology.

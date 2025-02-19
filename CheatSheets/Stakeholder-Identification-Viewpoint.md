@@ -25,11 +25,11 @@ If the Stakeholder has an interest in the System of Interest, create the System 
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_Stakeholder](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_Stakeholder)
-* [SAF_SystemOfInterestConcern](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemOfInterestConcern)
-* [SAF_ContextElementRepresentation](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ContextElementRepresentation)
-* [SAF_OperationalStakeholderRepresentation](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalStakeholderRepresentation)
-* [SAF_StakeholderRelation](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_StakeholderRelation)
+* [SAF_Stakeholder](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholder)
+* [SAF_SystemOfInterestConcern](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemofinterestconcern)
+* [SAF_ContextElementRepresentation](https://saf.gfse.org/userdoc/stereotypes.html#saf_contextelementrepresentation)
+* [SAF_OperationalStakeholderRepresentation - new SAF_StakeholderRepresenting](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholderrepresenting)
+* [SAF_StakeholderRelation](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholderrelation)
 
 ## General Recommendations and Pitfalls
 * It is highly recommended to consider this viewpoint, even if no OpsCon/ConOps is documented in the project.

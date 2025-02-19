@@ -22,8 +22,8 @@ The Operational Performer Viewpoint represents the taxonomy of the identified Op
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalPerformerComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformerComposition)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
+* [SAF_OperationalPerformerComposition](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformercomposition)
 
 ## General Recommendations and Pitfalls
 * If Operational Performers are added to the model while working on other viewpoints, they are not automatically added to the Operational Performer diagram. In such a case, they must be added manually (see workflow description).

@@ -29,14 +29,14 @@ The System Capability Mapping Viewpoint describes the relationships of System Ca
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_SystemCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapability)
-* [SAF_SystemCapabilitySupport](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapabilitySupport)
-* [SAF_SystemFunctionSupport](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunctionSupport)
-* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemProcessEnabling](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemProcessEnabling)
-* [SAF_SystemProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemProcess)
-* [SAF_SystemRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirement)
-* [SAF_SystemUseCase](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemUseCase)
+* [SAF_SystemCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapability)
+* [SAF_SystemCapabilitySupport](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapabilitysupport)
+* [SAF_SystemFunctionSupport](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunctionsupport)
+* [SAF_SystemFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunction)
+* [SAF_SystemProcessEnabling](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemprocessenabling)
+* [SAF_SystemProcess](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemprocess)
+* [SAF_SystemRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemrequirement)
+* [SAF_SystemUseCase](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemusecase)
 
 ## General Recommendations and Pitfalls
 * When deriving System Capabilities from Operational Capabilities, it has to be ensured that the System Capabilities fit to the System of Interest definition. Also, System Capabilities should fit to the defined System Stories. Both these relations are not documented in any viewpoint but have to be respected to ensure a consistent definition of the System of Interest.

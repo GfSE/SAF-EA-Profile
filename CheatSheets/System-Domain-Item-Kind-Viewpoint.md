@@ -22,10 +22,10 @@ The System Domain Item Kind Viewpoint captures system wide concepts and collects
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_DomainKindComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_DomainKindComposition)
-* [SAF_DomainKindDerivation](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_DomainKindDerivation)
-* [SAF_DomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_DomainKind)
-* [SAF_OperationalDomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_DomainKindComposition](https://saf.gfse.org/userdoc/stereotypes.html#saf_domainkindcomposition)
+* [SAF_DomainKindDerivation](https://saf.gfse.org/userdoc/stereotypes.html#saf_domainkindderivation)
+* [SAF_DomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_domainkind)
+* [SAF_OperationalDomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationaldomainkind)
 
 ## General Recommendations and Pitfalls
 * It is strongly recommended to add information to each System Domain Kind for a better understanding and in order to avoid creating the same System Domain Kind twice with different names. This information should be added as rationales in this viewpoint.

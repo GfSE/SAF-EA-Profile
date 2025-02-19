@@ -25,11 +25,11 @@ The Operational Process Viewpoint describes the Operational Processes related to
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalContextRole)
-* [SAF_OperationalDomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalDomainKind)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcessAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcessAction)
-* [SAF_OperationalProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcess)
+* [SAF_OperationalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcontextrole)
+* [SAF_OperationalDomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationaldomainkind)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
+* [SAF_OperationalProcessAction](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocessaction)
+* [SAF_OperationalProcess](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocess)
 
 For other notation elements which are exposed in the viewpoint, consider UML/SysML standard reference literature.
 

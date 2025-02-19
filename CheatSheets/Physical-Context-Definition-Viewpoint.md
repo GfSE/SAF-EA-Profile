@@ -23,12 +23,12 @@ The Physical Context Definition Viewpoint identifies the various contexts the SO
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_PhysicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalContextRole) contained in SAF_PhysicalContext
-* [SAF_PhysicalContext](github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalContext)
-* [SAF_PhysicalEnvironment](github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalEnvironment)
-* [SAF_PhysicalExternalSystem](github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalExternalSystem)
-* [SAF_PhysicalSystem](github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalSystem)
-* [SAF_PhysicalUser](github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalUser)
+* [SAF_PhysicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalcontextrole) contained in SAF_PhysicalContext
+* [SAF_PhysicalContext](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalcontext)
+* [SAF_PhysicalEnvironment](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalenvironment)
+* [SAF_PhysicalExternalSystem](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalexternalsystem)
+* [SAF_PhysicalSystem](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalsystem)
+* [SAF_PhysicalUser](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicaluser)
 
 ## General Recommendations and Pitfalls
 * Name the properties as for traceability management in Enterprise Architect the matrix specification displays the element name only.

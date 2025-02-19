@@ -38,15 +38,15 @@ The System Requirement Traceability Viewpoint specifies for every System Require
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort
-* [SAF_SystemRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirement)
-* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemUseCase](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapability)
-* [SAF_StakeholderRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_SystemFunctionalRequirementRefinement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunctionalRequirementRefinement)
-* [SAF_SystemFunctionalRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunctionalRequirement)
-* [SAF_SystemNonFunctionalRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemNonFunctionalRequirement)
-* [SAF_SystemRequirementRefinement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirementRefinement)
+* [SAF_SystemRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemrequirement)
+* [SAF_SystemFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunction)
+* [SAF_SystemUseCase](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemusecase)
+* [SAF_SystemCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapability)
+* [SAF_StakeholderRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholderrequirement)
+* [SAF_SystemFunctionalRequirementRefinement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunctionalrequirementrefinement)
+* [SAF_SystemFunctionalRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunctionalrequirement)
+* [SAF_SystemNonFunctionalRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemnonfunctionalrequirement)
+* [SAF_SystemRequirementRefinement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemrequirementrefinement)
 
 ## General Recommendations and Pitfalls
 * For coverage and impact analysis it is recommended to use the SAF standard search SFV08b_SystemRequirementTraceability which can be extracted as Excel spread sheet.

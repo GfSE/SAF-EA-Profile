@@ -25,10 +25,10 @@ The Stakeholder Requirement Viewpoint specifies all properties that the intended
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalStory](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalStory)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalPerformerActing](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformerActing)
-* [SAF_OperationalSketch](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalSketch)
+* [SAF_OperationalStory](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalstory)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
+* [SAF_OperationalPerformerActing](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformeracting)
+* [SAF_OperationalSketch](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalsketch)
 
 ## General Recommendations and Pitfalls
 * It has to be agreed whether the EA element "notes" or the SysML tagged value "text" is used to specify the stakeholder requirement.

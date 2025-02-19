@@ -24,15 +24,15 @@ The System Context Interaction Viewpoint describes the System external behavior 
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalStory](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalStory)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalPerformerActing](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformerActing)
-* [SAF_OperationalSketch](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalSketch)
+* [SAF_OperationalStory](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalstory)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
+* [SAF_OperationalPerformerActing](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformeracting)
+* [SAF_OperationalSketch](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalsketch)
 
 * Interaction
 * Lifeline
 * Message
-* [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
+* [SAF_LogicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextrole)
 
 ## General Recommendations and Pitfalls
 * While this viewpoint uses other model elements than [SOV04a](Operational-Interaction-Viewpoint.md) and should be more detailed (e.g. it is possible to use specific message IDs in this viewpoint, which should be avoided in [SOV04a](Operational-Interaction-Viewpoint.md), it is very easy to essentially model the same content in both viewpoints. This should be avoided.

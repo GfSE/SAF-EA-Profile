@@ -36,9 +36,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty
 * ItemFlow
 * ProxyPort
-* [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#saf_logicalcontextrole)
-* [SAF_ConceptualInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ConceptualInterfaceDefinition)
-* [SAF_DomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_DomainKind)
+* [SAF_LogicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextrole)
+* [SAF_ConceptualInterfaceDefinition](https://saf.gfse.org/userdoc/stereotypes.html#saf_conceptualinterfacedefinition)
+* [SAF_DomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_domainkind)
 
 ## General Recommendations and Pitfalls
 *	If interfaces are required by technical necessity of the System of Interest, but were not required by a Stakeholder, they should still be added to the System Context Exchange Viewpoint. Interfaces can also be derived in the design phase.

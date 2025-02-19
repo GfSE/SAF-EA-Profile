@@ -25,9 +25,9 @@ The Operational Context Exchange Viewpoint provides the operational exchange of 
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Connector
 * ItemFlow
-* [SAF_OperationalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalContextRole)
-* [SAF_OperationalContext](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalContext)
-* [SAF_OperationalDomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_OperationalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcontextrole)
+* [SAF_OperationalContext](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcontext)
+* [SAF_OperationalDomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationaldomainkind)
 
 
 ## General Recommendations and Pitfalls

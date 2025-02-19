@@ -27,12 +27,12 @@ The System Context Definition Viewpoint defines how the SOI is embedded in its e
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_LogicalContext](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContext)
-* [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#saf_logicalcontextrole) contained in SAF_LogicalContext
-* [SAF_LogicalEnvironment](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalEnvironment)
-* [SAF_LogicalExternalSystem](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalExternalSystem)
-* [SAF_LogicalSOI](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalSOI)
-* [SAF_LogicalUser](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalUser)
+* [SAF_LogicalContext](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontext)
+* [SAF_LogicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextrole) contained in SAF_LogicalContext
+* [SAF_LogicalEnvironment](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalenvironment)
+* [SAF_LogicalExternalSystem](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalexternalsystem)
+* [SAF_LogicalSOI](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalsoi)
+* [SAF_LogicalUser](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicaluser)
 
 ## General Recommendations and Pitfalls
 * At least one System Context is required for a model. It is possible however, to create several System Contexts with different scopes. However, a holistic system context view has to be created.

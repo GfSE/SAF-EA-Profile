@@ -25,12 +25,12 @@ The Operational Process Mapping Viewpoint describes the relationships of Operati
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapability)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcessEnabling](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcessEnabling)
-* [SAF_OperationalProcessRefinement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcessRefinement)
-* [SAF_OperationalProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcess)
-* [SAF_OperationalStory](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalStory)
+* [SAF_OperationalCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapability)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
+* [SAF_OperationalProcessEnabling](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocessenabling)
+* [SAF_OperationalProcessRefinement](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocessrefinement)
+* [SAF_OperationalProcess](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocess)
+* [SAF_OperationalStory](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalstory)
 
 ## General Recommendations and Pitfalls
 * There is not automatic tool support to ensure that the sum of all Operational Processes linked to one Operational Story fully cover this story. Thorough reviews are required to ensure this coverage.

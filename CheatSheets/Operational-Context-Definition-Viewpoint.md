@@ -22,9 +22,9 @@ The Operational Context Definition Viewpoint provides the operational contexts a
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalContextRole)
-* [SAF_OperationalContext](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalContext)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
+* [SAF_OperationalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcontextrole)
+* [SAF_OperationalContext](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcontext)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
 
 ## General Recommendations and Pitfalls
 * At least one Operational Context is required in model for the Operational Domain. It is possible however, to create several Operational Contexts with different scopes.

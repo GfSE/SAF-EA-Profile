@@ -23,7 +23,7 @@ The System Interface Definition Viewpoint captures system wide concepts defining
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * ProxyPort
 * FlowProperty
-* [SAF_ConceptualInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ConceptualInterfaceDefinition)
+* [SAF_ConceptualInterfaceDefinition](https://saf.gfse.org/userdoc/stereotypes.html#saf_conceptualinterfacedefinition)
 
 ## General Recommendations and Pitfalls
 * Conceptual Interfaces should be whenever possible technology-free. This is the scope in viewpoint [SPV05a].

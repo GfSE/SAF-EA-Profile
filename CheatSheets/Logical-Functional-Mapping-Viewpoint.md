@@ -24,13 +24,13 @@ The Logical Functional Mapping Viewpoint supports the definition of assignment o
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate [SysML Profile]
-* [SAF_LogicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalInternalRole)
-* [SAF_FunctionAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#/stereotypes.md#SAF_FunctionAction)
-* [SAF_LogicalElement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#/stereotypes.md#SAF_LogicalElement)
-* [SAF_LogicalSOI](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalSOI)
-* [SAF_SLV08a_View](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SLV08a_View)
-* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemPartialFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemPartialFunction)
+* [SAF_LogicalInternalRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalinternalrole)
+* [SAF_FunctionAction](https://saf.gfse.org/userdoc/stereotypes.html#saf_functionaction)
+* [SAF_LogicalElement](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalelement)
+* [SAF_LogicalSOI](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalsoi)
+* [SAF_SLV08a_View - new Doc with renamed stereotype](https://saf.gfse.org/userdoc/stereotypes.html#saf_l8_lfum_matrix)
+* [SAF_SystemFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunction)
+* [SAF_SystemPartialFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systempartialfunction)
 
 ## General Recommendations and Pitfalls
 * The tool Enterprise Architect does not automatically allocate Function Actions to Logical Internal/Context Roles when they are put into a partitions. Therefore, any allocation of a Function Action to a Logical Role has to be maintained manually. It is recommended to link this viewpoint in any affected diagram, to be able to maintain the allocation matrix quickly and easily when working in Process Viewpoints.

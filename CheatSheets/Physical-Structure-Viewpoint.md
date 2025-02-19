@@ -22,10 +22,10 @@ The Physical Structure Viewpoint is used to model the internal structure of the 
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_PhysicalElement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalElement)
-* [SAF_PhysicalHardwareElement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalHardwareElement)
-* [SAF_PhysicalSoftwareElement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalSoftwareElement)
-* [SAF_PhysicalSystem](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalSystem)
+* [SAF_PhysicalElement](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalelement)
+* [SAF_PhysicalHardwareElement](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalhardwareelement)
+* [SAF_PhysicalSoftwareElement](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalsoftwareelement)
+* [SAF_PhysicalSystem](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalsystem)
 
 ## General Recommendations and Pitfalls
 * Name the properties as for traceability management in Enterprise Architect the matrix specification displays the element name only.

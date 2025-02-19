@@ -24,18 +24,18 @@ The Operational Capability Mapping Viewpoint describes the relationships of Oper
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapability)
-* [SAF_OperationalCapabilityComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityComposition)
-* [SAF_OperationalCapabilityDependency](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityDependency)
-* [SAF_OperationalCapabilityGeneralization](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilityGeneralization)
-* [SAF_OperationalCapabilitySupport](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapabilitySupport)
-* [SAF_OperationalPerformerExhibit](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformerExhibit)
-* [SAF_OperationalPerformer](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalPerformer)
-* [SAF_OperationalProcessEnabling](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcessEnabling)
-* [SAF_OperationalProcess](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalProcess)
-* [SAF_OperationalStory](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md##SAF_OperationalStory)
-* [SAF_StakeholderRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_StakeholderRequirementRefinement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_StakeholderRequirementRefinement)
+* [SAF_OperationalCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapability)
+* [SAF_OperationalCapabilityComposition](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapabilitycomposition)
+* [SAF_OperationalCapabilityDependency](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapability)
+* [SAF_OperationalCapabilityGeneralization](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapabilitygeneralization)
+* [SAF_OperationalCapabilitySupport](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapabilitysupport)
+* [SAF_OperationalPerformerExhibit](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformerexhibit)
+* [SAF_OperationalPerformer](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalperformer)
+* [SAF_OperationalProcessEnabling](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocessenabling)
+* [SAF_OperationalProcess](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalprocess)
+* [SAF_OperationalStory](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalstory)
+* [SAF_StakeholderRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholderrequirement)
+* [SAF_StakeholderRequirementRefinement](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholderrequirementrefinement)
 
 ## General Recommendations and Pitfalls
 * There is not automatic tool support to ensure that the sum of all Operational Capabilities linked to one Operational Story fully cover this story. Thorough reviews are required to ensure this coverage.

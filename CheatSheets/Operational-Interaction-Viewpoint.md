@@ -27,7 +27,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Interaction Fragment
 * Message
 * Item Flow
-* [SAF_OperationalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalContextRole)
+* [SAF_OperationalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcontextrole)
 
 ## General Recommendations and Pitfalls
 * This viewpoint is an alternative viewpoint to SAF SOV03a Operational Process Viewpoint in that it serves the same purpose to detail Operational Stories. However, it does so differently by concentrating on the interactions between Operational Performers, whereas the Operational Process shows “internal” behavior of these performers as well. It should be decided, which viewpoint to use within a project and only use the alternative when necessary.

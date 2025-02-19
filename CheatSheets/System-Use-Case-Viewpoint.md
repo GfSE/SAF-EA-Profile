@@ -27,13 +27,13 @@ The System Use Case Viewpoint provides an outside view on the system functionali
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Include [UML_Standard_Profile]
-* [SAF_SystemUseCase](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemUseCase)
-* [SAF_SystemUseCaseEnabling](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemUseCaseEnabling)
-* [SAF_LogicalEnvironment](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalEnvironment)
-* [SAF_LogicalExternalSystem](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalExternalSystem)
-* [SAF_LogicalUser](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalUser)
-* [SAF_LogicalContextElementActing](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextElementActing)
-* [SAF_LogicalContext](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContext)
+* [SAF_SystemUseCase](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemusecase)
+* [SAF_SystemUseCaseEnabling](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemusecaseenabling)
+* [SAF_LogicalEnvironment](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalenvironment)
+* [SAF_LogicalExternalSystem](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalexternalsystem)
+* [SAF_LogicalUser](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicaluser)
+* [SAF_LogicalContextElementActing](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextelementacting)
+* [SAF_LogicalContext](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontext)
 * Attribute "subject" of UseCase referencing SAF_LogicalContext
   
 ## General Recommendations and Pitfalls

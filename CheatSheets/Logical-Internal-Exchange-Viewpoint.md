@@ -37,9 +37,9 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty
 * ItemFlow
 * ProxyPort
-* [SAF_ConceptualInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_ConceptualInterfaceDefinition)
-* [SAF_DomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_DomainKind)
-* [SAF_LogicalElement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalElement)
+* [SAF_ConceptualInterfaceDefinition](https://saf.gfse.org/userdoc/stereotypes.html#saf_conceptualinterfacedefinition)
+* [SAF_DomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_domainkind)
+* [SAF_LogicalElement](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalelement)
 
 ## General Recommendations and Pitfalls
 * It is required that the exchanges in [SLV04a](Logical-Internal-Interaction-Viewpoint.md), [SFV03c](System-Functional-Refinement-Viewpoint.md) are addressed in this diagram to ensure consistency.

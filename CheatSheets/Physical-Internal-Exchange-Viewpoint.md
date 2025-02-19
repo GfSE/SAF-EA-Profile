@@ -35,10 +35,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * FlowProperty
 * ItemFlow
 * ProxyPort
-* [SAF_PhysicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalInternalRole)
-* [SAF_InterfaceLayerRelationship](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_InterfaceLayerRelationship)
-* [SAF_PhysicalExchangeType](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalExchangeType)
-* [SAF_PhysicalInterfaceDefinition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md##SAF_PhysicalInterfaceDefinition)
+* [SAF_PhysicalInternalRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalinternalrole)
+* [SAF_InterfaceLayerRelationship](https://saf.gfse.org/userdoc/stereotypes.html#saf_interfacelayerrelationship)
+* [SAF_PhysicalExchangeType](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalexchangetype)
+* [SAF_PhysicalInterfaceDefinition](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalinterfacedefinition)
 
 ## General Recommendations and Pitfalls
 * Complex interfaces have various aspects to address in an exchange diagram. SAF propagates a separate interface aspect handling which are coupled with the InterfaceLayerRelationship stereotyped relationship. This is to avoid excessive port nesting for more complex interfaces (Tower of Hanoi / Towers of Bramha syndrome).

@@ -34,10 +34,10 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * Trigger
 * OutputPin
 * Parameter
-* [SAF_LogicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
-* [SAF_FunctionAction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_FunctionAction)
-* [SAF_SystemFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunction)
-* [SAF_SystemPartialFunction](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemPartialFunction)
+* [SAF_LogicalInternalRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextrole)
+* [SAF_FunctionAction](https://saf.gfse.org/userdoc/stereotypes.html#saf_functionaction)
+* [SAF_SystemFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunction)
+* [SAF_SystemPartialFunction](https://saf.gfse.org/userdoc/stereotypes.html#saf_systempartialfunction)
 
 
 ## General Recommendations and Pitfalls

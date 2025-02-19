@@ -21,8 +21,8 @@ The Operational Domain Item Kind Viewpoint captures enterprise wide concepts and
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_OperationalDomainKindComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalDomainKindComposition)
-* [SAF_OperationalDomainKind](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalDomainKind)
+* [SAF_OperationalDomainKindComposition](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationaldomainkindcomposition)
+* [SAF_OperationalDomainKind](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationaldomainkind)
 
 ## General Recommendations and Pitfalls
 * It is recommended to define Operational Domain Kinds only in this viewpoint.

@@ -25,12 +25,12 @@ The System Requirement Viewpoint specifies functions, non-functional properties,
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_SystemRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirement)
-* [SAF_SystemFunctionalRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunctionalRequirement)
-* [SAF_SystemNonFunctionalRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemNonFunctionalRequirement)
-* [SAF_StakeholderRequirement](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_StakeholderRequirement)
-* [SAF_SystemFunctionalRequirementConstraint](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemFunctionalRequirementConstraint)
-* [SAF_SystemRequirementDerivation](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemRequirementDerivation)
+* [SAF_SystemRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemrequirement)
+* [SAF_SystemFunctionalRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunctionalrequirement)
+* [SAF_SystemNonFunctionalRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemnonfunctionalrequirement)
+* [SAF_StakeholderRequirement](https://saf.gfse.org/userdoc/stereotypes.html#saf_stakeholderrequirement)
+* [SAF_SystemFunctionalRequirementConstraint](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemfunctionalrequirementconstraint)
+* [SAF_SystemRequirementDerivation](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemrequirementderivation)
 
 ## General Recommendations and Pitfalls
 * It has to be agreed whether the EA element "notes" or the SysML tagged value "text" is used to specify the system requirement.

@@ -19,11 +19,11 @@ The Physical Functional Mapping Viewpoint supports the analysis of the assignmen
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
 * Allocate
-* [SAF Function Action](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_FunctionAction)
-* [SAF_LogicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalContextRole)
-* [SAF_PhysicalContextRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalContextRole)
-* [SAF_LogicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_LogicalInternalRole)
-* [SAF_PhysicalInternalRole](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_PhysicalInternalRole)
+* [SAF Function Action](https://saf.gfse.org/userdoc/stereotypes.html#saf_functionaction)
+* [SAF_LogicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalcontextrole)
+* [SAF_PhysicalContextRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalcontextrole)
+* [SAF_LogicalInternalRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_logicalinternalrole)
+* [SAF_PhysicalInternalRole](https://saf.gfse.org/userdoc/stereotypes.html#saf_physicalinternalrole)
   
 ## General Recommendations and Pitfalls
 * This viewpoint summerizes the mapping from Functional to Logical to Physical items. In case the mapping/traceability has a gap the specific traceability steps in [SLV08a](Logical-Functional-Mapping-Viewpoint.md) and [SPV08a](Physical-Logical-Mapping-Viewpoint.md) have to be checked.

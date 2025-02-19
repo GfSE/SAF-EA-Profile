@@ -22,12 +22,12 @@ The System Capability Viewpoint defines a taxonomy of Capabilities including com
 
 ## Exposed Elements and Connectors
 The following Stereotypes / Model Elements are used in the Viewpoint:
-* [SAF_SystemCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapability)
-* [SAF_SystemCapabilityComposition](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapabilityComposition)
-* [SAF_SystemCapabilityDependency](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapabilityDependency)
-* [SAF_SystemCapabilityGeneralization](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapabilityGeneralization)
-* [SAF_OperationalCapability](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_OperationalCapability)
-* [SAF_SystemCapabilityEnabling](https://github.com/GfSE/SAF-Specification/blob/TdSE2023/stereotypes.md#SAF_SystemCapabilityEnabling)
+* [SAF_SystemCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapability)
+* [SAF_SystemCapabilityComposition](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapabilitycomposition)
+* [SAF_SystemCapabilityDependency](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapabilitydependency)
+* [SAF_SystemCapabilityGeneralization](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapabilitygeneralization)
+* [SAF_OperationalCapability](https://saf.gfse.org/userdoc/stereotypes.html#saf_operationalcapability)
+* [SAF_SystemCapabilityEnabling](https://saf.gfse.org/userdoc/stereotypes.html#saf_systemcapabilityenabling)
 
 ## General Recommendations and Pitfalls
 * System Capabilities can be used as element type for product features as part of a product feature roadmap / planning.
