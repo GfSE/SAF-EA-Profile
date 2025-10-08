@@ -16,8 +16,8 @@ SAF Viewpoints are realised by EA view specifications based on SysML. Therefore,
 ![Apply a VP](/pics/view_spec.png)
 
 # How to use the SQL Queries
-The SAF profile contains multiple queries helping to manage your traceability in your model (SxV08 aspect Mapping). Please note that all queries are developed for qea files / DBMS. The queries do not work for local eap(x) files (JET 4 Engine).
-Basically the queries are available in Searches -> Search Category "SAF". As the query itself is editable it can be copied into a model view within any SxV08 view.
+The SAF profile contains multiple queries helping to manage your traceability in your model. Please note that all queries are developed for qea files / DBMS. The queries do not work for local eap(x) files (JET 4 Engine).
+Basically the queries are available in Searches -> Search Category "SAF". As the query itself is editable it can be copied into a model view within any diagram.
 
 The following queries are available:
 The following queries are available:
