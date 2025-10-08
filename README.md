@@ -42,3 +42,4 @@ The following releases are available, each is kept in a separate branch:
 * [TdSE2022](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2022)
 * [TdSE2023](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2023)
 * [TdSE2024](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2024)
+* [TdSE2025](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2025)
