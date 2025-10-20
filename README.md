@@ -1,4 +1,4 @@
-# Sparx Systems Enterprise Architect Repository
+# Sparx Systems Enterprise Architect Repository, TdSE 2025 Release
 The repository features the EA SAF Profile as MDG Technology with supplemental material. The SAF profile is intended to be used with EA 16 or 17 and EA’s SysML1.5 MDG.
 
 # safMDG.xml
@@ -35,7 +35,7 @@ The following queries are available:
 ![SQL Query](/pics/queries.png)
 
 ## Versions
-This is the main branch, reflecting the current development and it is updated as appropriate.
+This is the TdSE2025 release branch.
 
 The following releases are available, each is kept in a separate branch:
 * [Initial Release](https://github.com/GfSE/SAF-EA-Profile/tree/Initial-Release)
