@@ -1,0 +1,98 @@
+kind;from;to
+element;SAF_CommonDomain;SAF_ArchitectureManagementDomain
+element;SAF_ContextAction;SAF_FunctionAction
+element;SAF_ContextFunction;SAF_Function
+element;SAF_DomainKind;SAF_ConceptualExchangeType
+element;SAF_DomainKindComposition;SAF_ConceptualExchangeTypeComposition
+element;SAF_DomainKindDerivation;SAF_ConceptualExchangeTypeDerivation
+element;SAF_FunctionalDomain;SAF_ConceptualDomain
+element;SAF_LogicalContext;SAF_ConceptualContext
+element;SAF_LogicalContextRole;SAF_ConceptualContextRole
+element;SAF_LogicalContextElementActing;SAF_ConceptualContextElementActing
+element;SAF_LogicalDomain;SAF_ConceptualDomain
+element;SAF_LogicalElement;SAF_ConceptualSystem
+element;SAF_LogicalEnvironment;SAF_ConceptualEnvironment
+element;SAF_LogicalExternalSystem;SAF_ConceptualSystem
+element;SAF_LogicalInternalRole;SAF_ConceptualInternalRole
+element;SAF_LogicalSOI;SAF_ConceptualSystem
+element;SAF_LogicalUser;SAF_ConceptualUser
+element;SAF_OperationalDomainKind;SAF_OperationalExchangeType
+element;SAF_OperationalDomainKindComposition;SAF_OperationalExchangeTypeComposition
+element;SAF_PhysicalContextRole;SAF_PhysicalRole_SoI
+element;SAF_PhysicalElement;SAF_PhysicalSystem
+element;SAF_PhysicalEnvrionment;SAF_PhysicalEnvironment
+element;SAF_PhysicalExternalSystem;SAF_PhysicalSystem
+element;SAF_PhysicalInternalRole;SAF_PhysicalElementRole
+element;SAF_PhysicalItem;SAF_PhysicalSystem
+element;SAF_SystemFunction;SAF_Function
+element;SAF_SystemPartialFunction;SAF_Function
+connector;SAF_CommonDomain;SAF_ArchitectureManagementDomain
+connector;SAF_ContextAction;SAF_FunctionAction
+connector;SAF_ContextFunction;SAF_Function
+connector;SAF_DomainKind;SAF_ConceptualExchangeType
+connector;SAF_DomainKindComposition;SAF_ConceptualExchangeTypeComposition
+connector;SAF_DomainKindDerivation;SAF_ConceptualExchangeTypeDerivation
+connector;SAF_FunctionalDomain;SAF_ConceptualDomain
+connector;SAF_LogicalContext;SAF_ConceptualContext
+connector;SAF_LogicalContextElementActing;SAF_ConceptualContextElementActing
+connector;SAF_LogicalDomain;SAF_ConceptualDomain
+connector;SAF_LogicalElement;SAF_ConceptualSystem
+connector;SAF_LogicalEnvironment;SAF_ConceptualEnvironment
+connector;SAF_LogicalExternalSystem;SAF_ConceptualSystem
+connector;SAF_LogicalInternalRole;SAF_ConceptualInternalRole
+connector;SAF_LogicalSOI;SAF_ConceptualSystem
+connector;SAF_LogicalUser;SAF_ConceptualUser
+connector;SAF_OperationalDomainKind;SAF_OperationalExchangeType
+connector;SAF_OperationalDomainKindComposition;SAF_OperationalExchangeTypeComposition
+connector;SAF_PhysicalContextRole;SAF_PhysicalRole_SoI
+connector;SAF_PhysicalElement;SAF_PhysicalSystem
+connector;SAF_PhysicalEnvrionment;SAF_PhysicalEnvironment
+connector;SAF_PhysicalExternalSystem;SAF_PhysicalSystem
+connector;SAF_PhysicalItem;SAF_PhysicalSystem
+connector;SAF_SystemFunction;SAF_Function
+connector;SAF_SystemPartialFunction;SAF_Function
+diagram;C2_ARAS_View;A2_ARAS_View
+diagram;C2_CSTD_View;A2_CSTD_View
+diagram;C2_TRMD_View;A2_TRMD_View
+diagram;C8_EATR_View;A8_EATR_View
+diagram;F1_SCXD_View;C1_SCXD_View
+diagram;F1_SCXE_View;C1_SCXE_View
+diagram;F1_SUCD_View;C1_SUCD_View
+diagram;F2_SCYD_View;C2_SCYD_View
+diagram;F2_SDIK_View;C2_SDIK_View
+diagram;F2_SFBS_View;C2_SFBS_View
+diagram;F3_SFRE_View;C3_SFRE_View
+diagram;F3_SPRO_View;C3_SPRO_View
+diagram;F3_SSTA_View;C3_SSTA_View
+diagram;F4_SCXI_View;C4_SCXI_View
+diagram;F5_SIFD_View;C5_SIFD_View
+diagram;F6_SRQD_View;C6_SRQD_View
+diagram;F8_SCYM_View;C8_SCYM_View
+diagram;F8_SRQT_View;C8_SRQT_View
+diagram;L2_LSTD_View;C2_SSTD_View
+diagram;L4_LIEX_View;C4_SIEX_View
+diagram;L4_LITI_View;C4_SITI_View
+diagram;L8_LFUM_View;C8_SFUM_View
+diagram;O2_ODIK_View;O2_OETD_View
+
+# -----------------------------------------------------------------------------
+# AMBIGUOUS ONE-TO-MANY MAPPINGS - NOT ACTIVE
+# The current script selects mappings only by kind + source value.
+# Therefore these mappings require an additional discriminator in the script.
+# -----------------------------------------------------------------------------
+# element;SAF_LogicalContextRole;SAF_ConceptualContextRole
+# connector;SAF_LogicalContextRole;SAF_ConceptualContextRole
+# element;SAF_LogicalContextRole;SAF_ConceptualContextRole_SoI
+# connector;SAF_LogicalContextRole;SAF_ConceptualContextRole_SoI
+# element;SAF_PhysicalInternalRole;SAF_PhysicalElementRole
+# connector;SAF_PhysicalInternalRole;SAF_PhysicalElementRole
+# element;SAF_PhysicalInternalRole;SAF_PhysicalSoftwareRole
+# connector;SAF_PhysicalInternalRole;SAF_PhysicalSoftwareRole
+# element;SAF_PhysicalInternalRole;SAF_PhysicalHardwareRole
+# connector;SAF_PhysicalInternalRole;SAF_PhysicalHardwareRole
+
+# -----------------------------------------------------------------------------
+# NEW TARGET STEREOTYPES WITHOUT A SOURCE - NOT MIGRATION ROWS
+# -----------------------------------------------------------------------------
+# target-only;;SAF_ConceptualRole
+# target-only;;SAF_PhysicalRole
