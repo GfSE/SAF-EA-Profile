@@ -2,10 +2,10 @@
 The repository features the EA SAF Profile as MDG Technology with supplemental material. The SAF profile is intended to be used with EA, SysML1.5 MDG and Glossary MDG is used.
 
 # safMDG.xml
-System Architecture Framework Profile has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the stereotypes, specification views and linking rules according to the [SAF-Specification](https://saf.gfse.org) based on EA's MDG Technology.
+System Architecture Framework Profile has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the stereotypes, specification views and linking rules according to the [SAF-Specification](https://saf.gfse.org/version/TdSE2026/) based on EA's MDG Technology.
 
 # How to use safMDG
-Download the safMDG.zip by [entering the zip-file](https://github.com/GfSE/SAF-EA-Profile/blob/main/safMDG.zip) in the list and select the download button (Download raw file).
+Download the safMDG.zip by [entering the zip-file](https://github.com/GfSE/SAF-EA-Profile/blob/TdSE2026/safMDG.zip) in the list and select the download button (Download raw file).
 Extract the XML, import and activate the MDG by considering the following [step-by-stype guide](https://sparxsystems.com/enterprise_architect_user_guide/17.0/modeling_frameworks/access_remote_mdg_technologies.html).
 
 ![Enable the SAF Profile](/pics/mdg.png)
@@ -106,3 +106,4 @@ The following releases are available, each is kept in a separate branch:
 * [TdSE2023](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2023)
 * [TdSE2024](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2024)
 * [TdSE2025](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2025)
+* [TdSE2026](https://github.com/GfSE/SAF-EA-Profile/tree/TdSE2026)
