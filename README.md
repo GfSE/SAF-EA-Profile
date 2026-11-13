@@ -1,5 +1,5 @@
 # Sparx Systems Enterprise Architect Repository
-The repository features the EA SAF Profile as MDG Technology with supplemental material. The SAF profile is intended to be used with EA 16 or 17 and EA’s SysML1.5 MDG.
+The repository features the EA SAF Profile as MDG Technology with supplemental material. The SAF profile is intended to be used with EA, SysML1.5 MDG and Glossary MDG is used.
 
 # safMDG.xml
 System Architecture Framework Profile has been created by the SAF Working Group of the German Chapter of INCOSE (GfSE). The SAF Profile provides the stereotypes, specification views and linking rules according to the [SAF-Specification](https://saf.gfse.org) based on EA's MDG Technology.
